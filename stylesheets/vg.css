@@ -1,0 +1,396 @@
+@font-face {
+  font-family: 'ChronicleDeck-Black';
+  src: url(../fonts/ChronicleDeck-Black.otf); }
+
+@font-face {
+  font-family: 'Gotham-Black';
+  src: url(../fonts/Gotham-Black.otf); }
+
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url(../fonts/Gotham-Bold.otf); }
+
+@font-face {
+  font-family: 'Gotham-Book';
+  src: url(../fonts/Gotham-Book.otf); }
+
+@font-face {
+  font-family: 'Gotham-Light';
+  src: url(../fonts/Gotham-Light.otf); }
+
+@font-face {
+  font-family: 'Gotham-Medium';
+  src: url(../fonts/Gotham-Medium.otf); }
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url(../fonts/Roboto-Bold.ttf); }
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url(../fonts/Roboto-Regular.ttf); }
+
+@font-face {
+  font-family: 'DharmaGothicE_Light_R';
+  src: url(../fonts/DharmaGothicE_Light_R.otf);
+}
+
+@font-face {
+  font-family: 'DharmaGothicE-Bold';
+  src: url(../fonts/DharmaGothicE-Bold.otf);
+}
+
+@font-face {
+  font-family: 'DharmaGothicM-ExBold';
+  src: url(../fonts/DharmaGothicM-ExBold.otf);
+}
+
+@font-face {
+  font-family: 'DharmaGothicM-Regular';
+  src: url(../fonts/DharmaGothicM-Regular.otf);
+}
+
+/**
+ * General styles
+ */
+
+body {
+    background: #f5f5f5;
+    font-family: Palatino, serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-size: 18px;
+    line-height: 24px;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-user-select: none;
+    -webkit-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+}
+
+.layer-content {
+  background-color: #f5f5f5;
+}
+
+.layer-fullscreen {
+  z-index: 1000;
+  background-color: #000;
+  display: -moz-box;
+  display: -webkit-box;
+  display: box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+     -moz-box-align: center;
+      -ms-box-align: center;
+}
+
+/**
+ * Page content styles
+ */
+
+h1 {
+    font-size: 34px;
+    line-height: 45px;
+    margin: 15px 0;
+}
+
+h1, h2, h3 {
+  font-family: Gotham-Bold, Helvetica, Verdana, Arial;
+}
+
+.content-indent {
+  padding: 0 35px;
+  box-sizing: border-box;
+}
+
+.unstyled {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.media-element {
+  position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, .65);
+    color: #FEFEFE;
+}
+
+
+.element-inline {
+    position: relative;
+    width: 100%;
+    margin: 0 0 10px 0;
+    background-color: #000;
+}
+
+.bottom .element-inline {
+    margin: 0;
+}
+
+.overlay-caption {
+    padding: 10px;
+    text-shadow: 0 -1px #000;
+    font-family: Helvetica;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background: -webkit-linear-gradient(top, #1f1f1f 0%,#1a1a1a 50%,#131313 51%,#1f1f1f 100%);
+    color: #FFF;
+    font-family: Helvetica;
+    opacity: 0.9;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 15px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    box-shadow: 0 0 6px #222;
+}
+
+.alf-region {
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+
+.alf-region p {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 24px 0;
+}
+
+.alf-region h1,
+.alf-region h2,
+.alf-region h3 {
+  margin: 0 0 24px 0;
+}
+
+.alf-region h3 {
+  margin: 0;
+}
+
+.bottom.alf-region {
+  margin-bottom: 0;
+}
+
+.alf-container img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.alf-region blockquote {
+  border: 0;
+  padding: 0;
+  margin: 0 0 24px;
+}
+
+.alf-container blockquote {
+  padding: 0;
+  margin: 0 0 24px 0;
+}
+
+.alf-region blockquote p,
+.alf-container blockquote p {
+  font-family: Gotham-Bold;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  letter-spacing: -0.07em;
+}
+
+.alf-container blockquote p {
+  font-size: 38px;
+}
+
+.alf-region blockquote small,
+.alf-container blockquote small {
+  font-family: Gotham-Book;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+.alf-container img {
+  max-width: 1024px;
+  max-height: 748px;
+}
+
+.alf-container .dp-article-image img {
+  box-shadow: 0 0 6px #888;
+}
+
+.frontpage-top-left {
+  position: absolute;
+  top: 35px;
+  left: 70px;
+  color: #FFF;
+  width: 900px;
+}
+
+  .frontpage-top-left h1 {
+    font-size: 90px;
+    font-family: ChronicleDeck-Black;
+    font-weight: normal;
+  }
+
+
+/**
+ * Front-page - Article
+ */
+
+.header-section {
+  font-family: Gotham-Light;
+  text-transform: uppercase;
+  margin: 10px 0 30px 0;
+  line-height: 30px;
+  padding: 0;
+}
+
+.header-condensed h1 {
+  font-family: DharmaGothicM-Regular;
+  text-transform: uppercase;
+  font-size: 140px;
+  line-height: 140px;
+  margin: 0;
+}
+
+.title {
+  margin-top: 0;
+}
+
+.header-serif h1 {
+  font-family: ChronicleDeck-Black;
+  font-size: 80px;
+  line-height: 80px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.frontpage-1 .frontpage-top-left h1 {
+  font-size: 90px;
+  font-family: ChronicleDeck-Black;
+  font-weight: normal;
+  margin: 34px 0;
+  -webkit-text-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.15);
+  text-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.15);
+  line-height: 80px;
+  letter-spacing: -0.04em;
+}
+
+.frontpage-2 .frontpage-top-left h1 {
+  font-size: 130px;
+  font-family: DharmaGothicE-Bold;
+  font-weight: normal;
+  margin: 80px 0;
+  line-height: 130px;
+}
+
+.frontpage-1 .excerpt { /* Excerpt-Box */
+  background: white;
+  color: #333;
+  padding: 20px;
+  width: 50%;
+  border-radius: 4px 4px 0 0;
+  -webkit-box-shadow:  0px 0px 4px 2px rgba(0, 0, 0, 0.15);
+     -moz-box-shadow:  0px 0px 4px 2px rgba(0, 0, 0, 0.15);
+          box-shadow:  0px 0px 4px 2px rgba(0, 0, 0, 0.15);
+}
+
+.frontpage-1 .excerpt-2 { /* Alternative 2 */
+  color: white;
+  padding: 20px 10px;
+  width: 50%;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+  .frontpage-1 .excerpt h2 { /* Stikk-title */
+    font-family: gotham-book;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 0px;
+  }
+
+  .frontpage-1 .excerpt p { /* Ingress */
+    font-family: gotham-book;
+    margin: 0px;
+  }
+
+.frontpage-1 .byline {
+  margin-top: 2px;
+  background: white;
+  color: #333;
+  padding: 10px 20px;
+  width: 50%;
+  border-radius: 0 0 4px 4px;
+  font-family: gotham-medium;
+  -webkit-box-shadow:  0px 0px 4px 2px rgba(0, 0, 0, 0.15);
+     -moz-box-shadow:  0px 0px 4px 2px rgba(0, 0, 0, 0.15);
+          box-shadow:  0px 0px 4px 2px rgba(0, 0, 0, 0.15);
+}
+
+
+/**
+ * Metabox
+ */
+
+.alf-region ul.meta {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.alf-region ul.meta li {
+    margin: 2px 0;
+    background: rgba(23, 73, 142, 0.04);
+    font-family: Gotham-Book;
+    position: relative;
+    padding-left: 45px;
+    line-height: 2em;
+}
+.alf-region ul.meta li:before {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 5px;
+    top: 5px;
+    background: #fff; /* Here comes the icon */
+    display: block;
+    border-right: 1px solid #999;
+    padding-right: 5px;
+}
+
+.tweet {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.tweet-content {
+  margin-left: 58px;
+}
+
+.tweet-content span {
+  color: #888;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.tweet-content p {
+  font-family: Helvetica, Arial;
+  margin: 0;
+  font-size: 16px;
+}
+
+.tweet img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

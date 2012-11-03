@@ -1,0 +1,81 @@
+.grid {
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  bottom: 35px;
+  right: 35px;
+}
+
+.grid-fill {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+[class*=col-] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 460px;
+}
+
+.col-1 {
+  left: 0px;
+}
+
+.col-2 {
+   left: 494px;
+}
+
+.col-3 {
+  left: 988px;
+}
+
+.col-4 {
+  left: 1482px;
+}
+
+.col-5 {
+  left: 1976px;
+}
+
+.cols-1 {
+  width: 460px;
+}
+
+.cols-2 {
+  width: 954px;
+}
+
+.cols-3 {
+  width: 1448px;
+}
+
+.cols-4 {
+  width: 1942px;
+}
+
+.cols-5 {
+  width: 2436px;
+}
+
+.colspan-1 {
+  width: 460px;
+}
+
+.colspan-2 {
+  width: 954px;
+}
+
+.colspan-3 {
+  width: 1448px;
+}
+
+.colspan-4 {
+  width: 1942px;
+}
+
+.colspan-5 {
+  width: 2436px;
+}
