@@ -219,8 +219,14 @@ h1, h2, h3 {
 }
 
 .alf-container img {
-  max-width: 1024px;
-  max-height: 748px;
+  max-width: 100%;
+}
+
+@media (min-width: 1024px) and (max-width: 1024px) {
+    .alf-container img {
+      max-width: 1024px;
+      max-height: 748px;
+    }
 }
 
 .alf-container .dp-article-image img {
