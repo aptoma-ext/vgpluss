@@ -216,11 +216,6 @@ h1, h2, h3 {
   font-size: 18px;
 }
 
-.alf-is-responsive .alf-container img {
-  max-width: 100%;
-  height: auto;
-}
-
 @media (min-width: 1024px) and (max-width: 1024px) {
     .alf-container img {
       max-width: 1024px;
