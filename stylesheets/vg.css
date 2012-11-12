@@ -115,6 +115,7 @@ h1, h2, h3 {
 
 .media-element {
     position: relative;
+    line-height: 0;
 }
 
 .overlay {
