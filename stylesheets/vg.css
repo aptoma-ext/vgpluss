@@ -1,53 +1,53 @@
 @font-face {
-  font-family: 'ChronicleDeck-Black';
-  src: url(../fonts/ChronicleDeck-Black.otf); }
+    font-family: 'ChronicleDeck-Black';
+    src: url(../fonts/ChronicleDeck-Black.otf); }
 
 @font-face {
-  font-family: 'Gotham-Black';
-  src: url(../fonts/Gotham-Black.otf); }
+    font-family: 'Gotham-Black';
+    src: url(../fonts/Gotham-Black.otf); }
 
 @font-face {
-  font-family: 'Gotham-Bold';
-  src: url(../fonts/Gotham-Bold.otf); }
+    font-family: 'Gotham-Bold';
+    src: url(../fonts/Gotham-Bold.otf); }
 
 @font-face {
-  font-family: 'Gotham-Book';
-  src: url(../fonts/Gotham-Book.otf); }
+    font-family: 'Gotham-Book';
+    src: url(../fonts/Gotham-Book.otf); }
 
 @font-face {
-  font-family: 'Gotham-Light';
-  src: url(../fonts/Gotham-Light.otf); }
+    font-family: 'Gotham-Light';
+    src: url(../fonts/Gotham-Light.otf); }
 
 @font-face {
-  font-family: 'Gotham-Medium';
-  src: url(../fonts/Gotham-Medium.otf); }
+    font-family: 'Gotham-Medium';
+    src: url(../fonts/Gotham-Medium.otf); }
 
 @font-face {
-  font-family: 'Roboto-Bold';
-  src: url(../fonts/Roboto-Bold.ttf); }
+    font-family: 'Roboto-Bold';
+    src: url(../fonts/Roboto-Bold.ttf); }
 
 @font-face {
-  font-family: 'Roboto-Regular';
-  src: url(../fonts/Roboto-Regular.ttf); }
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf); }
 
 @font-face {
-  font-family: 'DharmaGothicE_Light_R';
-  src: url(../fonts/DharmaGothicE_Light_R.otf);
+    font-family: 'DharmaGothicE_Light_R';
+    src: url(../fonts/DharmaGothicE_Light_R.otf);
 }
 
 @font-face {
-  font-family: 'DharmaGothicE-Bold';
-  src: url(../fonts/DharmaGothicE-Bold.otf);
+    font-family: 'DharmaGothicE-Bold';
+    src: url(../fonts/DharmaGothicE-Bold.otf);
 }
 
 @font-face {
-  font-family: 'DharmaGothicM-ExBold';
-  src: url(../fonts/DharmaGothicM-ExBold.otf);
+    font-family: 'DharmaGothicM-ExBold';
+    src: url(../fonts/DharmaGothicM-ExBold.otf);
 }
 
 @font-face {
-  font-family: 'DharmaGothicM-Regular';
-  src: url(../fonts/DharmaGothicM-Regular.otf);
+    font-family: 'DharmaGothicM-Regular';
+    src: url(../fonts/DharmaGothicM-Regular.otf);
 }
 
 /**
@@ -73,17 +73,17 @@ body {
 }
 
 .layer-content {
-  background-color: #f5f5f5;
+    background-color: #f5f5f5;
 }
 
 .layer-fullscreen {
-  z-index: 1000;
-  background-color: #000;
-  display: -moz-box;
-  display: -webkit-box;
-  display: box;
-  -webkit-box-pack: center;
-  -webkit-box-align: center;
+    z-index: 1000;
+    background-color: #000;
+    display: -moz-box;
+    display: -webkit-box;
+    display: box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
      -moz-box-align: center;
       -ms-box-align: center;
 }
@@ -99,29 +99,28 @@ h1 {
 }
 
 h1, h2, h3 {
-  font-family: Gotham-Bold, Helvetica, Verdana, Arial;
+    font-family: Gotham-Bold, Helvetica, Verdana, Arial;
 }
 
 .content-indent {
-  padding: 0 35px;
-  box-sizing: border-box;
+    padding: 0 35px;
+    box-sizing: border-box;
 }
 
 .unstyled {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .media-element {
-  position: relative;
+    position: relative;
 }
 
 .overlay {
     background-color: rgba(0, 0, 0, .65);
     color: #FEFEFE;
 }
-
 
 .element-inline {
     position: relative;
@@ -153,29 +152,33 @@ h1, h2, h3 {
     box-shadow: 0 0 6px #222;
 }
 
+.alf-supports-fullscreen img {
+    box-shadow: 0 0 6px #888;
+}
+
 .alf-region {
     margin-bottom: 16px;
     overflow: hidden;
 }
 
 .alf-region p {
-  font-size: 18px;
-  line-height: 24px;
-  margin: 0 0 24px 0;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 24px 0;
 }
 
 .alf-region h1,
 .alf-region h2,
 .alf-region h3 {
-  margin: 0 0 24px 0;
+    margin: 0 0 24px 0;
 }
 
 .alf-region h3 {
-  margin: 0;
+    margin: 0;
 }
 
 .bottom.alf-region {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .alf-container img {
@@ -185,35 +188,35 @@ h1, h2, h3 {
 }
 
 .alf-region blockquote {
-  border: 0;
-  padding: 0;
-  margin: 0 0 24px;
+    border: 0;
+    padding: 0;
+    margin: 0 0 24px;
 }
 
 .alf-container blockquote {
-  padding: 0;
-  margin: 0 0 24px 0;
+    padding: 0;
+    margin: 0 0 24px 0;
 }
 
 .alf-region blockquote p,
 .alf-container blockquote p {
-  font-family: Gotham-Bold;
-  font-size: 24px;
-  line-height: 32px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  letter-spacing: -0.07em;
+    font-family: Gotham-Bold;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    letter-spacing: -0.07em;
 }
 
 .alf-container blockquote p {
-  font-size: 38px;
+    font-size: 38px;
 }
 
 .alf-region blockquote small,
 .alf-container blockquote small {
-  font-family: Gotham-Book;
-  line-height: 24px;
-  font-size: 18px;
+    font-family: Gotham-Book;
+    line-height: 24px;
+    font-size: 18px;
 }
 
 @media (min-width: 1024px) and (max-width: 1024px) {
@@ -223,23 +226,19 @@ h1, h2, h3 {
     }
 }
 
-.alf-container .dp-article-image img {
-  box-shadow: 0 0 6px #888;
-}
-
 .frontpage-top-left {
-  position: absolute;
-  top: 35px;
-  left: 70px;
-  color: #FFF;
-  width: 900px;
+    position: absolute;
+    top: 35px;
+    left: 70px;
+    color: #FFF;
+    width: 900px;
 }
 
-  .frontpage-top-left h1 {
+    .frontpage-top-left h1 {
     font-size: 90px;
     font-family: ChronicleDeck-Black;
     font-weight: normal;
-  }
+    }
 
 
 /**
@@ -247,92 +246,92 @@ h1, h2, h3 {
  */
 
 .header-section {
-  font-family: Gotham-Light;
-  text-transform: uppercase;
-  margin: 10px 0 30px 0;
-  line-height: 30px;
-  padding: 0;
+    font-family: Gotham-Light;
+    text-transform: uppercase;
+    margin: 10px 0 30px 0;
+    line-height: 30px;
+    padding: 0;
 }
 
 .header-condensed h1 {
-  font-family: DharmaGothicM-Regular;
-  text-transform: uppercase;
-  font-size: 140px;
-  line-height: 140px;
-  margin: 0;
+    font-family: DharmaGothicM-Regular;
+    text-transform: uppercase;
+    font-size: 140px;
+    line-height: 140px;
+    margin: 0;
 }
 
 .title {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 .header-serif h1 {
-  font-family: ChronicleDeck-Black;
-  font-size: 80px;
-  line-height: 80px;
-  margin: 0;
-  font-weight: normal;
+    font-family: ChronicleDeck-Black;
+    font-size: 80px;
+    line-height: 80px;
+    margin: 0;
+    font-weight: normal;
 }
 
 .frontpage-1 .frontpage-top-left h1 {
-  font-size: 90px;
-  font-family: ChronicleDeck-Black;
-  font-weight: normal;
-  margin: 34px 0;
-  -webkit-text-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.15);
-  text-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.15);
-  line-height: 80px;
-  letter-spacing: -0.04em;
+    font-size: 90px;
+    font-family: ChronicleDeck-Black;
+    font-weight: normal;
+    margin: 34px 0;
+    -webkit-text-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.15);
+    text-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.15);
+    line-height: 80px;
+    letter-spacing: -0.04em;
 }
 
 .frontpage-2 .frontpage-top-left h1 {
-  font-size: 130px;
-  font-family: DharmaGothicE-Bold;
-  font-weight: normal;
-  margin: 80px 0;
-  line-height: 130px;
+    font-size: 130px;
+    font-family: DharmaGothicE-Bold;
+    font-weight: normal;
+    margin: 80px 0;
+    line-height: 130px;
 }
 
 .frontpage-1 .excerpt { /* Excerpt-Box */
-  background: white;
-  color: #333;
-  padding: 20px;
-  width: 50%;
-  border-radius: 4px 4px 0 0;
-  -webkit-box-shadow:  0px 0px 4px 2px rgba(0, 0, 0, 0.15);
+    background: white;
+    color: #333;
+    padding: 20px;
+    width: 50%;
+    border-radius: 4px 4px 0 0;
+    -webkit-box-shadow:  0px 0px 4px 2px rgba(0, 0, 0, 0.15);
      -moz-box-shadow:  0px 0px 4px 2px rgba(0, 0, 0, 0.15);
           box-shadow:  0px 0px 4px 2px rgba(0, 0, 0, 0.15);
 }
 
 .frontpage-1 .excerpt-2 { /* Alternative 2 */
-  color: white;
-  padding: 20px 10px;
-  width: 50%;
-  border-top: 1px solid rgba(255, 255, 255, 0.4);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    color: white;
+    padding: 20px 10px;
+    width: 50%;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 
-  .frontpage-1 .excerpt h2 { /* Stikk-title */
+    .frontpage-1 .excerpt h2 { /* Stikk-title */
     font-family: gotham-book;
     text-transform: uppercase;
     font-size: 18px;
-    margin: 0px;
-  }
+    margin: 0;
+    }
 
-  .frontpage-1 .excerpt p { /* Ingress */
+    .frontpage-1 .excerpt p { /* Ingress */
     font-family: gotham-book;
-    margin: 0px;
-  }
+    margin: 0;
+    }
 
 .frontpage-1 .byline {
-  margin-top: 2px;
-  background: white;
-  color: #333;
-  padding: 10px 20px;
-  width: 50%;
-  border-radius: 0 0 4px 4px;
-  font-family: gotham-medium;
-  -webkit-box-shadow:  0px 0px 4px 2px rgba(0, 0, 0, 0.15);
+    margin-top: 2px;
+    background: white;
+    color: #333;
+    padding: 10px 20px;
+    width: 50%;
+    border-radius: 0 0 4px 4px;
+    font-family: gotham-medium;
+    -webkit-box-shadow:  0px 0px 4px 2px rgba(0, 0, 0, 0.15);
      -moz-box-shadow:  0px 0px 4px 2px rgba(0, 0, 0, 0.15);
           box-shadow:  0px 0px 4px 2px rgba(0, 0, 0, 0.15);
 }
@@ -347,6 +346,7 @@ h1, h2, h3 {
     margin: 0;
     padding: 0;
 }
+
 .alf-region ul.meta li {
     margin: 2px 0;
     background: rgba(23, 73, 142, 0.04);
@@ -355,6 +355,7 @@ h1, h2, h3 {
     padding-left: 45px;
     line-height: 2em;
 }
+
 .alf-region ul.meta li:before {
     content: '';
     position: absolute;
@@ -369,28 +370,28 @@ h1, h2, h3 {
 }
 
 .tweet {
-  position: relative;
-  margin-bottom: 15px;
+    position: relative;
+    margin-bottom: 15px;
 }
 
 .tweet-content {
-  margin-left: 58px;
+    margin-left: 58px;
 }
 
 .tweet-content span {
-  color: #888;
-  font-size: 16px;
-  margin-left: 10px;
+    color: #888;
+    font-size: 16px;
+    margin-left: 10px;
 }
 
 .tweet-content p {
-  font-family: Helvetica, Arial;
-  margin: 0;
-  font-size: 16px;
+    font-family: Helvetica, Arial;
+    margin: 0;
+    font-size: 16px;
 }
 
 .tweet img {
-  position: absolute;
-  top: 0;
-  left: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
