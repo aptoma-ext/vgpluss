@@ -88,6 +88,10 @@ body {
       -ms-box-align: center;
 }
 
+.alf-theme-sporten {
+    background-color: #fedfdc;
+}
+
 /**
  * Page content styles
  */
