@@ -114,6 +114,20 @@ h1 {
     padding: 0;
 }
 
+.byline {
+    border-color: #bbb;
+    border-width: 1px 0;
+    border-style: solid;
+    padding: 6px 0;
+    font-size: 18px;
+    font-family: Gotham-Medium;
+}
+
+.excerpt {
+    font-family: Gotham-Bold;
+    font-size: 20px;
+}
+
 .media-element {
     position: relative;
     line-height: 0;
