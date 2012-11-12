@@ -123,6 +123,14 @@ h1 {
     font-family: Gotham-Medium;
 }
 
+.article-header-top {
+    margin-bottom: 10px;
+}
+
+.article-header-bottom {
+    margin-top: 10px;
+}
+
 .excerpt {
     font-family: Gotham-Bold;
     font-size: 20px;
