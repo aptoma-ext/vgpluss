@@ -140,6 +140,14 @@ h1 {
 .media-element {
     position: relative;
     line-height: 0;
+    display: -webkit-box;
+    display: box;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+}
+
+.container-dark {
+    background-color: #000;
 }
 
 .alf-container-fullscreen .media-element {
@@ -148,10 +156,6 @@ h1 {
     right: 0;
     bottom: 0;
     left: 0;
-    display: -webkit-box;
-    display: box;
-    -webkit-box-pack: center;
-    -moz-box-pack: center;
 }
 
 .overlay {
