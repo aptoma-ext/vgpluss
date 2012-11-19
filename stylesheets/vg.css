@@ -69,6 +69,7 @@ body {
     -webkit-user-select: none;
     -webkit-text-rendering: optimizeLegibility;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 a, a:visited {
