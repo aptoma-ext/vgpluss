@@ -72,6 +72,10 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+a, a:visited {
+    color: #e00b04;
+}
+
 .layer-content {
     background-color: #f5f5f5;
 }
@@ -312,6 +316,14 @@ h1 {
     line-height: 80px;
     margin: 0;
     font-weight: normal;
+}
+
+.header-sans-serif h1 {
+    font-family: DharmaGothicE-Bold;
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: normal;
+    margin: 0;
 }
 
 .frontpage-1 .frontpage-top-left h1 {
