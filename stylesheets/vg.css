@@ -313,7 +313,7 @@ h1 {
     margin-top: 0;
 }
 
-.header-serif {
+.header-serif h1 {
     font-family: ChronicleDeck-Black;
     font-size: 80px;
     line-height: 80px;
@@ -321,7 +321,7 @@ h1 {
     font-weight: normal;
 }
 
-.header-sans-serif {
+.header-sans-serif h1 {
     font-family: DharmaGothicE-Bold;
     font-size: 100px;
     line-height: 100px;
@@ -457,30 +457,30 @@ h1 {
  * These can be toggled on and off by users in layout preview
  */
 .alf-style-text-shadow-dark {
-    text-shadow: 0 0 8px #000;
+    text-shadow: 0 0 8px #000 !important;
 }
 
 .alf-style-text-shadow-light {
-    text-shadow: 0 0 8px #FFF;
+    text-shadow: 0 0 8px #FFF !important;
 }
 
 .alf-style-uppercase {
-    text-transform: uppercase;
+    text-transform: uppercase !important;
 }
 
 .alf-style-font-condensed {
-    font-family: DharmaGothicE-Bold;
-    font-weight: normal;
+    font-family: DharmaGothicE-Bold !important;
+    font-weight: normal !important;
 }
 
 .alf-style-font-serif {
-    font-family: ChronicleDeck-Black;
-    font-weight: normal;
+    font-family: ChronicleDeck-Black !important;
+    font-weight: normal !important;
 }
 
 .alf-style-font-sans-serif {
-    font-family: GothamBook;
-    font-weight: normal;
+    font-family: GothamBook !important;
+    font-weight: normal !important;
 }
 
 .alf-style-3d-text {
