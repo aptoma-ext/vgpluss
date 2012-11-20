@@ -93,6 +93,37 @@ a, a:visited {
 }
 
 /**
+ * Alf styles
+ * These can be toggled on and off by users in layout preview
+ */
+.alf-style-text-shadow-dark {
+    text-shadow: 0 0 8px #000;
+}
+
+.alf-style-text-shadow-light {
+    text-shadow: 0 0 8px #FFF;
+}
+
+.alf-style-uppercase {
+    text-transform: uppercase;
+}
+
+.alf-style-font-condensed {
+    font-family: DharmaGothicE-Bold;
+    font-weight: normal;
+}
+
+.alf-style-font-serif {
+    font-family: ChronicleDeck-Black;
+    font-weight: normal;
+}
+
+.alf-style-font-sans-serif {
+    font-family: GothamBook;
+    font-weight: normal;
+}
+
+/**
  * Page content styles
  */
 
