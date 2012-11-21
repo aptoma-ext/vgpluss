@@ -118,7 +118,10 @@ h1 {
     margin: 0;
     padding: 0;
 }
-
+.header h1 {
+    font-size: 60px;
+    line-height: 60px;
+}
 .byline {
     border-color: #ccc;
     border-width: 1px 0;
@@ -129,6 +132,7 @@ h1 {
     font-weight: normal;
     margin-bottom: 10px;
 }
+
 
 .article-header-top {
     margin-bottom: 10px;
