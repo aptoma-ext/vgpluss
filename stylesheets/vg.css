@@ -195,7 +195,7 @@ h1 {
     font-size: 15px;
     line-height: 17px;
     border-radius: 5px;
-    border: 1px solid #000;
+    border: 1px solid rgba(0,0,0,0.8);
     box-shadow: 0 0 6px #222;
 }
 
