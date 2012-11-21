@@ -474,7 +474,7 @@ header h1 {
 }
 
 .alf-style-text-shadow-light {
-    text-shadow: 0 0 4px rgba(255,255,255,0.50) !important;
+    text-shadow: 0 0 4px 10px rgba(255,255,255,0.50) !important;
 }
 
 .alf-style-uppercase {
