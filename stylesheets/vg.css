@@ -202,7 +202,7 @@ h1 {
 }
 
 .alf-supports-fullscreen img {
-    box-shadow: 0 0 6px #888;
+    box-shadow: 0 0 6px rgba(0,0,0,0.35);;
 }
 
 .alf-region {
