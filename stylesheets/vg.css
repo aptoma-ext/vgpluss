@@ -466,7 +466,7 @@ h1 {
  * These can be toggled on and off by users in layout preview
  */
 .alf-style-text-shadow-dark {
-    text-shadow: 0 0 8px #000 !important;
+    text-shadow:0px 0px 4px rgba(0,0,0,0.30) !important;
 }
 
 .alf-style-text-shadow-light {
