@@ -242,9 +242,10 @@ header h1 {
     padding: 0;
     border: 0;
 }
-.alf-region strong {
+.alf-region p strong {
     font-family: ChronicleDeck-Black, sans-serif;
     font-weight: normal;
+    font-size: 17px;
 }
 .alf-region blockquote {
     border: 0;
