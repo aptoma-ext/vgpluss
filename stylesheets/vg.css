@@ -503,9 +503,9 @@ h1 {
 }
 
 .tmp-frontpage-with-small-image header h1 {
-    margin: 0 0 10px;
-    font-size: 70px;
-    line-height: 72px;
+    margin: 0 0 12px;
+    font-size: 60px;
+    line-height: 50px;
 }
 .tmp-widescreen-frontpage .wide-slim-large-media-only {
     max-height: 504px;
