@@ -226,6 +226,7 @@ h1 {
 .alf-region h2,
 .alf-region h3 {
     margin: 0 0 24px 0;
+    letter-spacing: -0.05em;
 }
 .alf-region h1 {
     margin: 0 0 10px 0;
