@@ -506,7 +506,7 @@ header h1 {
     overflow: hidden;
 }
 .tmp-frontpage-with-small-image .excerpt header p {
-    margin: 0;
+    margin-top: 0;
 }
 
 /**
