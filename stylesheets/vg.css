@@ -548,11 +548,13 @@ h1 {
     overflow:hidden;
 }
 
-.tmp-widescreen-frontpage .byline {
+.tmp-widescreen-frontpage .byline,
+.tmp-widescreen-frontpage-dark-background .byline{
     border: none;
 }
 
-.tmp-widescreen-frontpage .content-indent{
+.tmp-widescreen-frontpage .content-indent,
+.tmp-widescreen-frontpage-dark-background .content-indent{
     position: absolute;
     bottom: 0;
     height: auto;
@@ -561,12 +563,7 @@ h1 {
     padding: 35px;
 }
 .tmp-widescreen-frontpage-dark-background .content-indent{
-    position: absolute;
-    bottom: 0;
-    height: auto;
-    width: 100%;
     background: #111;
-    padding: 35px;
 }
 
 /**
