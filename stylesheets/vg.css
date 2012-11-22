@@ -552,14 +552,22 @@ h1 {
     border: none;
 }
 
-.tmp-widescreen-frontpage .title {
-    margin-top: 35px;
+.tmp-widescreen-frontpage .content-indent{
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    background: #f5f5f5;
+    padding: 35px;
 }
-.tmp-widescreen-frontpage-dark-background {
+.tmp-widescreen-frontpage-dark-background .content-indent{
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    width: 100%;
     background: #111;
+    padding: 35px;
 }
-
-
 
 /**
  * Alf styles
