@@ -516,6 +516,12 @@ h1 {
 .tmp-widescreen-frontpage .byline {
     border: none;
 }
+.tmp-widescreen-frontpage .title {
+    margin-top: 35px;
+}
+
+
+
 /**
  * Alf styles
  * These can be toggled on and off by users in layout preview
