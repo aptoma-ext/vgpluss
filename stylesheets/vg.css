@@ -569,6 +569,10 @@ h1 {
     background: #171717;
 }
 
+.tmp-cover-with-small-image {
+    background: #3D3D3D;
+}
+
 /**
  * Alf styles
  * These can be toggled on and off by users in layout preview
