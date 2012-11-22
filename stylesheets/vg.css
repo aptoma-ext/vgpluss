@@ -505,6 +505,9 @@ header h1 {
     margin-bottom: 20px;
     overflow: hidden;
 }
+.tmp-frontpage-with-small-image .excerpt header p {
+    margin: 0;
+}
 
 /**
  * Alf styles
