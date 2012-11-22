@@ -510,7 +510,10 @@ h1 {
     font-size: 55px;
     line-height: 55px;
 }
-
+.tmp-widescreen-frontpage .wide-slim-large-media-only {
+    max-height: 504px;
+    overflow:hidden;
+}
 /**
  * Alf styles
  * These can be toggled on and off by users in layout preview
