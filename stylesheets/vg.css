@@ -337,10 +337,10 @@ h1 {
 
 .header-sans-serif h1 {
     font-family: DharmaGothicE-Bold;
-    font-size: 144px !important;
-    line-height: 120px !important;
+    font-size: 144px;
+    line-height: 120px;
     font-weight: normal;
-    letter-spacing: -0.02em !important;
+    letter-spacing: -0.02em;
     margin: 0;
 }
 
