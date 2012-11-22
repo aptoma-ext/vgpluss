@@ -555,6 +555,9 @@ h1 {
 .tmp-widescreen-frontpage .title {
     margin-top: 35px;
 }
+.tmp-widescreen-frontpage-dark-background {
+    background: #111;
+}
 
 
 
