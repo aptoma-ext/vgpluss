@@ -496,7 +496,7 @@ h1 {
  * Specific Template styles
  * These styles affects only specific templates
  */
-.tmp-wide-slim-2 .colspan-2 {
+.tmp-wide-slim-2 .wide-slim-media {
     max-height: 340px;
     margin-bottom: 20px;
     overflow: hidden;
