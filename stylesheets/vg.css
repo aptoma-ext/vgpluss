@@ -514,6 +514,9 @@ h1 {
     max-height: 504px;
     overflow:hidden;
 }
+.tmp-widescreen-frontpage .byline {
+    border: none;
+}
 /**
  * Alf styles
  * These can be toggled on and off by users in layout preview
