@@ -341,8 +341,8 @@ h1 {
     line-height: 120px;
     font-weight: normal;
     letter-spacing: -0.02em;
+    text-transform: uppercase;
     margin: 0;
-    text-align: uppercase;
 }
 
 .frontpage-1 .frontpage-top-left h1 {
