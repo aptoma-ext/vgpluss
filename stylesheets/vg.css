@@ -551,6 +551,8 @@ h1 {
 .tmp-widescreen-frontpage .byline,
 .tmp-widescreen-frontpage-dark-background .byline{
     border: none;
+    margin: 0;
+    padding: 0;
 }
 
 .tmp-widescreen-frontpage .content-indent,
