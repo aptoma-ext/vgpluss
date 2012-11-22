@@ -550,11 +550,6 @@ h1 {
     font-size: 56px
 }
 
-.tmp-widescreen-frontpage .wide-slim-large-media-only {
-    max-height: 504px;
-    overflow:hidden;
-}
-
 .tmp-widescreen-frontpage .byline,
 .tmp-widescreen-frontpage-dark-background .byline{
     border: none;
