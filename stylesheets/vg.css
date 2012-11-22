@@ -548,7 +548,6 @@ h1 {
 .alf-style-font-condensed {
     font-family: DharmaGothicE-Bold !important;
     font-weight: normal !important;
-    text-transform: uppercase !important;
 }
 
 .alf-style-font-serif {
@@ -557,7 +556,7 @@ h1 {
 }
 
 .alf-style-font-sans-serif {
-    font-family: GothamBook !important;
+    font-family: Gotham-Book !important;
     font-weight: normal !important;
 }
 
