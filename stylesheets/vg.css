@@ -497,6 +497,16 @@ header h1 {
 }
 
 /**
+ * Specific Template styles
+ * These styles affects only specific templates
+ */
+.tmp-wide-slim-2 .col-1.colspan-2 {
+    max-height: 350px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+/**
  * Alf styles
  * These can be toggled on and off by users in layout preview
  */
