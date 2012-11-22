@@ -108,6 +108,10 @@ h1 {
     letter-spacing: -0.04em;
 }
 
+.alf-page-content {
+    -webkit-transform-style: preserve-3d;
+}
+
 .content-indent {
     padding: 0 35px;
     box-sizing: border-box;
