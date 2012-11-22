@@ -211,7 +211,7 @@ h1 {
     box-shadow: 0 0 6px #A6A6A6;
 }
 .alf-image-with-shadow img {
-    box-shadow: 0 0 6px rgba(0,0,0,0.35);
+    box-shadow: 0 0 6px rgba(0,0,0,0.5);
 }
 
 .alf-region {
