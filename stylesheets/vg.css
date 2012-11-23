@@ -326,6 +326,9 @@ h1 {
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 35px;
+    top: 0;
 }
 .header-section span {
     background: rgba(140,0,0,0.2);
