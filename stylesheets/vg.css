@@ -298,6 +298,8 @@ h1 {
     padding: 90px 70px 35px;
     color: #FFF;
     width: 900px;
+    top: 0;
+    left: 0;
 }
 
     .frontpage-top-left h1 {
