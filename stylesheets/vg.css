@@ -312,8 +312,7 @@ h1 {
  * Front-page - Article
  */
 
-.header-section,
-.header-section span{
+.header-section {
     font-family: Gotham-Book;
     font-weight: normal;
     text-transform: uppercase;
@@ -334,6 +333,8 @@ h1 {
 }
 .header-section span {
     background: rgba(140,0,0,0.2);
+    margin-left: 0;
+    padding: 32px 10px 8px;
 }
 .header-section.dark span {
     background: rgba(255, 255, 255, 0.3);
