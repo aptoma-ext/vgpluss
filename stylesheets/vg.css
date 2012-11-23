@@ -323,6 +323,7 @@ h1 {
     left: 35px;
     padding: 32px 10px 8px;
     background: rgba(0, 0, 0, 0.5);
+    color: #fff;
     -webkit-border-bottom-right-radius: 5px;
     -webkit-border-bottom-left-radius: 5px;
     -moz-border-radius-bottomright: 5px;
@@ -333,7 +334,7 @@ h1 {
 .header-section span {
 
 }
-.header-section.dark span {
+.header-section.dark {
     background: rgba(255, 255, 255, 0.3);
 }
 
