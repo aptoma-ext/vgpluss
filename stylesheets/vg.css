@@ -325,7 +325,7 @@ h1 {
 }
 .header-section span {
     background: rgba(0, 0, 0, 0.5);
-    padding: 0;
+    padding: 40px 10px 8px;
     -webkit-border-bottom-right-radius: 5px;
     -webkit-border-bottom-left-radius: 5px;
     -moz-border-radius-bottomright: 5px;
