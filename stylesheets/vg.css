@@ -552,7 +552,8 @@ h1 {
     font-size: 56px
 }
 
-.byline.light{
+.tmp-widescreen-frontpage .byline,
+.tmp-widescreen-frontpage-dark-background .byline{
     border: none;
     margin: 0;
     padding: 0;
