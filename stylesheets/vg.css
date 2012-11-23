@@ -325,7 +325,7 @@ h1 {
     -moz-border-radius-bottomleft: 5px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
-    background-color:rgba(0,0,0,0.5);
+    background-color:rgba(255,255,255,0.5);
     position: absolute;
     left: 35px;
     top: 0;
@@ -334,7 +334,7 @@ h1 {
 .header-section span {
     background-color:rgba(140,0,0,0.2);
     margin-left: -10px;
-    margin-right: -9px;
+    margin-right: -10px;
     padding: 33px 10px 10px 10px;
     -webkit-border-bottom-right-radius: 5px;
     -webkit-border-bottom-left-radius: 5px;
@@ -342,9 +342,6 @@ h1 {
     -moz-border-radius-bottomleft: 5px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
-}
-.header-section.dark {
-    background: rgba(255, 255, 255, 0.3);
 }
 
 .header-condensed h1 {
