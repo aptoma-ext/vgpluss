@@ -553,6 +553,11 @@ h1 {
  * Specific Template styles
  * These styles affects only specific templates
  */
+ 
+ .cover {
+    padding: 90px 35px 30px;
+ }
+ 
 .tmpl-wide-slim-2 .wide-slim-media {
     max-height: 340px;
     margin-bottom: 20px;
