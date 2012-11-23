@@ -298,8 +298,6 @@ h1 {
     padding: 90px 70px 35px;
     color: #FFF;
     width: 900px;
-    top: 0;
-    left: 0;
 }
 
     .frontpage-top-left h1 {
@@ -316,16 +314,13 @@ h1 {
     font-family: Gotham-Book;
     font-weight: normal;
     text-transform: uppercase;
-    margin: 0;
+    margin: 10px 0 30px 0;
     line-height: 30px;
     padding: 0;
-    position: absolute;
-    top: 0;
-    left: 35px;
 }
 .header-section span {
     background: rgba(0, 0, 0, 0.5);
-    padding: 40px 10px 8px;
+    padding: 50px 12px 10px;
     -webkit-border-bottom-right-radius: 5px;
     -webkit-border-bottom-left-radius: 5px;
     -moz-border-radius-bottomright: 5px;
