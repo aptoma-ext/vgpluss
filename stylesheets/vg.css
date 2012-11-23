@@ -522,13 +522,19 @@ h1 {
 .gradient-light-to-dark {
     background: url(../gfx/GradientBottomTop.png) repeat-x left bottom;
 }
+.tmpl-cover-with-background-and-gradient .gradient-light-to-dark {
+    background: url(../gfx/GradientCoverBottomTop.png) repeat-x left bottom;    
+}
 .left-gradient-dark-to-light {
     background: url(../gfx/GradientLeftRight.png) repeat-y left bottom;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
-    .gradient-light-to-dark {
+	.gradient-light-to-dark {
 	    background: url(../gfx/GradientBottomTop@2x.png) repeat-x left bottom;
+	}
+	.tmpl-cover-with-background-and-gradient .gradient-light-to-dark {
+	    background: url(../gfx/GradientCoverBottomTop@2x.png) repeat-x left bottom;	
 	}
 	.left-gradient-dark-to-light {
 	    background: url(../gfx/GradientLeftRight@2x.png) repeat-y left top;
