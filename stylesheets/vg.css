@@ -332,6 +332,7 @@ h1 {
     color: #fff;
 }
 .header-section span {
+    background-color:rgba(140,0,0,0.2);
 }
 .header-section.dark {
     background: rgba(255, 255, 255, 0.3);
