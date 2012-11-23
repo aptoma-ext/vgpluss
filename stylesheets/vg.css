@@ -295,8 +295,7 @@ h1 {
 
 .frontpage-top-left {
     position: absolute;
-    top: 35px;
-    left: 70px;
+    padding: 90px 70px 35px;
     color: #FFF;
     width: 900px;
 }
@@ -553,12 +552,12 @@ h1 {
  * Specific Template styles
  * These styles affects only specific templates
  */
- 
+
 /*.cover {
     padding: 30px 35px;
     margin-top: 60px;
  }*/
- 
+
 .tmpl-wide-slim-2 .wide-slim-media {
     max-height: 340px;
     margin-bottom: 20px;
