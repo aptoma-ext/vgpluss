@@ -333,6 +333,7 @@ h1 {
 }
 .header-section span {
     background-color:rgba(140,0,0,0.2);
+    padding: 32px 10px 8px;
 }
 .header-section.dark {
     background: rgba(255, 255, 255, 0.3);
