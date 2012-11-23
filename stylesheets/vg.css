@@ -367,7 +367,7 @@ h1 {
     margin: 0;
     text-transform: uppercase;
 }
-
+/*
 .frontpage-1 .frontpage-top-left h1 {
     font-size: 106px;
     margin: 34px 0;
@@ -382,7 +382,7 @@ h1 {
     margin: 80px 0;
     line-height: 130px;
 }
-
+*/
 .frontpage-1 .excerpt { /* Excerpt-Box */
     background: white;
     color: #333;
