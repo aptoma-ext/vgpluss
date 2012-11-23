@@ -555,7 +555,8 @@ h1 {
  */
  
  .cover {
-    padding: 90px 35px 30px;
+    padding: 30px 35px;
+    margin-top: 60px;
  }
  
 .tmpl-wide-slim-2 .wide-slim-media {
