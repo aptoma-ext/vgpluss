@@ -614,6 +614,7 @@ h1 {
     font-family: DharmaGothicE-Bold !important;
     font-weight: normal !important;
     text-transform: uppercase !important;
+    letter-spacing: -0.03em;
 }
 
 .alf-style-font-serif {
