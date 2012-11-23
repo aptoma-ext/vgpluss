@@ -536,32 +536,32 @@ h1 {
  * Specific Template styles
  * These styles affects only specific templates
  */
-.tmp-wide-slim-2 .wide-slim-media {
+.tmpl-wide-slim-2 .wide-slim-media {
     max-height: 340px;
     margin-bottom: 20px;
     overflow: hidden;
 }
 
-.tmp-frontpage-with-small-image .excerpt header p {
+.tmpl-frontpage-with-small-image .excerpt header p {
     margin-top: 0;
 }
 
-.tmp-frontpage-with-small-image header h1 {
+.tmpl-frontpage-with-small-image header h1 {
     margin: 0 0 16px;
     line-height: 56px;
     font-size: 56px
 }
 
-.tmp-widescreen-frontpage .byline,
-.tmp-widescreen-frontpage-dark-background .byline, 
+.tmpl-widescreen-frontpage .byline,
+.tmpl-widescreen-frontpage-dark-background .byline, 
 .byline.light{
     border: none;
     margin: 0;
     padding: 0;
 }
 
-.tmp-widescreen-frontpage .content-indent,
-.tmp-widescreen-frontpage-dark-background .content-indent{
+.tmpl-widescreen-frontpage .content-indent,
+.tmpl-widescreen-frontpage-dark-background .content-indent{
     position: absolute;
     bottom: 0;
     height: auto;
@@ -569,7 +569,7 @@ h1 {
     background: #f5f5f5;
     padding: 35px;
 }
-.tmp-widescreen-frontpage-dark-background .content-indent{
+.tmpl-widescreen-frontpage-dark-background .content-indent{
     background: #171717;
 }
 
