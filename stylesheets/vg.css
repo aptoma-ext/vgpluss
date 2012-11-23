@@ -620,6 +620,7 @@ h1 {
 .alf-style-font-serif {
     font-family: ChronicleDeck-Black !important;
     font-weight: normal !important;
+    text-transform: inherit !important;
 }
 
 .alf-style-font-sans-serif {
