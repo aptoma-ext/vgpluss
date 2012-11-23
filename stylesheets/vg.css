@@ -365,6 +365,7 @@ h1 {
     font-weight: normal;
     letter-spacing: -0.03em;
     margin: 0;
+    text-transform: uppercase;
 }
 
 .frontpage-1 .frontpage-top-left h1 {
