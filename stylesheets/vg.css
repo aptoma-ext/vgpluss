@@ -521,24 +521,30 @@ h1 {
  * Gradients
  */
 .gradient-light-to-dark {
-    background: url(../gfx/GradientBottomTop.png) repeat-x left bottom;
+    background: url(../gfx/GradientBottomTop.png) no-repeat left bottom;
+    background-size: 100% 100%;
 }
 .tmpl-cover-with-background-and-gradient .gradient-light-to-dark {
-    background: url(../gfx/GradientCoverBottomTop.png) repeat-x left bottom;    
+    background: url(../gfx/GradientCoverBottomTop.png) no-repeat left bottom;
+    background-size: 100% 100%;
 }
 .left-gradient-dark-to-light {
-    background: url(../gfx/GradientLeftRight.png) repeat-y left bottom;
+    background: url(../gfx/GradientLeftRight.png) no-repeat left bottom;
+    background-size: 100% 100%;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
 	.gradient-light-to-dark {
-	    background: url(../gfx/GradientBottomTop@2x.png) repeat-x left bottom;
+	    background: url(../gfx/GradientBottomTop@2x.png) no-repeat left bottom;
+        background-size: 100% 100%;
 	}
 	.tmpl-cover-with-background-and-gradient .gradient-light-to-dark {
-	    background: url(../gfx/GradientCoverBottomTop@2x.png) repeat-x left bottom;	
+	    background: url(../gfx/GradientCoverBottomTop@2x.png) no-repeat left bottom;
+        background-size: 100% 100%;
 	}
 	.left-gradient-dark-to-light {
-	    background: url(../gfx/GradientLeftRight@2x.png) repeat-y left top;
+	    background: url(../gfx/GradientLeftRight@2x.png) no-repeat left top;
+        background-size: 100% 100%;
 	}
 }
 
