@@ -520,17 +520,21 @@ h1 {
  * Gradients
  */
 .gradient-light-to-dark {
-    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.6))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.6) 100%); /* Chrome10+,Safari5.1+ */
-    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.6) 100%);
+    background: url(../gfx/GradientBottomTop.png) repeat-x left bottom;
 }
 .left-gradient-dark-to-light {
-    background: -moz-linear-gradient(right, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, top right, bottom left, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.6))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(right, rgba(0,0,0,0) 0%,rgba(0,0,0,0.6) 100%); /* Chrome10+,Safari5.1+ */
-    background: linear-gradient(to left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.6) 100%);
+    background: url(../gfx/GradientLeftRight.png) repeat-y left bottom;
 }
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
+    .gradient-light-to-dark {
+	    background: url(../gfx/GradientBottomTop@2x.png) repeat-x left bottom;
+	}
+	.left-gradient-dark-to-light {
+	    background: url(../gfx/GradientLeftRight@2x.png) repeat-y left top;
+	}
+}
+
 
 /**
  * Specific Template styles
@@ -553,7 +557,7 @@ h1 {
 }
 
 .tmpl-widescreen-frontpage .byline,
-.tmpl-widescreen-frontpage-dark-background .byline, 
+.tmpl-widescreen-frontpage-dark-background .byline,
 .byline.light{
     border: none;
     margin: 0;
