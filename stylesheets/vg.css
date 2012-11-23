@@ -329,6 +329,7 @@ h1 {
     position: absolute;
     left: 35px;
     top: 0;
+    color: #fff;
 }
 .header-section span {
     background: rgba(140,0,0,0.2);
