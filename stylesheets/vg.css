@@ -574,6 +574,9 @@ h1 {
     background: url(../gfx/GradientLeftRight.png) no-repeat left bottom;
     background-size: 100% 100%;
 }
+.dark-background {
+    background: url(../gfx/bg_noise.png.png) repeat left bottom #3D3D3D;
+}
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
 	.gradient-light-to-dark {
@@ -588,6 +591,9 @@ h1 {
 	    background: url(../gfx/GradientLeftRight@2x.png) no-repeat left top;
         background-size: 100% 100%;
 	}
+    .dark-background {
+        background: url(../gfx/bg_noise@2x.png) repeat left bottom #3D3D3D;
+    }
 }
 
 
@@ -638,9 +644,7 @@ h1 {
     background: #171717;
 }
 
-.dark-background {
-    background: #3D3D3D;
-}
+
 
 /**
  * Alf styles
