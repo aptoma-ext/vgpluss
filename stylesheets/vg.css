@@ -294,7 +294,8 @@ h1 {
 }
 
 .frontpage-top-left,
-.cover{
+.tmpl-cover-with-small-image,
+.tmpl-cover-with-text-only{
     position: absolute;
     padding: 90px 70px 35px;
     color: #FFF;
