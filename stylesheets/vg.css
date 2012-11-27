@@ -575,7 +575,7 @@ h1 {
     background-size: 100% 100%;
 }
 .dark-background {
-    background: url(../gfx/bg_noise.png.png) repeat left bottom #3D3D3D;
+    background: url(../gfx/bg_noise@2x.png.png) repeat left bottom #3D3D3D;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
