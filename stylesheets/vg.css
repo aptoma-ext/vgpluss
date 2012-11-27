@@ -293,7 +293,8 @@ h1 {
     }
 }
 
-.frontpage-top-left {
+.frontpage-top-left,
+.cover{
     position: absolute;
     padding: 90px 70px 35px;
     color: #FFF;
@@ -302,7 +303,7 @@ h1 {
     left: 0;
     height: 324px;
 }
-.cover
+
 
     .frontpage-top-left h1 {
         font-size: 90px;
