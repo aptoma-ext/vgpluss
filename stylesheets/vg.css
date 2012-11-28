@@ -139,6 +139,12 @@ h1 {
     margin: 0;
     padding: 0;
 }
+
+.is-scrollable {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
 .byline {
     border-color: #ddd;
     border-width: 1px 0;
