@@ -203,6 +203,11 @@ h1 {
     margin: 0;
 }
 
+.overlay-bottom: {
+    position: absolute;
+    bottom: 0;
+}
+
 .overlay-caption {
     padding: 7px 10px 10px;
     text-shadow: 0 -1px #333;
