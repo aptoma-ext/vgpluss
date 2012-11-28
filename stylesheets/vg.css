@@ -121,9 +121,7 @@ h1 {
 }
 
 .fill-width {
-    position: absolute;
-    left: 0;
-    right: 0;
+    width: 100%;
 }
 
 .offset-height {
