@@ -140,11 +140,6 @@ h1 {
     padding: 0;
 }
 
-.is-scrollable {
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
-}
-
 .byline {
     border-color: #ddd;
     border-width: 1px 0;
@@ -317,6 +312,11 @@ h1 {
         max-width: 1024px;
         max-height: 748px;
     }
+}
+
+.is-scrollable {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .frontpage-top-left,
