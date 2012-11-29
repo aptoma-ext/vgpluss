@@ -674,15 +674,18 @@ h1 {
     background: #f5f5f5;
     padding: 35px;
 }
-.tmpl-widescreen-frontpage .title,
-.tmpl-widescreen-frontpage .excerpt,
-.tmpl-widescreen-frontpage .byline{
-    text-align: center;
-}
+
 .tmpl-widescreen-frontpage-dark-background .content-indent{
     background: #171717;
 }
-
+.tmpl-widescreen-frontpage .title,
+.tmpl-widescreen-frontpage .excerpt,
+.tmpl-widescreen-frontpage .byline,
+.tmpl-widescreen-frontpage-dark-background .title,
+.tmpl-widescreen-frontpage-dark-background .excerpt,
+.tmpl-widescreen-frontpage-dark-background .byline{
+    text-align: center;
+}
 
 
 /**
