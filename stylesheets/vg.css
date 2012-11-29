@@ -694,10 +694,10 @@ h1 {
  */
 .iphone-portrait .alf-container,
 .iphone-portrait .alf-region{
-    padding: 15px;
+    margin: 0 15px;
 }
 .iphone-portrait .alf-container.top-image {
-    padding: 0;
+    margin: 0;
 }
 
 /**
