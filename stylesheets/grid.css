@@ -6,6 +6,9 @@
   right: 0;
   padding: 35px;
 }
+.iphone {
+    padding: 15px;
+}
 
 [class*=col-] {
   position: absolute;
