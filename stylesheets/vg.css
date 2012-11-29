@@ -204,6 +204,9 @@ h1 {
     padding: 15px 0;
     background: #f5f5f5;
 }
+.section-sport .white-background {
+    background: #ffdfdd;
+}
 
 .element-inline {
     position: relative;
