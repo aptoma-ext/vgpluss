@@ -414,12 +414,13 @@ h1 {
 }
 
 .header-condensed h1 {
-    font-family: DharmaGothicM-Regular;
+    font-family: DharmaGothicE-Bold;
+    font-size: 130px;
+    line-height: 110px;
     font-weight: normal;
-    text-transform: uppercase;
-    font-size: 140px;
-    line-height: 140px;
+    letter-spacing: -0.03em;
     margin: 0;
+    text-transform: uppercase;
 }
 
 .uppercase {
@@ -441,11 +442,15 @@ h1 {
 .header-sans-serif h1 {
     font-family: DharmaGothicE-Bold;
     font-size: 130px;
-    line-height: 110px;
+    line-height: 0.8em;
     font-weight: normal;
     letter-spacing: -0.03em;
     margin: 0;
     text-transform: uppercase;
+}
+.iphone .header-sans-serif h1 {
+    font-size: 72px;
+    letter-spacing: -0.03em;
 }
 /*
 .frontpage-1 .frontpage-top-left h1 {
