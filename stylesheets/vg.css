@@ -405,7 +405,8 @@ h1 {
     background-color:rgba(0,102,102,0.2);
 }
 
-.section-sport .template {
+.section-sport .template,
+.section-sport .tmpl-widescreen-frontpage .content-indent {
     background-color: #ffdfdd;
 }
 .section-sport .byline {
