@@ -640,11 +640,6 @@ h1 {
  * These styles affects only specific templates
  */
 
-/*.cover {
-    padding: 30px 35px;
-    margin-top: 60px;
- }*/
-
 .tmpl-landscape-slim-2 .landscape-slim-media {
     max-height: 340px;
     margin-bottom: 20px;
@@ -691,6 +686,19 @@ h1 {
     text-align: center;
 }
 
+
+
+/**
+ * Specific iPhone styles
+ * These styles affects only iphone
+ */
+.iphone-portrait .alf-container,
+.iphone-portrait .alf-region{
+    padding: 15px;
+}
+.iphone-portrait .alf-container.top-image {
+    padding: 0;
+}
 
 /**
  * Alf styles
