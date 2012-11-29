@@ -196,6 +196,11 @@ h1 {
     bottom: 0;
     padding: 30px 0 15px;
 }
+.dark-background {
+    position: absolute;
+    bottom: 0;
+    padding: 30px 0 15px;
+}
 
 .element-inline {
     position: relative;
