@@ -323,7 +323,7 @@ h1 {
 .tmpl-cover-with-small-image,
 .tmpl-cover-with-text-only{
     position: absolute;
-    padding: 90px 70px 35px;
+    padding: 95px 35px 35px;
     color: #FFF;
     width: 884px;
     top: 0;
@@ -337,7 +337,7 @@ h1 {
     }
 
 .tmpl-cover-with-small-image .col-2 {
-    max-height: 323px;
+    max-height: 318px;
     overflow:hidden;
 }
 
