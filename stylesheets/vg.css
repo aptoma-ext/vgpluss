@@ -408,6 +408,9 @@ h1 {
 .section-sport .template {
     background-color: #ffdfdd;
 }
+.section-sport .byline {
+    border-color: #DABEBC;
+}
 
 .header-condensed h1 {
     font-family: DharmaGothicM-Regular;
