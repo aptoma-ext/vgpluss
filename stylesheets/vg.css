@@ -686,15 +686,16 @@ h1 {
  */
 .iphone .alf-container,
 .iphone .alf-region{
-    margin-left: 15px;
-    margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .iphone .alf-container.top-image {
     margin: 0 0 20px;
+    padding: 0;
 }
 
 .iphone.tmpl-no-media .title{
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 /**
