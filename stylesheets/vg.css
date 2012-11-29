@@ -196,10 +196,11 @@ h1 {
     bottom: 0;
     padding: 30px 0 15px;
 }
-.dark-background {
+.black-background {
     position: absolute;
     bottom: 0;
     padding: 30px 0 15px;
+    background: #171717;
 }
 
 .element-inline {
