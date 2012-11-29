@@ -690,6 +690,10 @@ h1 {
     padding-left: 15px;
     padding-right: 15px;
 }
+.iphone .byline{
+    padding: 8px 0;
+    margin: 0 15px 10px;
+}
 .iphone .alf-container.top-image {
     margin: 0 0 20px;
     padding: 0;
