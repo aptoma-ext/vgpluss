@@ -434,9 +434,12 @@ h1 {
 .header-serif h1 {
     font-family: ChronicleDeck-Black;
     font-size: 72px;
-    line-height: 72px;
+    line-height: 1em;
     margin: 0;
     font-weight: normal;
+}
+.iphone .header-serif h1 {
+    font-size: 44px;
 }
 
 .header-sans-serif h1 {
