@@ -193,7 +193,8 @@ h1 {
 
 .overlay-bottom {
     position: absolute;
-    bottom: 15px;
+    bottom: 0;
+    padding: 30px 0 15px;
 }
 
 .element-inline {
