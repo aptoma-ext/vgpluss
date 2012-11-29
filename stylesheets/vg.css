@@ -451,22 +451,7 @@ h1 {
 .iphone .header-sans-serif h1 {
     font-size: 60px;
 }
-/*
-.frontpage-1 .frontpage-top-left h1 {
-    font-size: 106px;
-    margin: 34px 0;
-    -webkit-text-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.20);
-    text-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.20);
-    line-height: 96px;
-    letter-spacing: -0.04em;
-}
 
-.frontpage-2 .frontpage-top-left h1 {
-    font-size: 130px;
-    margin: 80px 0;
-    line-height: 130px;
-}
-*/
 .frontpage-1 .excerpt { /* Excerpt-Box */
     background: white;
     color: #333;
@@ -698,7 +683,7 @@ h1 {
  */
 .iphone-portrait .alf-container,
 .iphone-portrait .alf-region{
-    margin: 15px 15px 0;
+    margin: 0 15px;
 }
 .iphone-portrait .alf-container.top-image {
     margin: 0;
