@@ -694,7 +694,7 @@ h1 {
  */
 .iphone-portrait .alf-container,
 .iphone-portrait .alf-region{
-    margin: 0 15px;
+    margin: 15px 15px 0;
 }
 .iphone-portrait .alf-container.top-image {
     margin: 0;
