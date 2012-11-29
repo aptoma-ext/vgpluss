@@ -6,9 +6,7 @@
   right: 0;
   padding: 35px;
 }
-.iphone-portrait {
-    padding: 15px;
-}
+
 
 [class*=col-] {
   position: absolute;
