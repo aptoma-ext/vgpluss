@@ -73,7 +73,16 @@ body {
 }
 
 a, a:visited {
-    color: #e00b04;
+    color: #333;
+    position: relative;
+    padding-right: 10px;
+    text-decoration: none;
+}
+a:after {
+    content: ' »';
+    position: absolute
+    right: 0;
+    top: 0;
 }
 
 .layer-content {
