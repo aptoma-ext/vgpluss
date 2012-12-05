@@ -78,7 +78,7 @@ a, a:visited {
     border-bottom: 1px dotted #ccc;
 }
 a:after {
-    content: ' »';
+    content: ' &raquo;';
 }
 
 .section-nyheter a, .section-nyheter a:visited {
