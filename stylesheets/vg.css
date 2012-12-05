@@ -84,31 +84,31 @@ a:after {
 }
 
 .section-nyheter a, .section-nyheter a:visited {
-    background-color:rgb(0,103,142);
+    color:rgb(0,103,142);
 }
 .section-reise a, .section-reise a:visited {
-    background-color:rgb(0,76,102);
+    color:rgb(0,76,102);
 }
 .section-rampelys a, .section-rampelys a:visited {
-    background-color:rgb(102,0,102);
+    color:rgb(102,0,102);
 }
 .section-sport a, .section-sport a:visited {
-    background-color:rgb(140,0,0);
+    color:rgb(140,0,0);
 }
 .section-sistesiden a, .section-sistesiden a:visited {
-    background-color:rgb(53,53,38);
+    color:rgb(53,53,38);
 }
 .section-mat-og-drikke a, .section-mat-og-drikke a:visited {
-    background-color:rgb(140,70,0);
+    color:rgb(140,70,0);
 }
 .section-meninger a, .section-meninger a:visited {
-    background-color:rgb(178,133,0);
+    color:rgb(178,133,0);
 }
 .section-nyttig a, .section-nyttig a:visited {
-    background-color:rgb(0,113,0);
+    color:rgb(0,113,0);
 }
 .section-okonomi a, .section-okonomi a:visited {
-    background-color:rgb(0,102,102);
+    color:rgb(0,102,102);
 }
 
 .layer-content {
