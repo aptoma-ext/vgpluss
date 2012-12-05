@@ -83,6 +83,34 @@ a:after {
     content: ' »';
 }
 
+.section-nyheter a, .section-nyheter a:visited {
+    background-color:rgb(0,103,142);
+}
+.section-reise .header-section span {
+    background-color:rgb(0,76,102);
+}
+.section-rampelys .header-section span {
+    background-color:rgb(102,0,102);
+}
+.section-sport .header-section span {
+    background-color:rgb(140,0,0);
+}
+.section-sistesiden .header-section span {
+    background-color:rgb(53,53,38);
+}
+.section-mat-og-drikke .header-section span {
+    background-color:rgb(140,70,0);
+}
+.section-meninger .header-section span {
+    background-color:rgb(178,133,0);
+}
+.section-nyttig .header-section span {
+    background-color:rgb(0,113,0);
+}
+.section-okonomi .header-section span {
+    background-color:rgb(0,102,102);
+}
+
 .layer-content {
     background-color: #f5f5f5;
 }
