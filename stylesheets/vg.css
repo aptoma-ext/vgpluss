@@ -369,9 +369,12 @@ h1 {
     -webkit-overflow-scrolling: touch;
 }
 
-.frontpage-top-left,
 .tmpl-cover-with-small-image,
-.tmpl-cover-with-text-only{
+.tmpl-cover-with-text-only {
+    padding: 95px 35px 35px;
+}
+
+.frontpage-top-left {
     position: absolute;
     padding: 95px 35px 35px;
     color: #FFF;
