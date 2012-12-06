@@ -133,6 +133,7 @@ a:after {
 h1, h2, h3 {
     font-family: Gotham-Medium, Helvetica, Verdana, Arial;
     font-weight: normal;
+    -webkit-backface-visibility: hidden;
 }
 
 h1 {
