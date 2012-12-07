@@ -79,7 +79,7 @@ a, a:visited {
 }
 
 a:after {
-    content: ' »';
+    content: ' >';
 }
 
 .section-nyheter a, .section-nyheter a:visited {
