@@ -801,6 +801,9 @@ h1 {
     left: 35px;
     margin-top: -110px;
 }
+.tmpl-dagens-rute .frontpage-top-left h1:first-line{
+    font-size: 19px;
+}
 .tmpl-dagens-rute .frontpage-top-left:after {
     content:'';
     position: absolute;
