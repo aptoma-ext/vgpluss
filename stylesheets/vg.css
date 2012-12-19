@@ -787,6 +787,11 @@ h1 {
 }
 
 
+.tmpl-dagens-rute .media-element{
+    -webkit-box-pack: end;
+    -moz-box-pack: end;
+}
+
 
 /**
  * Specific iPhone styles
