@@ -806,11 +806,7 @@ h1 {
     top: 50%;
     left: 35px;
 }
-.dagens-rute-light .frontpage-top-left,
-.dagens-rute-light .frontpage-top-left:after {
-    border-color: #ccc;
-    background: #fff;
-}
+
 .tmpl-dagens-rute .frontpage-top-left h1 {
     font-size: 203px;
     line-height: 0.8em;
@@ -838,6 +834,11 @@ h1 {
 }
 .iphone.tmpl-dagens-rute .header-sans-serif h1 {
     font-size: 84px;
+}
+.dagens-rute-light .frontpage-top-left,
+.dagens-rute-light .frontpage-top-left:after {
+    border-color: #ccc;
+    background: #fff;
 }
 
 /**
