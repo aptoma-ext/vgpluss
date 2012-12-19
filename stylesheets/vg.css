@@ -547,9 +547,9 @@ h1 {
 
 .header-serif h1 {
     font-family: ChronicleDeck-Black;
-    font-size: 72px;
+    font-size: 80px;
     line-height: 1em;
-    margin: 0 0 24px;
+    margin: 0 0 16px;
     font-weight: normal;
 }
 .iphone .header-serif h1 {
