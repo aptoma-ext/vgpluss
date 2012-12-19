@@ -815,8 +815,8 @@ h1 {
 }
 .tmpl-dagens-rute .frontpage-top-left h1:first-line{
     display:block;
-    Width: 260px;
-    Overflow:visible;
+    width: 260px;
+    overflow:visible;
     font-size: 130px;
     line-height: 0.8em;
 }
