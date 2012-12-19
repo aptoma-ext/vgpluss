@@ -791,7 +791,12 @@ h1 {
     -webkit-box-pack: end;
     -moz-box-pack: end;
 }
-
+.tmpl-dagens-rute .frontpage-top-left {
+    padding: 0;
+    margin: 235px 700px 35px 35px;
+    width: 289px;
+    border: 1px solid #fff;
+}
 
 /**
  * Specific iPhone styles
