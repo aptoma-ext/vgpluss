@@ -800,11 +800,16 @@ h1 {
 }
 .tmpl-dagens-rute .frontpage-top-left {
     padding: 15px 10px 0;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid #4d4d4d;
     width: 260px;
     margin-top: -150px;
     top: 50%;
     left: 35px;
+}
+.dagens-rute-light .frontpage-top-left,
+.dagens-rute-light .frontpage-top-left:after {
+    border-color: #ccc;
+    background: #fff;
 }
 .tmpl-dagens-rute .frontpage-top-left h1 {
     font-size: 203px;
@@ -825,8 +830,8 @@ h1 {
     width: 20px; 
 	height: 20px; 
 	background-color: #000;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-top: 1px solid #4d4d4d;
+    border-right: 1px solid #4d4d4d;
     transform: rotate(45deg);
     -moz-transform:rotate(45deg); /* Firefox */
     -webkit-transform:rotate(45deg); /* Safari and Chrome */
