@@ -265,6 +265,9 @@ h1 {
 .container-dark {
     background-color: #000;
 }
+.container-light {
+    background-color: #fff;
+}
 
 .alf-container-fullscreen .media-element {
     position: absolute;
