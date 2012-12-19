@@ -802,13 +802,15 @@ h1 {
     margin-top: -110px;
 }
 .tmpl-dagens-rute .frontpage-top-left h1 {
-    font-size: 180px;
+    font-size: 203px;
+    line-height: 0.8em;
 }
 .tmpl-dagens-rute .frontpage-top-left h1:first-line{
     display:block;
-    Width:200px;
+    Width: 260px;
     Overflow:visible;
     font-size: 130px;
+    line-height: 0.8em;
 }
 .tmpl-dagens-rute .frontpage-top-left:after {
     content:'';
