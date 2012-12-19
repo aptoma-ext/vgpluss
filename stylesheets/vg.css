@@ -794,7 +794,7 @@ h1 {
 .tmpl-dagens-rute .frontpage-top-left {
     padding: 15px 10px 0;
     width: 269px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     top: 50%;
     left: 35px;
     margin-top: -110px;
@@ -807,8 +807,8 @@ h1 {
     width: 20px; 
 	height: 20px; 
 	background-color: #000;
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
-    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
     transform: rotate(45deg);
     -moz-transform:rotate(45deg); /* Firefox */
     -webkit-transform:rotate(45deg); /* Safari and Chrome */
