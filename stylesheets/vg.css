@@ -791,7 +791,9 @@ h1 {
     text-align: center;
 }
 
-
+.section-sport .tmpl-dagens-rute {
+    background: #fff;
+}
 .tmpl-dagens-rute .media-element{
     -webkit-box-pack: end;
     -moz-box-pack: end;
