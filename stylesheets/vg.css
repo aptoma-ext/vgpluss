@@ -794,6 +794,9 @@ h1 {
 .section-sport .tmpl-dagens-rute {
     background: #fff;
 }
+.section-sport .tmpl-dagens-rute .white-background {
+    background: #fff;
+}
 .tmpl-dagens-rute .media-element{
     -webkit-box-pack: end;
     -moz-box-pack: end;
