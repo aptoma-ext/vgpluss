@@ -802,11 +802,13 @@ h1 {
 .tmpl-dagens-rute .frontpage-top-left:after {
     content:'';
     position: absolute;
-    right: 0;
+    right: -20px;
     top: 20px;
     width: 20px; 
 	height: 20px; 
-	background-color: rgba(255, 255, 255, 0.3);
+	background-color: #000;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
     transform: rotate(45deg);
     -moz-transform:rotate(45deg); /* Firefox */
     -webkit-transform:rotate(45deg); /* Safari and Chrome */
