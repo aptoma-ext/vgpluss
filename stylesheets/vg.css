@@ -813,6 +813,9 @@ h1 {
     -moz-transform:rotate(45deg); /* Firefox */
     -webkit-transform:rotate(45deg); /* Safari and Chrome */
 }
+.tmpl-dagens-rute .header-sans-serif h1 {
+    font-size: 84px;
+}
 
 /**
  * Specific iPhone styles
