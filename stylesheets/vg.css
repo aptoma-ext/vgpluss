@@ -795,8 +795,8 @@ h1 {
 }
 .tmpl-dagens-rute .frontpage-top-left {
     padding: 15px 10px 0;
-    width: 269px;
     border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 260px;
     top: 50%;
     left: 35px;
     margin-top: -110px;
