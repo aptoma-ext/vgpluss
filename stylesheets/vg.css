@@ -384,6 +384,7 @@ h1 {
     font-family: ChronicleDeck-Black, serif;
     font-weight: normal;
     font-size: 17px;
+    line-height: 0;
 }
 .alf-region blockquote {
     border: 0;
