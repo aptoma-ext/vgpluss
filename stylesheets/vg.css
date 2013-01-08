@@ -877,6 +877,9 @@ hr {
     font-size: 30px;
     font-weight: normal;
 }
+.tmpl-gallery .title h1 {
+    text-align: center;
+}
 
 .tmpl-gallery .galleri-button-large:after {
     content:'';
