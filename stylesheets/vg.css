@@ -858,7 +858,6 @@ hr {
     background-image:linear-gradient(-90deg,rgba(102,102,102,0.8) 0%,rgba(48,48,48,0.8) 46%,rgba(34,34,34,0.8) 47%,rgba(0,0,0,0.8) 100%);
     width:300px;
     height:60px;
-    line-height: 60px;
     border-color:rgba(0,0,0,0.8);
     border-width:1px;
     -moz-border-radius:9px;
@@ -871,6 +870,7 @@ hr {
 }
 .tmpl-gallery .galleri-button-large:after {
     content:'Vis galleri';
+    line-height: 60px;
 }
 
 .tmpl-dagens-rute .frontpage-top-left h1 {
