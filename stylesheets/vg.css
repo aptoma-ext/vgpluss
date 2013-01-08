@@ -197,6 +197,9 @@ h1 {
     font-family: Gotham-Bold, sans-serif;
     font-weight: normal;
 }
+hr {
+    border-color: #ddd;
+}
 
 .alf-page-content {
     -webkit-transform-style: preserve-3d;
