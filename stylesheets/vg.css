@@ -885,6 +885,7 @@ hr {
     position: absolute;
     right: 20px;
     background: url('http://wp.agens.no/vg/expandGallery.png') no-repeat center center;
+    background-size: 100%;
 }
 
 .tmpl-dagens-rute .frontpage-top-left h1 {
