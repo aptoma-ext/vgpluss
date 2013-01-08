@@ -9,6 +9,12 @@
 .clear {
     clear: both;
 }
+.alignleft {
+    float: left;
+}
+.alignright {
+    float: right;
+}
 
 [class*=col-] {
   position: absolute;
