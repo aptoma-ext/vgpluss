@@ -844,7 +844,8 @@ hr {
     height: 23px;
     display: block;
     float: right;
-    background: #DE1D25;
+    background: url('http://wp.agens.no/vg/logoByline.png') no-repeat center center #DE1D25;
+    background-size: 100%;
 }
 
 .tmpl-dagens-rute .frontpage-top-left h1 {
