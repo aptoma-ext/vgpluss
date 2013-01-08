@@ -834,6 +834,9 @@ hr {
     width: 120px;
     height: 160px;
 }
+.tmpl-frontpage-vg-mener .vg-mener {
+    background: #DE1D25;
+}
 .tmpl-frontpage-vg-mener .colophon{
     background: #EAEAEA;
     height: 120px;
