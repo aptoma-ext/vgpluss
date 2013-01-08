@@ -813,17 +813,19 @@ h1 {
 }
 
 /*MENINGER MALER */
+.tmpl-frontpage-vg-mener .title,
 .tmpl-frontpage-author-image .title {
     width: 794px;
     margin-right: 40px;
     float: left;
 }
-.tmpl-frontpage-author-image .excerpt {
+.tmpl-frontpage-vg-mener .excerpt,
+.tmpl-frontpage-author-image .excerpt{
     width: 794px;
     margin-right: 40px;
     float: left;
 }
-
+.tmpl-frontpage-vg-mener .vg-mener img,
 .tmpl-frontpage-author-image .author-image img {
     width: 120px;
     height: 160px;
