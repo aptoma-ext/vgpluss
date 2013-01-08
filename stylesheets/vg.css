@@ -198,7 +198,7 @@ h1 {
     font-weight: normal;
 }
 hr {
-    background-color: #ddd;
+    border:none;
 }
 
 .alf-page-content {
