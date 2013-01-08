@@ -812,6 +812,17 @@ h1 {
     left: 35px;
 }
 
+/*MENINGER MALER */
+.tmpl-frontpage-author-image .title {
+    width: 800px;
+    float: left;
+}
+.tmpl-frontpage-author-image .excerpt {
+    width: 800px;
+    float: left;
+}
+
+
 .tmpl-dagens-rute .frontpage-top-left h1 {
     font-size: 203px;
     line-height: 0.8em;
