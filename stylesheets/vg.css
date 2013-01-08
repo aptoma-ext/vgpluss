@@ -874,8 +874,8 @@ hr {
     content:'Vis galleriet';
     line-height: 60px;
     font-family: Gotham-Medium;
-    font-weight: normal;
     font-size: 30px;
+    font-weight: normal;
 }
 
 .tmpl-gallery .galleri-button-large:after {
