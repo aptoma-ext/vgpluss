@@ -872,6 +872,9 @@ hr {
 .tmpl-gallery .galleri-button-large:after {
     content:'Vis galleri';
     line-height: 60px;
+    font-family: Gotham-Medium;
+    font-weight: normal;
+    font-size: 30px;
 }
 
 .tmpl-dagens-rute .frontpage-top-left h1 {
