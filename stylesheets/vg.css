@@ -821,13 +821,11 @@ hr {
 .tmpl-frontpage-author-image .title {
     width: 794px;
     margin-right: 40px;
-    float: left;
 }
 .tmpl-frontpage-vg-mener .excerpt,
 .tmpl-frontpage-author-image .excerpt{
     width: 794px;
     margin-right: 40px;
-    float: left;
 }
 .tmpl-frontpage-vg-mener .vg-mener .vg-mener-image,
 .tmpl-frontpage-author-image .author-image img {
