@@ -6,7 +6,9 @@
   right: 0;
   padding: 35px;
 }
-
+.clear {
+    clear: both;
+}
 
 [class*=col-] {
   position: absolute;
