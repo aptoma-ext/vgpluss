@@ -824,14 +824,10 @@ h1 {
     margin-right: 40px;
     float: left;
 }
-.tmpl-frontpage-author-image .author-image {
-    width: 120px;
-    float: right;
-    display: block;
-}
+
 .tmpl-frontpage-author-image .author-image img {
-    width: 100%;
-    height: auto;
+    width: 120px;
+    height: 160px;
 }
 .byline .vg-logo-small {
     width: 120px;
