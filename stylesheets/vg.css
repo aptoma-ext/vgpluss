@@ -814,11 +814,13 @@ h1 {
 
 /*MENINGER MALER */
 .tmpl-frontpage-author-image .title {
-    width: 800px;
+    width: 760px;
+    margin-right: 40px;
     float: left;
 }
 .tmpl-frontpage-author-image .excerpt {
-    width: 800px;
+    width: 760px;
+    margin-right: 40px;
     float: left;
 }
 
