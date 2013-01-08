@@ -826,6 +826,8 @@ h1 {
 }
 .tmpl-frontpage-author-image .author-image {
     width: 120px;
+    float: left;
+    display: block;
 }
 .tmpl-frontpage-author-image .author-image img {
     width: 100%;
