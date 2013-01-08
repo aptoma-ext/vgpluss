@@ -829,10 +829,14 @@ hr {
     margin-right: 40px;
     float: left;
 }
-.tmpl-frontpage-vg-mener .vg-mener img,
+.tmpl-frontpage-vg-mener .vg-mener .vg-mener-image,
 .tmpl-frontpage-author-image .author-image img {
     width: 120px;
     height: 160px;
+}
+.tmpl-frontpage-vg-mener .vg-mener .vg-mener-image {
+    background: url('http://wp.agens.no/vg/vgmenerretina.png') no-repeat center center;
+    background-size: 100%;
 }
 
 .tmpl-frontpage-vg-mener .colophon{
@@ -844,7 +848,7 @@ hr {
     height: 23px;
     display: block;
     float: right;
-    background: url('http://wp.agens.no/vg/logoByline.png') no-repeat center center #DE1D25;
+    background: url('http://wp.agens.no/vg/logoByline.png') no-repeat center center;
     background-size: 100%;
 }
 
