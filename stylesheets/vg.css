@@ -788,6 +788,7 @@ hr {
 .tmpl-widescreen-frontpage-dark-background .content-indent{
     background: #171717;
 }
+.tmpl-gallery .title,
 .tmpl-widescreen-frontpage .title,
 .tmpl-widescreen-frontpage .excerpt,
 .tmpl-widescreen-frontpage .byline,
@@ -876,9 +877,6 @@ hr {
     font-family: Gotham-Medium;
     font-size: 30px;
     font-weight: normal;
-}
-.tmpl-gallery .title {
-    text-align: center;
 }
 
 .tmpl-gallery .galleri-button-large:after {
