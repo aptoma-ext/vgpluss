@@ -869,12 +869,14 @@ hr {
     box-shadow:0px 1px 4px rgba(0,0,0,0.52) ,0px 0px 30px rgba(255,255,255,0.16);
     padding: 0 80px 0 20px;
     position: relative;
+}
+.tmpl-gallery .galleri-button-large:before {
+    content:'Vis galleriet';
     line-height: 60px;
     font-family: Gotham-Medium;
     font-weight: normal;
     font-size: 30px;
 }
-
 
 .tmpl-gallery .galleri-button-large:after {
     content:'';
