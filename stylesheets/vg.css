@@ -823,7 +823,13 @@ h1 {
     margin-right: 40px;
     float: left;
 }
-
+.byline .vg-logo-small {
+    width: 120px;
+    height: 23px;
+    display: block;
+    float: right;
+    background: #efefef;
+}
 
 .tmpl-dagens-rute .frontpage-top-left h1 {
     font-size: 203px;
