@@ -182,6 +182,10 @@ h1 {
     font-family: Gotham-Bold, sans-serif;
     font-weight: normal;
 }
+hr {
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
 
 .alf-page-content {
     -webkit-transform-style: preserve-3d;
