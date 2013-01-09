@@ -843,8 +843,8 @@ hr {
 /*MENINGER MALER */
 .tmpl-frontpage-vg-mener .title,
 .tmpl-frontpage-author-image .title {
-    width: 794px;
     margin-right: 40px;
+    width: 794px;
 }
 .tmpl-frontpage-vg-mener .excerpt,
 .tmpl-frontpage-author-image .excerpt{
