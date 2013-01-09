@@ -829,6 +829,79 @@ h1 {
     background: #fff;
 }
 
+*MENINGER MALER */
+.tmpl-frontpage-vg-mener .title,
+.tmpl-frontpage-author-image .title {
+    width: 794px;
+    margin-right: 40px;
+}
+.tmpl-frontpage-vg-mener .excerpt,
+.tmpl-frontpage-author-image .excerpt{
+    width: 794px;
+    margin-right: 40px;
+}
+.tmpl-frontpage-vg-mener .vg-mener .vg-mener-image,
+.tmpl-frontpage-author-image .author-image img {
+    width: 120px;
+    height: 160px;
+}
+.tmpl-frontpage-vg-mener .vg-mener .vg-mener-image {
+    background: url('http://wp.agens.no/vg/vgmenerretina.png') no-repeat center center;
+    background-size: 100%;
+    margin-bottom: 10px;
+}
+
+.tmpl-frontpage-vg-mener .colophon{
+    background: #EAEAEA;
+    height: 120px;
+}
+.byline .vg-logo-small {
+    width: 120px;
+    height: 23px;
+    display: block;
+    float: right;
+    background: url('http://wp.agens.no/vg/logoByline.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.tmpl-gallery .galleri-button-large {
+    background-image:-moz-linear-gradient(59% -7% -90deg,rgba(102,102,102,0.8) 0%,rgba(48,48,48,0.8) 46%,rgba(34,34,34,0.8) 47%,rgba(0,0,0,0.8) 100%); 
+    background-image:-webkit-gradient(linear,59% -7%,59% 117%,color-stop(0, rgba(102,102,102,0.8)),color-stop(0.46, rgba(48,48,48,0.8)),color-stop(0.47, rgba(34,34,34,0.8)),color-stop(1, rgba(0,0,0,0.8)));
+    background-image:-webkit-linear-gradient(-90deg,rgba(102,102,102,0.8) 0%,rgba(48,48,48,0.8) 46%,rgba(34,34,34,0.8) 47%,rgba(0,0,0,0.8) 100%);
+    background-image:linear-gradient(-90deg,rgba(102,102,102,0.8) 0%,rgba(48,48,48,0.8) 46%,rgba(34,34,34,0.8) 47%,rgba(0,0,0,0.8) 100%);
+    width:200px;
+    height:60px;
+    border-color:rgba(0,0,0,0.8);
+    border-width:1px;
+    -moz-border-radius:9px;
+    -webkit-border-radius:9px;
+    border-radius:9px;
+    border-style:solid;
+    -moz-box-shadow:0px 1px 4px rgba(0,0,0,0.52) ,0px 0px 30px rgba(255,255,255,0.16);
+    -webkit-box-shadow:0px 1px 4px rgba(0,0,0,0.52) ,0px 0px 30px rgba(255,255,255,0.16);
+    box-shadow:0px 1px 4px rgba(0,0,0,0.52) ,0px 0px 30px rgba(255,255,255,0.16);
+    padding: 0 80px 0 20px;
+    position: relative;
+    margin: 20px auto;
+}
+.tmpl-gallery .galleri-button-large:before {
+    content:'Vis galleriet';
+    line-height: 60px;
+    font-family: Gotham-Medium;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.tmpl-gallery .galleri-button-large:after {
+    content:'';
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    right: 20px;
+    background: url('http://wp.agens.no/vg/expandGallery.png') no-repeat center center;
+    background-size: 100%;
+}
+
 /**
  * Specific iPhone styles
  * These styles affects only iphone
