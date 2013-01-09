@@ -731,7 +731,8 @@ h1 {
  * These styles affects only specific templates
  */
 
-.tmpl-landscape-slim-2 .landscape-slim-media {
+.tmpl-landscape-slim-2 .landscape-slim-media,
+.tmpl-landscape-slim-3 .landscape-slim-media {
     max-height: 340px;
     margin-bottom: 20px;
     overflow: hidden;
