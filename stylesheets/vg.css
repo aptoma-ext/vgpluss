@@ -33,6 +33,11 @@
     src: url(http://static.vg.no/vgpluss/fonts/DharmaGothicE-Bold.otf);
 }
 
+@font-face {
+    font-family: 'Palatino';
+    src: url(http://static.vg.no/vgpluss/fonts/palatino.otf);
+}
+
 /**
  * General styles
  */
