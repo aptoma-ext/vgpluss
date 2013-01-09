@@ -1,51 +1,36 @@
 @font-face {
     font-family: 'ChronicleDeck-Black';
-    src: url(http://staticstage.vg.no/vgpluss/fonts/ChronicleDeck-Black.otf);
+    src: url(http://static.vg.no/vgpluss/fonts/ChronicleDeck-Black.otf);
 }
 
 @font-face {
     font-family: 'Gotham-Black';
-    src: url(http://staticstage.vg.no/vgpluss/fonts/Gotham-Black.otf);
+    src: url(http://static.vg.no/vgpluss/fonts/Gotham-Black.otf);
 }
 
 @font-face {
     font-family: 'Gotham-Bold';
-    src: url(http://staticstage.vg.no/vgpluss/fonts/Gotham-Bold.otf);
+    src: url(http://static.vg.no/vgpluss/fonts/Gotham-Bold.otf);
 }
 
 @font-face {
     font-family: 'Gotham-Book';
-    src: url(http://staticstage.vg.no/vgpluss/fonts/Gotham-Book.otf);
+    src: url(http://static.vg.no/vgpluss/fonts/Gotham-Book.otf);
 }
 
 @font-face {
     font-family: 'Gotham-Light';
-    src: url(http://staticstage.vg.no/vgpluss/fonts/Gotham-Light.otf);
+    src: url(http://static.vg.no/vgpluss/fonts/Gotham-Light.otf);
 }
 
 @font-face {
     font-family: 'Gotham-Medium';
-    src: url(http://staticstage.vg.no/vgpluss/fonts/Gotham-Medium.otf);
-}
-
-@font-face {
-    font-family: 'DharmaGothicE_Light_R';
-    src: url(http://staticstage.vg.no/vgpluss/fonts/DharmaGothicE_Light_R.otf);
+    src: url(http://static.vg.no/vgpluss/fonts/Gotham-Medium.otf);
 }
 
 @font-face {
     font-family: 'DharmaGothicE-Bold';
-    src: url(http://staticstage.vg.no/vgpluss/fonts/DharmaGothicE-Bold.otf);
-}
-
-@font-face {
-    font-family: 'DharmaGothicM-ExBold';
-    src: url(http://staticstage.vg.no/vgpluss/fonts/DharmaGothicM-ExBold.otf);
-}
-
-@font-face {
-    font-family: 'DharmaGothicM-Regular';
-    src: url(http://staticstage.vg.no/vgpluss/fonts/DharmaGothicM-Regular.otf);
+    src: url(http://static.vg.no/vgpluss/fonts/DharmaGothicE-Bold.otf);
 }
 
 /**
@@ -196,10 +181,6 @@ h1 {
     letter-spacing: -0.04em;
     font-family: Gotham-Bold, sans-serif;
     font-weight: normal;
-}
-hr {
-    border:none;
-    border-bottom: 1px solid #ddd;
 }
 
 .alf-page-content {
@@ -385,10 +366,9 @@ hr {
     border: 0;
 }
 .alf-region p strong {
-    font-family: ChronicleDeck-Black, serif;
+    font-family: ChronicleDeck-Black, sans-serif;
     font-weight: normal;
     font-size: 17px;
-    line-height: 0;
 }
 .alf-region blockquote {
     border: 0;
@@ -421,7 +401,6 @@ hr {
     font-weight: normal;
     line-height: 24px;
     font-size: 18px;
-    font-style: italic;
 }
 
 @media (min-width: 1024px) and (max-width: 1024px) {
@@ -730,17 +709,17 @@ hr {
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
     .gradient-light-to-dark {
-	    background: url(http://static.vg.no/vgpluss/gfx/GradientBottomTop@2x.png) no-repeat left bottom;
+        background: url(http://static.vg.no/vgpluss/gfx/GradientBottomTop@2x.png) no-repeat left bottom;
         background-size: 100% 100%;
-	}
-	.tmpl-cover-with-background-and-gradient .gradient-light-to-dark {
-	    background: url(http://static.vg.no/vgpluss/gfx/GradientCoverBottomTop@2x.png) no-repeat left bottom;
+    }
+    .tmpl-cover-with-background-and-gradient .gradient-light-to-dark {
+        background: url(http://static.vg.no/vgpluss/gfx/GradientCoverBottomTop@2x.png) no-repeat left bottom;
         background-size: 100% 100%;
-	}
-	.left-gradient-dark-to-light {
-	    background: url(http://static.vg.no/vgpluss/gfx/GradientLeftRight@2x.png) no-repeat left top;
+    }
+    .left-gradient-dark-to-light {
+        background: url(http://static.vg.no/vgpluss/gfx/GradientLeftRight@2x.png) no-repeat left top;
         background-size: 100% 100%;
-	}
+    }
     .dark-background {
         background: url(http://static.vg.no/vgpluss/gfx/bg_noise@2x.png) repeat left bottom #3D3D3D;
     }
@@ -788,7 +767,6 @@ hr {
 .tmpl-widescreen-frontpage-dark-background .content-indent{
     background: #171717;
 }
-.tmpl-gallery .title,
 .tmpl-widescreen-frontpage .title,
 .tmpl-widescreen-frontpage .excerpt,
 .tmpl-widescreen-frontpage .byline,
@@ -817,79 +795,6 @@ hr {
     left: 35px;
 }
 
-/*MENINGER MALER */
-.tmpl-frontpage-vg-mener .title,
-.tmpl-frontpage-author-image .title {
-    width: 794px;
-    margin-right: 40px;
-}
-.tmpl-frontpage-vg-mener .excerpt,
-.tmpl-frontpage-author-image .excerpt{
-    width: 794px;
-    margin-right: 40px;
-}
-.tmpl-frontpage-vg-mener .vg-mener .vg-mener-image,
-.tmpl-frontpage-author-image .author-image img {
-    width: 120px;
-    height: 160px;
-}
-.tmpl-frontpage-vg-mener .vg-mener .vg-mener-image {
-    background: url('http://wp.agens.no/vg/vgmenerretina.png') no-repeat center center;
-    background-size: 100%;
-    margin-bottom: 10px;
-}
-
-.tmpl-frontpage-vg-mener .colophon{
-    background: #EAEAEA;
-    height: 120px;
-}
-.byline .vg-logo-small {
-    width: 120px;
-    height: 23px;
-    display: block;
-    float: right;
-    background: url('http://wp.agens.no/vg/logoByline.png') no-repeat center center;
-    background-size: 100%;
-}
-
-.tmpl-gallery .galleri-button-large {
-    background-image:-moz-linear-gradient(59% -7% -90deg,rgba(102,102,102,0.8) 0%,rgba(48,48,48,0.8) 46%,rgba(34,34,34,0.8) 47%,rgba(0,0,0,0.8) 100%); 
-    background-image:-webkit-gradient(linear,59% -7%,59% 117%,color-stop(0, rgba(102,102,102,0.8)),color-stop(0.46, rgba(48,48,48,0.8)),color-stop(0.47, rgba(34,34,34,0.8)),color-stop(1, rgba(0,0,0,0.8)));
-    background-image:-webkit-linear-gradient(-90deg,rgba(102,102,102,0.8) 0%,rgba(48,48,48,0.8) 46%,rgba(34,34,34,0.8) 47%,rgba(0,0,0,0.8) 100%);
-    background-image:linear-gradient(-90deg,rgba(102,102,102,0.8) 0%,rgba(48,48,48,0.8) 46%,rgba(34,34,34,0.8) 47%,rgba(0,0,0,0.8) 100%);
-    width:200px;
-    height:60px;
-    border-color:rgba(0,0,0,0.8);
-    border-width:1px;
-    -moz-border-radius:9px;
-    -webkit-border-radius:9px;
-    border-radius:9px;
-    border-style:solid;
-    -moz-box-shadow:0px 1px 4px rgba(0,0,0,0.52) ,0px 0px 30px rgba(255,255,255,0.16);
-    -webkit-box-shadow:0px 1px 4px rgba(0,0,0,0.52) ,0px 0px 30px rgba(255,255,255,0.16);
-    box-shadow:0px 1px 4px rgba(0,0,0,0.52) ,0px 0px 30px rgba(255,255,255,0.16);
-    padding: 0 80px 0 20px;
-    position: relative;
-    margin: 20px auto;
-}
-.tmpl-gallery .galleri-button-large:before {
-    content:'Vis galleriet';
-    line-height: 60px;
-    font-family: Gotham-Medium;
-    font-size: 30px;
-    font-weight: normal;
-}
-
-.tmpl-gallery .galleri-button-large:after {
-    content:'';
-    height: 60px;
-    width: 60px;
-    position: absolute;
-    right: 20px;
-    background: url('http://wp.agens.no/vg/expandGallery.png') no-repeat center center;
-    background-size: 100%;
-}
-
 .tmpl-dagens-rute .frontpage-top-left h1 {
     font-size: 203px;
     line-height: 0.8em;
@@ -907,8 +812,8 @@ hr {
     right: -11px;
     top: 30px;
     width: 20px;
-	height: 20px;
-	background-color: #000;
+    height: 20px;
+    background-color: #000;
     border-top: 1px solid #4d4d4d;
     border-right: 1px solid #4d4d4d;
     transform: rotate(45deg);
