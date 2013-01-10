@@ -542,7 +542,7 @@ hr {
 .header-serif h1 {
     font-family: ChronicleDeck-Black;
     font-size: 80px;
-    line-height: 1em;
+    line-height: 0.8em;
     margin: 0 0 16px;
     font-weight: normal;
 }
