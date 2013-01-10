@@ -840,28 +840,32 @@ hr {
     background: #fff;
 }
 
-*MENINGER MALER */
+/*MENINGER MALER */
 .tmpl-frontpage-vg-mener .title,
+.tmpl-frontpage-vg-mener-with-text-only .title,
 .tmpl-frontpage-author-image .title {
-    width: 794px;
     margin-right: 40px;
+    width: 794px;
 }
 .tmpl-frontpage-vg-mener .excerpt,
+.tmpl-frontpage-vg-mener-with-text-only .excerpt,
 .tmpl-frontpage-author-image .excerpt{
     width: 794px;
     margin-right: 40px;
 }
 .tmpl-frontpage-vg-mener .vg-mener .vg-mener-image,
+.tmpl-frontpage-vg-mener-with-text-only .vg-mener .vg-mener-image,
 .tmpl-frontpage-author-image .author-image img {
     width: 120px;
     height: 160px;
 }
+.tmpl-frontpage-vg-mener-with-text-only .vg-mener .vg-mener-image,
 .tmpl-frontpage-vg-mener .vg-mener .vg-mener-image {
     background: url('http://wp.agens.no/vg/vgmenerretina.png') no-repeat center center;
     background-size: 100%;
     margin-bottom: 10px;
 }
-
+.tmpl-frontpage-vg-mener-with-text-only .colophon,
 .tmpl-frontpage-vg-mener .colophon{
     background: #EAEAEA;
     height: 120px;
