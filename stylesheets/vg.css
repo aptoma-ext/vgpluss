@@ -861,7 +861,7 @@ hr {
 }
 .tmpl-frontpage-vg-mener-with-text-only .vg-mener .vg-mener-image,
 .tmpl-frontpage-vg-mener .vg-mener .vg-mener-image {
-    background: url('http://static.vg.no/vgpluss/gfx/vgmenerretina.png') no-repeat center center;
+    background: url('../gfx/vgmenerretina.png') no-repeat center center;
     background-size: 100%;
     margin-bottom: 10px;
 }
