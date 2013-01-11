@@ -341,7 +341,7 @@ hr {
     position: static;
     background: none;
     color: #444;
-    border-radius: none;
+    border-radius: 0;
     border: none;
     box-shadow: none;
     float: none;
