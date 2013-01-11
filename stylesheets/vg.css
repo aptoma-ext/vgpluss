@@ -344,6 +344,7 @@ hr {
     border-radius: none;
     border: none;
     box-shadow: none;
+    float: none;
 }
 
 .alf-supports-fullscreen img {
