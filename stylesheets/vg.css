@@ -914,7 +914,9 @@ hr {
     background: url('http://wp.agens.no/vg/expandGallery.png') no-repeat center center;
     background-size: 100%;
 }
-
+.iphone .sport .overlay-caption {
+    border-color: #DABEBC;
+}
 /**
  * Specific iPhone styles
  * These styles affects only iphone
