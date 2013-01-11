@@ -253,11 +253,12 @@ hr {
 .media-element {
     position: relative;
     line-height: 0;
+    display: -webkit-box;
     display: box;
     -webkit-box-pack: center;
     -moz-box-pack: center;
 }
-.iPhone .media-element {
+.iphone .media-element {
     display:-webkit-box;
 }
 
