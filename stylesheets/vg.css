@@ -258,6 +258,9 @@ hr {
     -webkit-box-pack: center;
     -moz-box-pack: center;
 }
+.iPhone .media-element {
+    display: block;
+}
 
 .container-dark {
     background-color: #000;
@@ -335,6 +338,9 @@ hr {
     border-radius: 5px;
     border: 1px solid #000;
     box-shadow: 0 0 6px #222;
+}
+.iphone .media-element {
+
 }
 .iphone .overlay-caption {
     text-shadow: none;
