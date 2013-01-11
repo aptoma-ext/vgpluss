@@ -960,6 +960,11 @@ hr {
     padding-top: 20px;
 }
 
+.iphone .img {
+    max-height: 416px;
+    overflow: hidden;
+}
+
 /**
  * Alf styles
  * These can be toggled on and off by users in layout preview
