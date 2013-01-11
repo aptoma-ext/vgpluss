@@ -259,7 +259,7 @@ hr {
     -moz-box-pack: center;
 }
 .iPhone .media-element {
-    display: block;
+    -webkit-box-orient: vertical;
 }
 
 .container-dark {
