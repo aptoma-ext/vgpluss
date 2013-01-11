@@ -732,7 +732,7 @@ hr {
         background-size: 100% 100%;
     }
     .dark-background {
-        background: url(../gfx/bg_noise@2x.png) repeat left bottom #3D3D3D;
+        background: url(../gfx/bg_noise.png) repeat left bottom #3D3D3D;
     }
 }
 
