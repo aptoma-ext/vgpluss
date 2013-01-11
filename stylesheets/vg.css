@@ -258,9 +258,6 @@ hr {
     -webkit-box-pack: center;
     -moz-box-pack: center;
 }
-.iphone .media-element {
-    -webkit-box-orient:vertical;
-}
 
 .container-dark {
     background-color: #000;
@@ -955,14 +952,19 @@ hr {
     margin: 0 0 20px;
     padding: 0;
 }
+.iphone .alf-container.top-image {
+    max-height: 416px;
+    overflow: hidden;
+}
 
 .iphone.tmpl-no-media .title {
     padding-top: 20px;
 }
+.iphone .media-element {
+    -webkit-box-orient:vertical;
+}
+.iphone img {
 
-.iphone .img {
-    max-height: 416px;
-    overflow: hidden;
 }
 
 /**
