@@ -260,6 +260,7 @@ hr {
 }
 .iphone .media-element {
     display:-webkit-box;
+    -webkit-box-orient:vertical;
 }
 
 .container-dark {
