@@ -79,11 +79,11 @@ body {
 @media (max-width: 1023px) {
     .chrome {
         width: 100%;
-        overflow: auto;
+        overflow: visible;
     }
 
     .alf-page-content {
-       overflow: auto;
+       overflow: visible;
     }
 }
 
