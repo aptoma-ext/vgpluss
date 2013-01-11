@@ -259,7 +259,8 @@ hr {
     -moz-box-pack: center;
 }
 .iPhone .media-element {
-    display: inherit !important;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
 }
 
 .container-dark {
