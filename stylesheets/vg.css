@@ -716,7 +716,7 @@ hr {
 }
 .dark-background {
     background: url(http://wp.agens.no/vg/bg_noise@2x.png) repeat left bottom #3D3D3D;
-    background-size: 50%;
+    background-size: 200%;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
