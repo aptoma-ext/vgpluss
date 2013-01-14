@@ -572,7 +572,7 @@ hr {
 
 .frontpage-1 .excerpt { /* Excerpt-Box */
     background: white;
-    background: rgba(255,255,255,0.8);
+    background: rgba(255,255,255,0.9);
     color: #333;
     padding: 20px;
     width: 50%;
@@ -607,7 +607,7 @@ hr {
 .frontpage-1 .byline {
     margin-top: 2px;
     background: white;
-    background: rgba(255,255,255,0.8);
+    background: rgba(255,255,255,0.9);
     color: #333;
     padding: 10px 20px;
     width: 50%;
