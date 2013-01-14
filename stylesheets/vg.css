@@ -261,6 +261,7 @@ hr {
     display: box;
     -webkit-box-pack: center;
     -moz-box-pack: center;
+    margin-bottom: 24px;
 }
 
 .container-dark {
