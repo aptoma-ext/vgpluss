@@ -745,6 +745,7 @@ hr {
     height: 61px;
     background: url(http://wp.agens.no/vg/rating/rating1.png) no-repeat center center;
     background-size: 50% 50%;
+    display: block;
 }
 /**
  * Specific Template styles
