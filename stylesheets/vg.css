@@ -333,12 +333,14 @@ hr {
     color: #FFF;
     opacity: 0.9;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     font-size: 15px;
     line-height: 18px;
     border-radius: 5px;
     border: 1px solid #000;
     box-shadow: 0 0 6px #222;
+    width: 100%;
 }
 
 .alf-supports-fullscreen img {
