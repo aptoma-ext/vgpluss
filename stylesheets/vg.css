@@ -275,7 +275,10 @@ hr {
     right: 0;
     bottom: 0;
     left: 0;
-
+}
+.alf-container-fullscreen img {
+    max-height: 748px;
+    max-width: 1024px;
 }
 
 .overlay {
