@@ -1048,7 +1048,7 @@ hr {
 }
 
 .alf-style-text-shadow-strong-white {
-    text-shadow: 0 0px 8px rgba(0, 0, 0, 0.6) !important;
+    text-shadow: 0 0px 8px rgba(255,255,255, 0.6) !important;
 }
 
 /**
