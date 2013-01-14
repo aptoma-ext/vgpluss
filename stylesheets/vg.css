@@ -757,7 +757,7 @@ hr {
 }
 .tmpl-frontpage-anmeldelse-2 .rating {
     position: absolute;
-    top: -100px;
+    top: 0;
     left: 50px;
 }
 .rating1 {
