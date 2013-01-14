@@ -750,6 +750,24 @@ hr {
     top: -100px;
     left: 50px;
 }
+.rating1 {
+    background: url(http://wp.agens.no/vg/rating/rating1.png) no-repeat center center;
+}
+.rating2 {
+    background: url(http://wp.agens.no/vg/rating/rating2.png) no-repeat center center;
+}
+.rating3 {
+    background: url(http://wp.agens.no/vg/rating/rating3.png) no-repeat center center;
+}
+.rating4 {
+    background: url(http://wp.agens.no/vg/rating/rating4.png) no-repeat center center;
+}
+.rating5 {
+    background: url(http://wp.agens.no/vg/rating/rating5.png) no-repeat center center;
+}
+.rating6 {
+    background: url(http://wp.agens.no/vg/rating/rating6.png) no-repeat center center;
+}
 /**
  * Specific Template styles
  * These styles affects only specific templates
