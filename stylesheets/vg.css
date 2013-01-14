@@ -801,7 +801,7 @@ hr {
     max-height: 340px;
     margin-bottom: 20px;
     overflow: hidden;
-    box-shadow: 0 0 6px #A6A6A6;
+    /*box-shadow: 0 0 6px #A6A6A6;*/
 }
 
 .tmpl-frontpage-with-small-image .excerpt header p {
