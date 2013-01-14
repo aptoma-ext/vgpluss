@@ -737,8 +737,15 @@ hr {
         background: url(http://wp.agens.no/vg/bg_noise@2x.png) repeat left bottom #3D3D3D;
     }
 }
-
-
+/**
+ * Rating
+ */
+.rating {
+    width: 60px;
+    height: 61px;
+    background: url(http://wp.agens.no/vg/rating/rating1.png) no-repeat center center;
+    background-size: 50% 50%;
+}
 /**
  * Specific Template styles
  * These styles affects only specific templates
