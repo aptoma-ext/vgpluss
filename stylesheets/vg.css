@@ -578,6 +578,7 @@ hr {
     border-radius: 4px 4px 0 0;
     -webkit-box-shadow:  0 0 4px 2px rgba(0, 0, 0, 0.15);
     box-shadow:  0 0 4px 2px rgba(0, 0, 0, 0.15);
+    margin-bottom: 3px;
 }
 
 .frontpage-1 .excerpt-2 { /* Alternative 2 */
