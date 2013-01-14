@@ -745,6 +745,7 @@ hr {
     height: 120px;
     position: absolute;
     top: -120px;
+    left: 0;
 }
 .rating {
     width: 60px;
@@ -755,7 +756,7 @@ hr {
 }
 .tmpl-frontpage-anmeldelse-2 .rating {
     position: absolute;
-    top: -100px;
+    top: -20px;
     left: 50px;
 }
 .rating1 {
