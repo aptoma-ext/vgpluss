@@ -795,6 +795,10 @@ hr {
     line-height: 56px;
     font-size: 56px
 }
+.tmpl-widescreen-frontpage,
+.tmpl-widescreen-frontpage-dark-background{
+    min-height: 748px;
+}
 
 .tmpl-widescreen-frontpage .byline,
 .tmpl-widescreen-frontpage-dark-background .byline,
