@@ -71,11 +71,12 @@ body {
     content: ' »';
 }
 
-
 .chrome {
     overflow: hidden;
 }
-
+.none {
+    display: none;
+}
 @media (max-width: 1023px) {
     .chrome {
         width: 100%;
