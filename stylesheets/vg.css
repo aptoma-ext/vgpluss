@@ -845,13 +845,7 @@ hr {
 .tmpl-widescreen-frontpage-dark-background .content-indent{
     background: #171717;
 }
-.tmpl-gallery .title,
-.tmpl-widescreen-frontpage .title,
-.tmpl-widescreen-frontpage .excerpt,
-.tmpl-widescreen-frontpage .byline,
-.tmpl-widescreen-frontpage-dark-background .title,
-.tmpl-widescreen-frontpage-dark-background .excerpt,
-.tmpl-widescreen-frontpage-dark-background .byline{
+.textaligncenter {
     text-align: center;
 }
 
