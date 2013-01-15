@@ -444,10 +444,10 @@ hr {
 
 .frontpage-top-left {
     position: absolute;
-    padding: 95px 35px 35px;
+    padding: 0 35px 35px;
     color: #FFF;
     width: 954px;
-    top: 0;
+    top: 95px;
     left: 0;
 }
 
