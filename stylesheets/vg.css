@@ -574,7 +574,7 @@ hr {
     text-transform: uppercase;
 }
 
-.frontpage-1 .excerpt { /* Excerpt-Box */
+.tmpl-excerpt-with-background .excerpt { /* Excerpt-Box */
     background: white;
     background: rgba(255,255,255,0.9);
     color: #333;
