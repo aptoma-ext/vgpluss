@@ -450,7 +450,10 @@ hr {
     top: 0;
     left: 0;
 }
-
+.cover .frontpage-top-left {
+    padding: 0 35px 35px;
+    top: 95px;
+}
 
     .frontpage-top-left h1 {
         font-size: 90px;
