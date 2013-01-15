@@ -848,6 +848,9 @@ hr {
 .textaligncenter {
     text-align: center;
 }
+.no-border {
+    border: none;
+}
 
 .section-sport .tmpl-dagens-rute {
     background: #fff;
