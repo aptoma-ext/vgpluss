@@ -784,6 +784,9 @@ hr {
 .rating-dice {
     margin-right: 20px;
 }
+.product-details {
+    width: 380px;
+}
 .rating-1 {
     background: url(http://wp.agens.no/vg/rating/rating1.png) no-repeat center center;
     background-size: 100% 100%;
