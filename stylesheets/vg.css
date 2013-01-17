@@ -206,9 +206,6 @@ hr {
     top: 0;
     bottom: 0;
 }
-.iphone .fill-height {
-    min-height: 416px;
-}
 
 .fill-width {
     width: 100%;
@@ -1031,7 +1028,9 @@ hr {
     float: none;
     padding: 10px 5px 10px;
 }
-
+.iphone .fill-height {
+    min-height: 416px;
+}
 
 /**
  * Alf styles
