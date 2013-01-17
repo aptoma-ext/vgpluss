@@ -767,7 +767,7 @@ hr {
 .rating span {
     opacity: 0 !important; 
 }
-.productTitle {
+.rating-product-title {
     font-size: 28px;
     line-height: 1.2em;
 }
