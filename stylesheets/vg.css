@@ -786,6 +786,7 @@ hr {
 }
 .product-details {
     width: 380px;
+    letter-spacing: -0.04em;
 }
 .rating-1 {
     background: url(http://wp.agens.no/vg/rating/rating1.png) no-repeat center center;
