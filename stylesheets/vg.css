@@ -855,6 +855,9 @@ hr {
 .section-sport .tmpl-dagens-rute {
     background: #fff;
 }
+.section-sport .tmpl-dagens-rute-black {
+    background: #000;
+}
 .section-sport .tmpl-dagens-rute .white-background {
     background: #fff;
 }
