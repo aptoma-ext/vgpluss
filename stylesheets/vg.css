@@ -767,6 +767,10 @@ hr {
 .rating span {
     opacity: 0 !important; 
 }
+.productTitle {
+    font-size: 28px;
+    line-height: 1.2em;
+}
 .tmpl-frontpage-anmeldelse-2 .rating {
     position: absolute;
     bottom: 50%;
