@@ -772,6 +772,7 @@ hr {
     font-weight: normal;
     font-size: 28px;
     line-height: 1.2em;
+    margin-bottom: 20px;
 }
 .tmpl-frontpage-anmeldelse-2 .rating {
     position: absolute;
