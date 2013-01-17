@@ -898,6 +898,7 @@ hr {
 }
 .iphone.tmpl-dagens-rute .header-sans-serif h1 {
     font-size: 84px;
+    margin-top: 10px;
 }
 .dagens-rute-light .frontpage-top-left,
 .dagens-rute-light .frontpage-top-left:after {
