@@ -165,7 +165,7 @@ body {
 }
 
 .layer-fullscreen,
-.tmpl-fullsize-media{
+.tmpl-fullsize-media {
     z-index: 1000;
     background-color: #000;
     display: -moz-box;
@@ -175,6 +175,7 @@ body {
     -webkit-box-align: center;
     -moz-box-align: center;
     -ms-box-align: center;
+    min-height: 748px;
 }
 
 /**
