@@ -821,7 +821,7 @@ hr {
 }
 .tmpl-widescreen-frontpage,
 .tmpl-widescreen-frontpage-dark-background,
-.tmpl-fullsize-media-without-text{
+.tmpl-fullsize-media{
     min-height: 748px;
 }
 
