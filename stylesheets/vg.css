@@ -206,6 +206,9 @@ hr {
     top: 0;
     bottom: 0;
 }
+.iphone .fill-height {
+    min-height: 416px;
+}
 
 .fill-width {
     width: 100%;
