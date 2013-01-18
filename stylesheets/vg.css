@@ -752,10 +752,10 @@ hr {
  */
 .rating-box {
     width: 100%;
-    height: 120px;
+    height: 140px;
     position: absolute;
     left: 0;
-    top: -120px;
+    top: -140px;
 }
 .rating {
     width: 60px;
@@ -780,7 +780,7 @@ hr {
     position: absolute;
     bottom: 50%;
     left: 50px;
-    margin-bottom: -30px;
+    margin-bottom: -35px;
 }
 .tmpl-frontpage-anmeldelse-2 .rating-product-title {
     position: absolute;
