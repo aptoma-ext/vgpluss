@@ -752,10 +752,10 @@ hr {
  */
 .rating-box {
     width: 100%;
-    min-height: 150px;
+    min-height: 165px;
     position: absolute;
     left: 0;
-    top: -150px;
+    top: -165px;
     padding: 20px 40px;
     -webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
