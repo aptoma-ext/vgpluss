@@ -488,7 +488,7 @@ hr {
     color: #fff;
 }
 .header-section span {
-    background-color:rgba(0,0,0,0.2);
+    background-color:rgba(0,0,0,0.3);
     margin-left: -15px;
     margin-right: -15px;
     padding: 40px 15px 12px;
@@ -500,31 +500,31 @@ hr {
     border-bottom-left-radius: 5px;
 }
 .section-nyheter .header-section span {
-    background-color:rgba(0,103,142,0.2);
+    background-color:rgba(0,103,142,0.3);
 }
 .section-reise .header-section span {
-    background-color:rgba(0,76,102,0.2);
+    background-color:rgba(0,76,102,0.3);
 }
 .section-rampelys .header-section span {
-    background-color:rgba(102,0,102,0.2);
+    background-color:rgba(102,0,102,0.3);
 }
 .section-sport .header-section span {
-    background-color:rgba(140,0,0,0.2);
+    background-color:rgba(140,0,0,0.3);
 }
 .section-sistesiden .header-section span {
-    background-color:rgba(53,53,38,0.2);
+    background-color:rgba(53,53,38,0.3);
 }
 .section-mat-og-drikke .header-section span {
-    background-color:rgba(140,70,0,0.2);
+    background-color:rgba(140,70,0,0.3);
 }
 .section-meninger .header-section span {
-    background-color:rgba(178,133,0,0.2);
+    background-color:rgba(178,133,0,0.3);
 }
 .section-nyttig .header-section span {
-    background-color:rgba(0,113,0,0.2);
+    background-color:rgba(0,113,0,0.3);
 }
 .section-okonomi .header-section span {
-    background-color:rgba(0,102,102,0.2);
+    background-color:rgba(0,102,102,0.3);
 }
 
 .section-sport .template,
