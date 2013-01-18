@@ -947,15 +947,20 @@ hr {
     width: 794px;
     margin-right: 40px;
 }
-.tmpl-frontpage-vg-mener .vg-mener .vg-mener-image,
-.tmpl-frontpage-vg-mener-with-text-only .vg-mener .vg-mener-image,
+
+.vg-mener-image,
+.vg-mener-image-white,
 .tmpl-frontpage-author-image .author-image img {
     width: 120px;
     height: 160px;
 }
-.tmpl-frontpage-vg-mener-with-text-only .vg-mener .vg-mener-image,
-.tmpl-frontpage-vg-mener .vg-mener .vg-mener-image {
+.vg-mener-image {
     background: url('../gfx/vgmenerretina.png') no-repeat center center;
+    background-size: 100%;
+    margin-bottom: 10px;
+}
+.vg-mener-image-white {
+    background: url('http://wp.agens.no/vg/vgmenerretinawhite.png') no-repeat center center;
     background-size: 100%;
     margin-bottom: 10px;
 }
