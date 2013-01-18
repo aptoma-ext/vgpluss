@@ -695,7 +695,7 @@ hr {
 
 .fill-bottom-half {
     position: absolute;
-    top: 25%;
+    top: 40%;
     right: 0;
     left: 0;
     bottom: 0;
@@ -703,7 +703,7 @@ hr {
 .fill-left-half {
     position: absolute;
     top: 0;
-    right: 30%;
+    right: 40%;
     left: 0;
     bottom: 0;
 }
