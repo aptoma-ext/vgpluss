@@ -963,6 +963,9 @@ hr {
     background: url('http://wp.agens.no/vg/vgmenerretinawhite.png') no-repeat center center;
     background-size: 100%;
     margin-bottom: 10px;
+    position: absolute;
+    top: 35px;
+    right: 35px;
 }
 .tmpl-frontpage-vg-mener-with-text-only .colophon,
 .tmpl-frontpage-vg-mener .colophon{
