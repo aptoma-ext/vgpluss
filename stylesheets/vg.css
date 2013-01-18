@@ -787,10 +787,7 @@ hr {
 .tmpl-frontpage-anmeldelse .product-details {
     width: 380px;
 }
-.tmpl-frontpage-anmeldelse-2 .product-details {
-    font-family: Gotham-Medium;
-    font-weight: normal;
-}
+
 
 .rating-1 {
     background: url(http://wp.agens.no/vg/rating/rating1.png) no-repeat center center;
