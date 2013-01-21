@@ -84,22 +84,22 @@
 }
 
 .cols-full {
-  width: 1024px;
+  width: 100%;
 }
 .cols-full img {
-  height: 748px;
+  height: 100%;
   width: auto;
 }
 [class*=fullCol-] {
   position: absolute;
   top: 0;
   left: 0;
-  width: 512px;
+  width: 50%;
   overflow: hidden;
 }
 .fullCol-1 {
     left: 0px;
 }
 .fullCol-2 {
-    left: 512px;
+    left: 50%;
 }
