@@ -795,6 +795,11 @@ hr {
 .tmpl-frontpage-anmeldelse .product-details {
     width: 380px;
 }
+.iphone .product-details {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 23px;
+}
 
 .rating-1 {
     background: url(http://wp.agens.no/vg/rating/rating1.png) no-repeat center center;
