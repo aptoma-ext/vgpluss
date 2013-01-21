@@ -115,13 +115,43 @@
   overflow: hidden;
 }
 .horizontal-col-1 {
-    left: 0px;
+    top: 0px;
 }
 .horizontal-col-2 {
     top: 50%;
 }
 .horizontal-col-1 img,
 .horizontal-col-2 img{
+    height: auto;
+    width: 100%;
+}
+
+[class*=grid-col-] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  overflow: hidden;
+}
+.grid-col-1 {
+    left: 0px;
+}
+.grid-col-2 {
+    left: 50%;
+}
+.grid-col-3 {
+    left: 0%;
+    top: 50%;
+}
+.grid-col-4 {
+    left: 50%;
+    top: 50%;
+}
+.grid-col-1 img,
+.grid-col-2 img,
+.grid-col-3 img,
+.grid-col-4 img{
     height: auto;
     width: 100%;
 }
