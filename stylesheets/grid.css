@@ -148,10 +148,3 @@
     left: 50%;
     top: 50%;
 }
-.grid-col-1 img,
-.grid-col-2 img,
-.grid-col-3 img,
-.grid-col-4 img{
-    height: auto;
-    width: 100%;
-}
