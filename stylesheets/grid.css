@@ -86,10 +86,6 @@
 .full-width {
   width: 100%;
 }
-.full-width img {
-  height: 100% !important;
-  width: auto !important;
-}
 
 [class*=vertical-col-] {
   position: absolute;
@@ -103,6 +99,11 @@
 }
 .vertical-col-2 {
     left: 50%;
+}
+.vertical-col-1 img,
+.vertical-col-2 img{
+    height: 100% !important;
+    width: auto !important;
 }
 
 [class*=horizontal-col-] {
@@ -118,4 +119,9 @@
 }
 .horizontal-col-2 {
     top: 50%;
+}
+.horizontal-col-1 img,
+.horizontal-col-2 img{
+    height: auto;
+    width: 100%;
 }
