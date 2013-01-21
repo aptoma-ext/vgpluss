@@ -90,16 +90,30 @@
   height: 100%;
   width: auto;
 }
-[class*=fullCol-] {
+[class*=verticalCol-] {
   position: absolute;
   top: 0;
   left: 0;
   width: 50%;
   overflow: hidden;
 }
-.fullCol-1 {
+.verticalCol-1 {
     left: 0px;
 }
-.fullCol-2 {
+.verticalCol-2 {
     left: 50%;
+}
+
+[class*=horizontalCol-] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50%;
+  overflow: hidden;
+}
+.horizontalCol-1 {
+    left: 0px;
+}
+.horizontalCol-2 {
+    top: 50%;
 }
