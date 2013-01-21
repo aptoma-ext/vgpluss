@@ -96,7 +96,6 @@
   top: 0;
   left: 0;
   width: 50%;
-  height: 100%;
   overflow: hidden;
 }
 .verticalCol-1 {
@@ -111,7 +110,6 @@
   top: 0;
   left: 0;
   height: 50%;
-  width: 100%;
   overflow: hidden;
 }
 .horizontalCol-1 {
