@@ -91,30 +91,30 @@
   width: auto !important;
 }
 
-[class*=verticalCol-] {
+[class*=vertical-col-] {
   position: absolute;
   top: 0;
   left: 0;
   width: 50%;
   overflow: hidden;
 }
-.verticalCol-1 {
+.vertical-col-1 {
     left: 0px;
 }
-.verticalCol-2 {
+.vertical-col-2 {
     left: 50%;
 }
 
-[class*=horizontalCol-] {
+[class*=horizontal-col-] {
   position: absolute;
   top: 0;
   left: 0;
   height: 50%;
   overflow: hidden;
 }
-.horizontalCol-1 {
+.horizontal-col-1 {
     left: 0px;
 }
-.horizontalCol-2 {
+.horizontal-col-2 {
     top: 50%;
 }
