@@ -97,7 +97,8 @@
     left: 0px;
 }
 .fullCol-1 img {
-    height: 768px;
+    min-height: 768px;
+    min-width: 512px;
     width: auto;
 }
 .fullCol-2 {
