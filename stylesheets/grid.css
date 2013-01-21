@@ -82,3 +82,10 @@
 .colspan-5 {
   width: 2436px;
 }
+
+.fullCol-1 {
+  width: 512px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
