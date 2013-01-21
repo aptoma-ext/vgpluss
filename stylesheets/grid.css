@@ -83,12 +83,19 @@
   width: 2436px;
 }
 
-.cols-full {
+.vertical-full {
   width: 100%;
 }
-.cols-full img {
+.vertical-full img {
   height: 100%;
   width: auto;
+}
+.horizontal-full {
+  height: 100%;
+}
+.horizontal-full img {
+  width: 100%;
+  height: auto;
 }
 [class*=verticalCol-] {
   position: absolute;
