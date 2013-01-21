@@ -788,7 +788,7 @@ hr {
 .iphone .rating-dice {
     position: absolute;
     top: 20px;
-    left: 20px;
+    right: 20px;
     z-index: 1;
 }
 
