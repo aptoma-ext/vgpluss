@@ -83,9 +83,18 @@
   width: 2436px;
 }
 
-.fullCol-1 {
-  width: 512px;
+.cols-full {
+  width: 1024px;
+}
+[class*=fullCol-] {
   position: absolute;
   top: 0;
   left: 0;
+  width: 512px;
+}
+.fullCol-1 {
+    left: 0px;
+}
+.fullCol-2 {
+    left: 512px;
 }
