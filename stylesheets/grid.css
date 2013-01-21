@@ -94,8 +94,8 @@
     width: 100%;
 }
 .horizontal-full img {
-  height: 100%;
-  width: auto;
+  height: 100% !important;
+  width: auto !important;
 }
 [class*=verticalCol-] {
   position: absolute;
