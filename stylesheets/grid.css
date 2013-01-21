@@ -83,20 +83,14 @@
   width: 2436px;
 }
 
-.vertical-full {
+.fullWidth {
   width: 100%;
 }
-.vertical-full img {
+.fullWidth img {
   height: 100% !important;
   width: auto !important;
 }
-.horizontal-full {
-    width: 100%;
-}
-.horizontal-full img {
-  height: 100% !important;
-  width: auto !important;
-}
+
 [class*=verticalCol-] {
   position: absolute;
   top: 0;
