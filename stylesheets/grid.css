@@ -83,10 +83,10 @@
   width: 2436px;
 }
 
-.fullWidth {
+.full-width {
   width: 100%;
 }
-.fullWidth img {
+.full-width img {
   height: 100% !important;
   width: auto !important;
 }
