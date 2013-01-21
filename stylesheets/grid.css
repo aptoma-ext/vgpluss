@@ -86,6 +86,10 @@
 .cols-full {
   width: 1024px;
 }
+.cols-full img {
+  height: 748px;
+  width: auto;
+}
 [class*=fullCol-] {
   position: absolute;
   top: 0;
