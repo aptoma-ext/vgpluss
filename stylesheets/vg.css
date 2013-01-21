@@ -785,6 +785,12 @@ hr {
     margin-right: 20px;
     margin-top: 5px;
 }
+.iphone .rating-dice {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
 .tmpl-frontpage-anmeldelse .product-details {
     width: 380px;
 }
