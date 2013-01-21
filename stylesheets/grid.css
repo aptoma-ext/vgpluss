@@ -91,9 +91,14 @@
   top: 0;
   left: 0;
   width: 512px;
+  overflow: hidden;
 }
 .fullCol-1 {
     left: 0px;
+}
+.fullCol-1 img {
+    height: 768px;
+    width: auto;
 }
 .fullCol-2 {
     left: 512px;
