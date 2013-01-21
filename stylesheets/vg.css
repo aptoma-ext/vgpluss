@@ -165,6 +165,7 @@ body {
 }
 
 .layer-fullscreen,
+.tmpl-gallery,
 .tmpl-fullsize-media {
     z-index: 1000;
     background-color: #000;
