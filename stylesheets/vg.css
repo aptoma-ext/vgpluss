@@ -790,6 +790,8 @@ hr {
     top: 20px;
     right: 20px;
     z-index: 1;
+    margin: 0;
+    padding: 0;
 }
 
 .tmpl-frontpage-anmeldelse .product-details {
