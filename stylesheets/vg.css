@@ -797,6 +797,9 @@ hr {
 .tmpl-frontpage-anmeldelse .product-details {
     width: 380px;
 }
+.tmpl-frontpage-anmeldelse-1 .product-details {
+    margin-bottom: 24px;
+}
 .iphone .rating-product-title{
     font-size: 20px;
     margin: 0px 0 8px;
@@ -804,7 +807,7 @@ hr {
 .iphone .product-details {
     margin-bottom: 20px;
     font-size: 0.8em;
-    line-height: 1.4em; 
+    line-height: 1.4em;
     border-left: 1px solid #ddd;
     margin-left: 15px;
 }
