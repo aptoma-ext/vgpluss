@@ -799,11 +799,12 @@ hr {
 }
 .iphone .rating-product-title{
     font-size: 20px;
-    margin: 0 0 8px;
+    margin: -10px 0 8px;
 }
 .iphone .product-details {
     margin-bottom: 20px;
     font-size: 0.8em;
+    line-height: 1em; 
     border-left: 1px solid #ddd;
     margin-left: 15px;
 }
