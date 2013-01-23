@@ -1054,6 +1054,9 @@ hr {
     padding-left: 15px;
     padding-right: 15px;
 }
+.iphone .title{
+    text-align: center;
+}
 .iphone .byline{
     padding: 8px 0;
     margin: 0 15px 10px;
