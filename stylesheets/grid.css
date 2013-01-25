@@ -96,9 +96,11 @@
 }
 .vertical-col-1 {
     left: 0px;
+    outline: 2px solid #FFF;
 }
 .vertical-col-2 {
     left: 50%;
+    outline: 2px solid #FFF;
 }
 .vertical-col-1 img,
 .vertical-col-2 img{
@@ -116,9 +118,11 @@
 }
 .horizontal-col-1 {
     top: 0px;
+    outline: 2px solid #FFF;
 }
 .horizontal-col-2 {
     top: 50%;
+    outline: 2px solid #FFF;
 }
 .horizontal-col-1 img,
 .horizontal-col-2 img{
@@ -136,15 +140,19 @@
 }
 .grid-col-1 {
     left: 0px;
+    outline: 2px solid #FFF;
 }
 .grid-col-2 {
     left: 50%;
+    outline: 2px solid #FFF;
 }
 .grid-col-3 {
     left: 0%;
     top: 50%;
+    outline: 2px solid #FFF;
 }
 .grid-col-4 {
     left: 50%;
     top: 50%;
+    outline: 2px solid #FFF;
 }
