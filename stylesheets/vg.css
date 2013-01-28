@@ -995,7 +995,6 @@ hr {
     background: #EAEAEA;
     letter-spacing: -0.05em;
     font-size: 15px;
-    position: relative;
     height: 125px;
 }
 .colophon .colspan-1{
@@ -1003,9 +1002,9 @@ hr {
     -moz-box-sizing: border-box;
 	box-sizing: border-box; 
 }
-
 .colophon .colspan-1.alignleft{
     padding-left: 40px;
+    position: relative;
 }
 .colophon b{
     font-family: 'Gotham-Bold' !important;
