@@ -996,6 +996,16 @@ hr {
     background: #EAEAEA;
     letter-spacing: -0.05em;
     font-size: 15px;
+    position: relative;
+}
+.tmpl-frontpage-vg-mener .vg-logo-vertical {
+    position: absolute;
+    background: src('http://wp.agens.no/vg/vg-logo-vertical.png') center center no-repeat;
+    background-size: 100% 100%;
+    height: 125px;
+    width: 48px;
+    left: 0;
+    top: 0;
 }
 .tmpl-frontpage-vg-mener .colophon .colspan-1{
     -webkit-box-sizing: border-box;
