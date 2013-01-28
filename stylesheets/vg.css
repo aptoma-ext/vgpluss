@@ -532,6 +532,9 @@ hr {
 .section-sport .tmpl-widescreen-frontpage .content-indent {
     background-color: #ffdfdd;
 }
+.section-sport .template.tmpl-fullsize-media {
+    background-color: #000;
+}
 .section-sport .byline {
     border-color: #DABEBC;
 }
