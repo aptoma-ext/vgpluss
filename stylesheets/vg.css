@@ -1000,6 +1000,9 @@ hr {
 .tmpl-frontpage-vg-mener .colophon .colspan-1{
     padding-left: 20px;
     padding-right: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	box-sizing: border-box; 
 }
 .byline .vg-logo-small {
     width: 120px;
