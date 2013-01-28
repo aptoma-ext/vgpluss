@@ -1000,6 +1000,9 @@ hr {
     font-size: 15px;
     height: 125px;
 }
+.colophon a {
+    color: #333;
+}
 .colophon .colspan-1{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
