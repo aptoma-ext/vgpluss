@@ -996,6 +996,7 @@ hr {
     letter-spacing: -0.05em;
     font-size: 15px;
     position: relative;
+    height: 125px;
 }
 .colophon .colspan-1{
     -webkit-box-sizing: border-box;
