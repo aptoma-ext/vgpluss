@@ -1008,7 +1008,7 @@ hr {
     padding-left: 40px;
 }
 .colophon b{
-    font: 'Gotham-bold';
+    font-family: 'Gotham-Bold' !important;
     font-weight: normal;
 }
 .colophon .colspan-1.alignright{
