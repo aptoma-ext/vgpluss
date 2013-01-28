@@ -136,19 +136,19 @@ body {
     color:rgb(37,96,165);
 }
 .section-reise a, .section-reise a:visited {
-    color:rgb(0,76,102);
-}
-.section-rampelys a, .section-rampelys a:visited {
     color:rgb(102,0,102);
 }
-.section-sport a, .section-sport a:visited {
+.section-rampelys a, .section-rampelys a:visited {
     color:rgb(140,0,0);
+}
+.section-sport a, .section-sport a:visited {
+    color:rgb(250,167,0);
 }
 .section-sistesiden a, .section-sistesiden a:visited {
     color:rgb(53,53,38);
 }
 .section-mat-og-drikke a, .section-mat-og-drikke a:visited {
-    color:rgb(140,70,0);
+    color:rgb(153,102,51);
 }
 .section-meninger a, .section-meninger a:visited {
     color:rgb(178,133,0);
