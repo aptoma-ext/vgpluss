@@ -980,7 +980,7 @@ hr {
 }
 .vg-mener-image {
     background: url('../gfx/vgmenerretina.png') no-repeat center center;
-    background-size: 100%;
+    background-size: 100% 100%;
     margin-bottom: 10px;
 }
 .vg-mener-image-white {
