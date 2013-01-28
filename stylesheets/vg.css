@@ -995,6 +995,7 @@ hr {
 .tmpl-frontpage-vg-mener .colophon{
     background: #EAEAEA;
     height: 120px;
+    letter-spacing: -0.04em;
 }
 .byline .vg-logo-small {
     width: 120px;
