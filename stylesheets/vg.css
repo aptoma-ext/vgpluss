@@ -998,11 +998,15 @@ hr {
     font-size: 16px;
 }
 .tmpl-frontpage-vg-mener .colophon .colspan-1{
-    padding-left: 20px;
-    padding-right: 20px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 	box-sizing: border-box; 
+}
+.tmpl-frontpage-vg-mener .colophon .colspan-1.alignleft{
+    padding-left: 20px;
+}
+.tmpl-frontpage-vg-mener .colophon .colspan-1.alignleft{
+    padding-right: 20px;
 }
 .byline .vg-logo-small {
     width: 120px;
