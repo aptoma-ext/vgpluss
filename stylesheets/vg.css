@@ -293,8 +293,6 @@ hr {
     -moz-box-sizing: border-box;
 }
 .iphone-cover .overlay-bottom {
-    top: 0;
-    bottom: inherit;
 }
 .iphone-cover {
     height: 234px;
