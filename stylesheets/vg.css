@@ -298,10 +298,6 @@ hr {
     height: 234px;
     overflow: hidden;
 }
-.iphone-cover .gradient-light-to-dark {
-    bottom: 0;
-    top: inherit;
-}
 .black-background {
     padding: 15px 0;
     background: #171717;
