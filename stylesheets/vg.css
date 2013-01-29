@@ -292,6 +292,10 @@ hr {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
+.iphone-cover .overlay-bottom {
+    top: 0;
+    bottom: inherit;
+}
 .black-background {
     padding: 15px 0;
     background: #171717;
@@ -1006,7 +1010,7 @@ hr {
 .colophon .colspan-1{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-	box-sizing: border-box; 
+	box-sizing: border-box;
 }
 .colophon .colspan-1.alignleft{
     padding-left: 40px;
