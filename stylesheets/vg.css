@@ -1118,8 +1118,11 @@ hr {
 .iphone .header-sans-serif h1 {
     font-size: 60px;
 }
-.iphone .header-serif h1 {
+.iphone-cover .header-sans-serif h1 {
     font-size: 44px;
+}
+.iphone .header-serif h1 {
+    font-size: 32px;
 }
 .iphone .overlay-caption {
     text-shadow: none;
