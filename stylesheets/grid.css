@@ -164,7 +164,7 @@
 .grid-col-4 {
     left: 50%;
     top: 50%;
-    border-right: 1px solid #000;
+    border-left: 1px solid #000;
     border-top: 1px solid #000;
     box-sizing: border-box;
 }
