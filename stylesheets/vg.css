@@ -292,9 +292,6 @@ hr {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
-.iphone-cover .overlay-bottom {
-    padding: 0;
-}
 .iphone-cover {
     height: 140px;
     overflow: hidden;
