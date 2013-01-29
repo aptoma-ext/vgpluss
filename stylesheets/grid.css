@@ -118,11 +118,13 @@
 }
 .horizontal-col-1 {
     top: 0px;
-    outline: 2px solid #000;
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
 }
 .horizontal-col-2 {
     top: 50%;
-    outline: 2px solid #000;
+    border-top: 1px solid #000;
+    box-sizing: border-box;
 }
 .horizontal-col-1 img,
 .horizontal-col-2 img{
