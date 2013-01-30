@@ -295,7 +295,7 @@ hr {
 .iphone-cover {
     padding: 0;
 }
-.iphone-cover .alf-container img {
+.iphone-cover.alf-responsive .alf-container img {
     width: inherit;
 }
 .iphone-cover {
