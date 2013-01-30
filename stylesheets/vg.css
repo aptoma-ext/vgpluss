@@ -292,20 +292,8 @@ hr {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
-.iphone-cover {
-    padding: 0;
-}
-.iphone-cover .title {
-    text-align:left;
-}
-.iphone-cover .alf-container img {
-    max-width: inherit;
-    width: inherit;
-}
-.iphone-cover {
-    height: 140px;
-    overflow: hidden;
-}
+
+
 .black-background {
     padding: 15px 0;
     background: #171717;
@@ -1134,6 +1122,19 @@ hr {
 .iphone-cover .header-serif h1 {
     font-size: 32px;
 }
+.iphone-cover {
+    padding: 0;
+    height: 140px;
+    overflow: hidden;
+}
+.iphone-cover .title {
+    text-align:left;
+}
+.iphone-cover .alf-container img {
+    max-width: inherit;
+    width: inherit;
+}
+
 .iphone .overlay-caption {
     text-shadow: none;
     position: static;
