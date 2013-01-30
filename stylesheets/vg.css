@@ -302,6 +302,10 @@ hr {
     padding: 15px 0;
     background: #f5f5f5;
 }
+.iphone .white-background {
+    padding: 5px 0;
+    background: #f5f5f5;
+}
 .tmpl-overlay-with-excerpt .white-background,
 .tmpl-overlay-with-excerpt .black-background{
     padding-bottom: 0;
