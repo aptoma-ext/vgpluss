@@ -1133,6 +1133,7 @@ hr {
 .iphone-cover .alf-container img {
     max-width: inherit;
     width: inherit;
+    min-width: 100%;
 }
 
 .iphone .overlay-caption {
