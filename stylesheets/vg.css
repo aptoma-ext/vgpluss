@@ -295,6 +295,9 @@ hr {
 .iphone-cover {
     padding: 0;
 }
+.iphone-cover .title {
+    text-align:left;
+}
 .iphone-cover .alf-container img {
     max-width: inherit;
     width: inherit;
