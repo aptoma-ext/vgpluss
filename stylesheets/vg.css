@@ -1134,6 +1134,8 @@ hr {
     max-width: inherit;
     min-width: 100%;
     width: inherit;
+    max-height: inherit;
+    height: auto;
 }
 
 .iphone .overlay-caption {
