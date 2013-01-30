@@ -1130,6 +1130,11 @@ hr {
 .iphone-cover .title {
     text-align: left;
 }
+.iphone-cover .alf-container img {
+    max-width: inherit;
+    width: inherit;
+    min-width: 100%;
+}
 
 .iphone .overlay-caption {
     text-shadow: none;
