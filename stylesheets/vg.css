@@ -296,7 +296,7 @@ hr {
     padding: 0;
 }
 .iphone-cover .alf-container img {
-
+    width: inherit;
 }
 .iphone-cover {
     height: 140px;
