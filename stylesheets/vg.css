@@ -1183,6 +1183,10 @@ hr {
     text-shadow: 0 0px 10px rgba(0, 0, 0, 0.8) !important;
 }
 
+.alf-style-text-shadow-red {
+    text-shadow: 0 0px 10px red !important;
+}
+
 .alf-style-text-shadow-strong-white {
     text-shadow: 0 0px 8px rgba(255,255,255, 0.6) !important;
 }
