@@ -1126,7 +1126,7 @@ hr {
 .iphone-cover {
     padding: 0;
     height: 140px;
-    overflow: hidden;
+    overflow: hidden !important;
 }
 .iphone-cover .title {
     text-align: left;
