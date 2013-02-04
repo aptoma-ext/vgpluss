@@ -34,8 +34,8 @@
 }
 
 @font-face {
-    font-family: 'Palatino-Roman';
-    src: url(http://static.vg.no/vgpluss/fonts/palatino.woff);
+    font-family: 'Palatino';
+    src: url(http://static.vg.no/vgpluss/fonts/palatino.ttf);
 }
 
 /**
@@ -44,7 +44,7 @@
 
 body {
     background: #f5f5f5;
-    font-family: Palatino-Roman, serif;
+    font-family: Palatino, serif;
     margin: 0;
     padding: 0;
     color: #333;
