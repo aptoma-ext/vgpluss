@@ -385,6 +385,7 @@ hr {
     margin: 0 0 24px 0;
 }
 
+.alf-region p i,
 .alf-region p em,
 .alf-region p strong {
     line-height: 0;
