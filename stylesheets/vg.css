@@ -35,7 +35,7 @@
 
 @font-face {
     font-family: 'Palatino';
-    src: url(http://static.vg.no/vgpluss/fonts/palatino.otf);
+    src: url(http://static.vg.no/vgpluss/fonts/palatino.ttf);
 }
 
 /**
@@ -84,7 +84,7 @@ body {
     body {
         overflow-x: hidden;
     }
-    
+
     .chrome {
         width: 100%;
         overflow: visible;
