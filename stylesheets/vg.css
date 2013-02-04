@@ -384,6 +384,12 @@ hr {
     line-height: 24px;
     margin: 0 0 24px 0;
 }
+
+.alf-region p em,
+.alf-region p strong {
+    line-height: 0;
+}
+
 .alf-region h1,
 .alf-region h2,
 .alf-region h3 {
