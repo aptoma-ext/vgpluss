@@ -386,6 +386,7 @@ hr {
 }
 
 .alf-region p i,
+.alf-region p b,
 .alf-region p em,
 .alf-region p strong {
     line-height: 0;
