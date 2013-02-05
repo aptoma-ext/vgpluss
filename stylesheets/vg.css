@@ -1207,7 +1207,10 @@ hr {
 .alf-slideshow-stack {
     position: absolute;
     top: 0;
+    right: 0;
+    bottom: 0;
     left: 0;
+    background: #000;
 }
 
 .alf-slideshow-stack-1 {
@@ -1216,6 +1219,14 @@ hr {
     -ms-transform: rotate(2deg);
     -o-transform: rotate(2deg);
     transform: rotate(2deg);
+}
+
+.alf-slideshow-stack-2 {
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
+    -o-transform: rotate(-2deg);
+    transform: rotate(-2deg);
 }
 
 
