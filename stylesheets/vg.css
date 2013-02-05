@@ -1190,6 +1190,19 @@ hr {
     margin: 0; /* until we fix <p>-tag problem */
 }
 
+/* Slideshow styles */
+.alf-slideshow {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+.alf-slideshow-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
 
 /**
  * Alf styles
