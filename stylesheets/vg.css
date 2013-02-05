@@ -1213,6 +1213,8 @@ hr {
 .alf-slideshow-stack-1 {
     -webkit-transform: rotate(2deg);
     -moz-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
     transform: rotate(2deg);
 }
 
