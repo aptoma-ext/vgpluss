@@ -1182,12 +1182,8 @@ hr {
     float: none;
     padding: 10px 5px 10px;
 }
-.iphone .excerpt {
-    margin-top: 0.75em;
-    margin-bottom: 1em;
-}
 .iphone .excerpt p {
-    margin: 0; /* until we fix <p>-tag problem */
+    margin: 0.75 0 1em;
 }
 
 
