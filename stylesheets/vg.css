@@ -1204,6 +1204,18 @@ hr {
     right: 20px;
 }
 
+.alf-slideshow-stack {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.alf-slideshow-stack-1 {
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    transform: rotate(2deg);
+}
+
 
 /**
  * Alf styles
