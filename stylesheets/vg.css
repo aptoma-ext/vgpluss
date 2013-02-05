@@ -198,6 +198,9 @@ body {
     -ms-box-align: center;
     min-height: 748px;
 }
+.iphone .tmpl-fullsize-media {
+    min-height: 320px;
+}
 
 /**
  * Page content styles
