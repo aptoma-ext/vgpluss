@@ -1191,11 +1191,19 @@ hr {
 }
 
 /* Slideshow styles */
-.alf-slideshow {
+.alf-slideshow-inline {
     margin: 0;
     padding: 0;
     line-height: 0;
     position: relative;
+}
+
+.alf-slideshow-inline > img {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
 }
 
 .alf-slideshow-toggle {
@@ -1214,19 +1222,19 @@ hr {
 }
 
 .alf-slideshow-stack-1 {
-    -webkit-transform: rotate(2deg);
-    -moz-transform: rotate(2deg);
-    -ms-transform: rotate(2deg);
-    -o-transform: rotate(2deg);
-    transform: rotate(2deg);
+    -webkit-transform: rotate(1.8deg);
+    -moz-transform: rotate(1.8deg);
+    -ms-transform: rotate(1.8deg);
+    -o-transform: rotate(1.8deg);
+    transform: rotate(1.8deg);
 }
 
 .alf-slideshow-stack-2 {
-    -webkit-transform: rotate(-2deg);
-    -moz-transform: rotate(-2deg);
-    -ms-transform: rotate(-2deg);
-    -o-transform: rotate(-2deg);
-    transform: rotate(-2deg);
+    -webkit-transform: rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    transform: rotate(-1deg);
 }
 
 
