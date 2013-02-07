@@ -62,13 +62,10 @@ body {
 /** Alf Guides start **/
 
 .alf-guides {
-    position: absolute;
     top: 35px;
     right: 35px;
     bottom: 35px;
     left: 35px;
-    z-index: 999;
-    pointer-events: none;
 }
 
 .alf-guides.alf-format-iphone,
