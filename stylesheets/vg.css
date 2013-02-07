@@ -105,7 +105,7 @@ body {
     display: none;
 }
 
-/* Number of columns for iphone */
+/* Number of columns for ipad_landscape_section_cover */
 .alf-guides.alf-format-ipad_landscape_section_cover tr td:not(:nth-child(-n+4)) {
     display: none;
 }
