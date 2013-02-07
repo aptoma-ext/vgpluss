@@ -67,8 +67,12 @@ body {
     bottom: 35px;
     left: 35px;
 }
-
-.alf-guides.alf-format-iphone,
+.alf-guides.alf-format-iphone {
+    top: 15px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+}
 .alf-guides.alf-format-iphone_section_cover {
     top: 30px;
     right: 15px;
