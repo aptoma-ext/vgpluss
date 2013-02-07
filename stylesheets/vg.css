@@ -59,6 +59,8 @@ body {
     overflow-x: hidden;
 }
 
+/** Alf Guides start **/
+
 .alf-guides {
     top: 35px;
     right: 35px;
@@ -78,25 +80,37 @@ body {
     left: 15px;
 }
 
-/* Number of rows */
+/* Number of default rows */
 .alf-guides tr:not(:nth-child(-n+8)) {
     display: none;
 }
 
-/* Number of columns */
+/* Number of default columns */
 .alf-guides tr td:not(:nth-child(-n+8)) {
     display: none;
 }
 
-/* Number of rows */
+/* Number of rows for iphone */
 .alf-guides.alf-format-iphone tr:not(:nth-child(-n+4)) {
     display: none;
 }
 
-/* Number of columns */
+/* Number of columns for iphone */
 .alf-guides.alf-format-iphone tr td:not(:nth-child(-n+4)) {
     display: none;
 }
+
+/* Number of rows for ipad_landscape_section_cover */
+.alf-guides.alf-format-ipad_landscape_section_cover tr:not(:nth-child(-n+4)) {
+    display: none;
+}
+
+/* Number of columns for iphone */
+.alf-guides.alf-format-ipad_landscape_section_cover tr td:not(:nth-child(-n+4)) {
+    display: none;
+}
+
+/** Alf Guides end **/
 
 .chrome a, a:visited {
     color: #333;
