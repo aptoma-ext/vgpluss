@@ -122,7 +122,7 @@ body {
 }
 
 /* Number of columns for ipad_landscape_section_cover */
-.alf-guides.alf-format-ipad_landscape_section_cover tr td:not(:nth-child(-n+3)) {
+.alf-guides.alf-format-ipad_landscape_section_cover tr td:not(:nth-child(-n+2)) {
     display: none;
 }
 
