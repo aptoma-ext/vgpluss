@@ -59,6 +59,25 @@ body {
     overflow-x: hidden;
 }
 
+.alf-guides {
+    top: 35px;
+    right: 35px;
+    bottom: 35px;
+    left: 35px;
+}
+
+.alf-guides.alf-format-ipad_section_cover {
+    top: 95px;
+}
+
+.alf-guides.alf-format-iphone,
+.alf-guides.alf-format-iphone_section_cover {
+    top: 30px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+}
+
 /* Number of rows */
 .alf-guides tr:not(:nth-child(-n+8)) {
     display: none;
