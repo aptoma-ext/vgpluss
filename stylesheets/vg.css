@@ -62,6 +62,7 @@ body {
 /** Alf Guides start **/
 
 .alf-guides {
+    position: absolute;
     top: 35px;
     right: 35px;
     bottom: 35px;
