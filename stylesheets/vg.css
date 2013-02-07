@@ -117,12 +117,12 @@ body {
 }
 
 /* Number of rows for ipad_landscape_section_cover */
-.alf-guides.alf-format-ipad_landscape_section_cover tr:not(:nth-child(-n+2)) {
+.alf-guides.alf-format-ipad_landscape_section_cover tr:not(:nth-child(-n+1)) {
     display: none;
 }
 
 /* Number of columns for ipad_landscape_section_cover */
-.alf-guides.alf-format-ipad_landscape_section_cover tr td:not(:nth-child(-n+2)) {
+.alf-guides.alf-format-ipad_landscape_section_cover tr td:not(:nth-child(-n+1)) {
     display: none;
 }
 
