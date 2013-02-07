@@ -82,12 +82,12 @@ body {
 }
 
 /* Number of default rows */
-.alf-guides tr:not(:nth-child(-n+8)) {
+.alf-guides tr:not(:nth-child(-n+4)) {
     display: none;
 }
 
 /* Number of default columns */
-.alf-guides tr td:not(:nth-child(-n+8)) {
+.alf-guides tr td:not(:nth-child(-n+4)) {
     display: none;
 }
 
