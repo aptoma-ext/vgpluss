@@ -117,7 +117,7 @@ body {
 }
 
 /* Number of rows for ipad_landscape_section_cover */
-.alf-guides.alf-format-ipad_landscape_section_cover tr:not(:nth-child(-n+3)) {
+.alf-guides.alf-format-ipad_landscape_section_cover tr:not(:nth-child(-n+2)) {
     display: none;
 }
 
