@@ -67,10 +67,15 @@ body {
     right: 35px;
     bottom: 35px;
     left: 35px;
+    z-index: 999;
+    pointer-events: none;
 }
 .alf-guides table {
     width: 100%;
     height: 100%;
+}
+.alf-guides table td{
+    border: 1px solid green;
 }
 
 .alf-guides.alf-format-ipad_landscape_section_cover {
