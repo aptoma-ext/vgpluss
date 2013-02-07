@@ -59,6 +59,26 @@ body {
     overflow-x: hidden;
 }
 
+/* Number of rows */
+.alf-guides tr:not(:nth-child(-n+8)) {
+    display: none;
+}
+
+/* Number of columns */
+.alf-guides tr td:not(:nth-child(-n+8)) {
+    display: none;
+}
+
+/* Number of rows */
+.alf-guides.alf-format-iphone tr:not(:nth-child(-n+4)) {
+    display: none;
+}
+
+/* Number of columns */
+.alf-guides.alf-format-iphone tr td:not(:nth-child(-n+4)) {
+    display: none;
+}
+
 .chrome a, a:visited {
     color: #333;
     position: relative;
