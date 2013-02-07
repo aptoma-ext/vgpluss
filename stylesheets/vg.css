@@ -97,7 +97,7 @@ body {
 }
 
 /* Number of rows for iphone_section_cover */
-.alf-guides.alf-format-iphone_section_cover tr:not(:nth-child(-n+2)) {
+.alf-guides.alf-format-iphone_section_cover tr:not(:nth-child(-n+1)) {
     display: none;
 }
 
