@@ -92,7 +92,16 @@ body {
 }
 
 /* Number of columns for iphone */
-.alf-guides.alf-format-iphone tr td:not(:nth-child(-n+4)),
+.alf-guides.alf-format-iphone tr td:not(:nth-child(-n+4)) {
+    display: none;
+}
+
+/* Number of rows for iphone_section_cover */
+.alf-guides.alf-format-iphone_section_cover tr:not(:nth-child(-n+2)) {
+    display: none;
+}
+
+/* Number of columns for iphone_section_cover */
 .alf-guides.alf-format-iphone_section_cover tr td:not(:nth-child(-n+4)) {
     display: none;
 }
