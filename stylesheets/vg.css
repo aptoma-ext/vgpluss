@@ -104,7 +104,8 @@ body {
 }
 
 /* Number of columns for iphone */
-.alf-guides.alf-format-iphone tr td:not(:nth-child(-n+4)) {
+.alf-guides.alf-format-iphone tr td:not(:nth-child(-n+4)),
+.alf-guides.alf-format-iphone_section_cover tr td:not(:nth-child(-n+4)) {
     display: none;
 }
 
