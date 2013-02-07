@@ -87,12 +87,12 @@ body {
 }
 
 /* Number of rows for iphone */
-.alf-guides.alf-format-iphone tr:not(:nth-child(-n+4)) {
+.alf-guides.alf-format-iphone tr:not(:nth-child(-n+2)) {
     display: none;
 }
 
 /* Number of columns for iphone */
-.alf-guides.alf-format-iphone tr td:not(:nth-child(-n+4)) {
+.alf-guides.alf-format-iphone tr td:not(:nth-child(-n+2)) {
     display: none;
 }
 
