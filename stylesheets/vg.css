@@ -1266,6 +1266,7 @@ hr {
     bottom: 55px;
     right: 55px;
     z-index: 10000;
+    display: none;
 }
 
 .alf-slideshow-stack {
@@ -1294,6 +1295,7 @@ hr {
 }
 
 .tmpl-gallery .alf-slideshow-toggle {
+    display: block;
     background-image:-moz-linear-gradient(59% -7% -90deg,rgba(102,102,102,0.8) 0%,rgba(48,48,48,0.8) 46%,rgba(34,34,34,0.8) 47%,rgba(0,0,0,0.8) 100%);
     background-image:-webkit-gradient(linear,59% -7%,59% 117%,color-stop(0, rgba(102,102,102,0.8)),color-stop(0.46, rgba(48,48,48,0.8)),color-stop(0.47, rgba(34,34,34,0.8)),color-stop(1, rgba(0,0,0,0.8)));
     background-image:-webkit-linear-gradient(-90deg,rgba(102,102,102,0.8) 0%,rgba(48,48,48,0.8) 46%,rgba(34,34,34,0.8) 47%,rgba(0,0,0,0.8) 100%);
@@ -1330,6 +1332,11 @@ hr {
     right: 20px;
     background: url('http://wp.agens.no/vg/expandGallery.png') no-repeat center center;
     background-size: 100%;
+}
+
+.tmpl-gallery .alf-slideshow-stack-1,
+.tmpl-gallery .alf-slideshow-stack-1 {
+    display: none;
 }
 
 /**
