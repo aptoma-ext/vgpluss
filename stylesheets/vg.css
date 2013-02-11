@@ -977,7 +977,11 @@ hr {
     overflow: hidden;
     box-shadow: 0 0 6px #A6A6A6;
 }
-
+.tmpl-frontpage-with-small-image.auto-stretch .alf-supports-fullscreen {
+    max-height: 550px;
+    overflow: hidden;
+        
+}
 .tmpl-frontpage-with-small-image .excerpt header p {
     margin-top: 0;
 }
