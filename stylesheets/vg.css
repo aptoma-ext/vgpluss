@@ -981,6 +981,9 @@ hr {
     max-height: 575px;
     overflow: hidden;
 }
+.tmpl-frontpage-with-small-image.auto-stretch .alf-supports-fullscreen img {
+    box-shadow: none;
+}
 .tmpl-frontpage-with-small-image .excerpt header p {
     margin-top: 0;
 }
