@@ -1265,6 +1265,7 @@ hr {
     position: absolute;
     top: 20px;
     right: 20px;
+    z-index: 10000;
 }
 
 .alf-slideshow-stack {
