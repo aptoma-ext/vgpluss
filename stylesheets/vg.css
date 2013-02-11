@@ -1263,8 +1263,8 @@ hr {
 
 .alf-slideshow-toggle {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    bottom: 55px;
+    right: 55px;
     z-index: 10000;
 }
 
@@ -1319,10 +1319,11 @@ hr {
     font-family: Gotham-Medium;
     font-size: 30px;
     font-weight: normal;
+    color: #FFF;
 }
 
 .tmpl-gallery .alf-slideshow-toggle:after {
-    content:'';
+    content: '';
     height: 60px;
     width: 60px;
     position: absolute;
