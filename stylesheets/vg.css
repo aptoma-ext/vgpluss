@@ -1360,10 +1360,6 @@ hr {
     text-shadow: 0 0px 10px rgba(0, 0, 0, 0.8) !important;
 }
 
-.alf-style-text-shadow-strong-blue {
-    text-shadow: 0 0px 15px blue !important;
-}
-
 .alf-style-text-shadow-strong-white {
     text-shadow: 0 0px 8px rgba(255,255,255, 0.6) !important;
 }
