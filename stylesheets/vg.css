@@ -1326,6 +1326,9 @@ border-width:1px;
 -webkit-border-radius:9px;
 border-radius:9px;
 border-style:solid;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
 }
 
 
