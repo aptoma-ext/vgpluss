@@ -179,11 +179,13 @@ body {
 @media (min-width: 1024px) and (max-width: 1517px) and (min-height: 748px) {
     body {
         background-color: #222;
+        overflow: hidden;
     }
 
     .chrome {
         width: 1024px;
         max-height: 748px;
+        overflow: hidden;
     }
 }
 
