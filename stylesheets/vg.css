@@ -601,7 +601,7 @@ hr {
     color: #fff;
 }
 .header-section span {
-    background-color:rgba(0,0,0,0.2);
+    background-color:rgba(0,0,0,0.4);
     margin-left: -20px;
     margin-right: -20px;
     padding: 50px 20px 15px;
@@ -622,7 +622,7 @@ hr {
     background-color:rgba(140,0,0,0.4);
 }
 .section-sport .header-section span {
-    background-color:rgba(228,120,35,0.7);
+    background-color:rgba(228,120,35,0.8);
 }
 .section-sistesiden .header-section span {
     background-color:rgba(53,53,38,0.4);
