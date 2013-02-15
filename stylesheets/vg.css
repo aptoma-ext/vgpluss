@@ -368,7 +368,6 @@ hr {
     display: box;
     -webkit-box-pack: center;
     -moz-box-pack: center;
-
 }
 
 .container-dark {
@@ -1182,6 +1181,12 @@ hr {
 
 .section-sport .iphone .overlay-caption {
     border-color: #DABEBC;
+}
+.tmpl-draggable-portrait-image .media-element {
+    display: -webkit-box;
+    display: box;
+    -webkit-box-pack: end;
+    -moz-box-pack: end;
 }
 /**
  * Specific iPhone styles
