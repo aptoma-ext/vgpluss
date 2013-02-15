@@ -148,6 +148,10 @@ body {
     display: none;
 }
 
+.no-overflow {
+    overflow: hidden;
+}
+
 /* iPhone */
 @media (max-width: 1023px) {
     body {
