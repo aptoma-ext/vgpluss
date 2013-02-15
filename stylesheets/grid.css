@@ -38,6 +38,15 @@
     width: 495px;
 }
 
+.col-no-margin.colspan-2 {
+    margin: 0 !important;
+    width: 1024px;
+}
+
+.col-no-margin.col-1 {
+    left: 0px;
+}
+
 .col-1 {
   left: 35px;
 }
