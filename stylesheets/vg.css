@@ -1188,6 +1188,9 @@ hr {
     -webkit-box-pack: end;
     -moz-box-pack: end;
 }
+.tmpl-draggable-portrait-image .header-sans-serif {
+    width: 50%;
+}
 /**
  * Specific iPhone styles
  * These styles affects only iphone
