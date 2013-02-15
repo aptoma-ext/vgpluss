@@ -464,8 +464,13 @@ hr {
 .alf-supports-fullscreen img {
     box-shadow: 0 0 6px #A6A6A6;
 }
+
 .image-with-shadow {
     box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+
+.shadow {
+    box-shadow: 0 0 6px #A6A6A6;
 }
 
 .alf-region {
