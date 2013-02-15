@@ -991,8 +991,6 @@ hr {
     box-shadow: 0 0 6px #A6A6A6;
 }
 .tmpl-frontpage-with-small-image.auto-stretch .col-2 {
-    max-height: 575px;
-    overflow: hidden;
     box-shadow: 0 0 6px #A6A6A6;
 }
 .tmpl-frontpage-with-small-image.auto-stretch .alf-supports-fullscreen img {
