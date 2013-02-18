@@ -295,6 +295,11 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.alf-fullscreen-exit:before {
+    content: 'Lukk';
+    padding: 10px;
+}
+
 /**
  * Page content styles
  */
