@@ -943,9 +943,11 @@ hr {
     margin: 0;
     padding: 0;
 }
+
 .iphone .template {
     overflow: hidden
 }
+
 .tmpl-frontpage-anmeldelse .product-details {
     width: 380px;
 }
