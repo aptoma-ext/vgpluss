@@ -223,10 +223,6 @@ body {
     }
 }
 
-.template {
-    -webkit-transform-style: preserve-3d;
-}
-
 .section-nyheter a, .section-nyheter a:visited {
     color:rgb(37,96,165);
 }
