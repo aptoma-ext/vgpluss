@@ -307,9 +307,9 @@ body {
 .alf-fullscreen-toolbar a:active,
 .alf-fullscreen-toolbar button:active {
     background-color: #111;
-    background-image:-webkit-gradient(linear,50% 0%,50% 99%,color-stop(0, rgba(0,0,0,0.8)),color-stop(0.49, rgba(34,34,34,0.8)),color-stop(0.50, rgba(48,48,48,0.8)),color-stop(1, rgba(102,102,102,0.8)));
-    background-image:-webkit-linear-gradient(-90deg,rgba(0,0,0,0.8) 0%,rgba(34,34,34,0.8) 49%,rgba(48,48,48,0.8) 50%,rgba(102,102,102,0.8) 100%);
-    background-image:linear-gradient(-90deg,rgba(0,0,0,0.8) 0%,rgba(34,34,34,0.8) 49%,rgba(48,48,48,0.8) 50%, rgba(102,102,102,0.8) 100%,);
+    background-image:-webkit-gradient(linear,50% 0%,50% 99%,color-stop(0, rgba(0,0,0,0.8)),color-stop(0.49, rgba(34,34,34,0.8)));
+    background-image:-webkit-linear-gradient(-90deg,rgba(0,0,0,0.8) 0%,rgba(34,34,34,0.8) 49%);
+    background-image:linear-gradient(-90deg,rgba(0,0,0,0.8) 0%,rgba(34,34,34,0.8) 100%);
 }
 
 .alf-fullscreen-exit:before {
