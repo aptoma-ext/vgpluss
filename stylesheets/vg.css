@@ -245,7 +245,7 @@ body {
     color:rgb(241,194,50);
 }
 .section-nyttig a, .section-nyttig a:visited {
-    color:rgb(232,121,169);
+    color:rgb(166, 77, 121);
 }
 .section-okonomi a, .section-okonomi a:visited {
     color:rgb(120, 63, 4);
@@ -676,10 +676,10 @@ hr {
     background-color:rgba(153,102,51,0.4);
 }
 .section-meninger .header-section span {
-    background-color:rgba(241,194,50,0.4)
+    background-color:rgba(241,194,50,0.4);
 }
 .section-nyttig .header-section span {
-    background-color:rgba(232,121,169,0.4);
+    background-color:rgba(166,77,121,0.4);
 }
 .section-okonomi .header-section span {
     background-color:rgba(120,63,4,0.4);
