@@ -239,7 +239,7 @@ body {
     color:rgb(53,53,38);
 }
 .section-mat-og-drikke a, .section-mat-og-drikke a:visited {
-    color:rgb(153,102,51);
+    color:rgb(127,96,0);
 }
 .section-meninger a, .section-meninger a:visited {
     color:rgb(241,194,50);
@@ -673,7 +673,7 @@ hr {
     background-color:rgba(53,53,38,0.4);
 }
 .section-mat-og-drikke .header-section span {
-    background-color:rgba(153,102,51,0.4);
+    background-color:rgba(127,96,0,0.4);
 }
 .section-meninger .header-section span {
     background-color:rgba(241,194,50,0.4);
