@@ -230,7 +230,7 @@ body {
     color:rgb(102,0,102);
 }
 .section-rampelys a, .section-rampelys a:visited {
-    color:rgb(140,0,0);
+    color:rgb(152,0,0);
 }
 .section-sport a, .section-sport a:visited {
     color:rgb(255,144,9);
@@ -664,7 +664,7 @@ hr {
     background-color:rgba(102,0,102,0.4);
 }
 .section-rampelys .header-section span {
-    background-color:rgba(140,0,0,0.4);
+    background-color:rgba(152,0,0,0.4);
 }
 .section-sport .header-section span {
     background-color:rgba(255,144,9,0.8);
