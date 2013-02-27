@@ -248,7 +248,7 @@ body {
     color:rgb(232,121,169);
 }
 .section-okonomi a, .section-okonomi a:visited {
-    color:rgb(68,68,68);
+    color:rgb(120, 63, 4);
 }
 
 .layer-content {
@@ -682,7 +682,7 @@ hr {
     background-color:rgba(232,121,169,0.4);
 }
 .section-okonomi .header-section span {
-    background-color:rgba(68,68,68,0.4);
+    background-color:rgba(120,63,4,0.4);
 }
 
 .section-sport .template,
