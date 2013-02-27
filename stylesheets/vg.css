@@ -233,7 +233,7 @@ body {
     color:rgb(140,0,0);
 }
 .section-sport a, .section-sport a:visited {
-    color:rgb(228,120,35);
+    color:rgb(255,144,9);
 }
 .section-sistesiden a, .section-sistesiden a:visited {
     color:rgb(53,53,38);
@@ -667,7 +667,7 @@ hr {
     background-color:rgba(140,0,0,0.4);
 }
 .section-sport .header-section span {
-    background-color:rgba(228,120,35,0.8);
+    background-color:rgba(255,144,9,0.8);
 }
 .section-sistesiden .header-section span {
     background-color:rgba(53,53,38,0.4);
