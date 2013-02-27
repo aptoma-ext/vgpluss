@@ -242,7 +242,7 @@ body {
     color:rgb(153,102,51);
 }
 .section-meninger a, .section-meninger a:visited {
-    color:rgb(245,216,64);
+    color:rgb(241,194,50);
 }
 .section-nyttig a, .section-nyttig a:visited {
     color:rgb(232,121,169);
@@ -676,7 +676,7 @@ hr {
     background-color:rgba(153,102,51,0.4);
 }
 .section-meninger .header-section span {
-    background-color:rgba(245,216,64,0.4)
+    background-color:rgba(241,194,50,0.4)
 }
 .section-nyttig .header-section span {
     background-color:rgba(232,121,169,0.4);
