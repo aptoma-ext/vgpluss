@@ -236,7 +236,7 @@ body {
     color:rgb(255,144,9);
 }
 .section-sistesiden a, .section-sistesiden a:visited {
-    color:rgb(53,53,38);
+    color:rgb(118, 223, 210);
 }
 .section-mat-og-drikke a, .section-mat-og-drikke a:visited {
     color:rgb(127,96,0);
@@ -670,7 +670,7 @@ hr {
     background-color:rgba(255,144,9,0.8);
 }
 .section-sistesiden .header-section span {
-    background-color:rgba(53,53,38,0.4);
+    background-color:rgba(118,223,210,0.4)
 }
 .section-mat-og-drikke .header-section span {
     background-color:rgba(127,96,0,0.4);
