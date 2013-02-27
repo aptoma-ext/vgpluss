@@ -276,7 +276,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    min-height: auto;
+    min-height: 0;
 }
 
 .alf-fullscreen-toolbar a,
