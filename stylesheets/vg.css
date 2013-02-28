@@ -279,6 +279,16 @@ body {
     min-height: 0;
 }
 
+.alf-fullscreen-content {
+    display: -moz-box;
+    display: -webkit-box;
+    display: box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+       -moz-box-align: center;
+        -ms-box-align: center;
+}
+
 .alf-fullscreen-toolbar a,
 .alf-fullscreen-toolbar button {
     text-align: center;
