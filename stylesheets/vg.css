@@ -1187,8 +1187,7 @@ hr {
     height: 107px;
 }
 
-.vg-mener-image-white.with_background,
-.iphone .vg-mener-image-white.with_background{
+.with_background{
     background-color: rgba(0,0,0,0.3);
     border-radius: 5px;
     -webkit-border-radius: 5px;
