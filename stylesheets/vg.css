@@ -345,6 +345,9 @@ hr {
     border: none;
     border-bottom: 1px solid #ddd;
 }
+ul {
+    padding-left: 20px;
+}
 
 .alf-page-content {
     -webkit-transform-style: preserve-3d;
