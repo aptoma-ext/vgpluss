@@ -1176,10 +1176,9 @@ hr {
 .iphone .vg-mener-image-white {
     background: url('http://wp.agens.no/vg/vgmenerretinawhite.png') no-repeat center center;
     background-size: 75%;
-    margin-bottom: 10px;
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 0;
+    right: 0;
 }
 .colophon{
     background: #EAEAEA;
