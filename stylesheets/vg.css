@@ -1172,19 +1172,22 @@ hr {
     top: 35px;
     right: 35px;
 }
-.vg-mener-image-white.with_background {
-    background-color: rgba(0,0,0,0.3);
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -o-border-radius: 5px;
-}
+
 .iphone .vg-mener-image-white {
     background: url('http://wp.agens.no/vg/vgmenerretinawhite.png') no-repeat center center;
     background-size: 75%;
     position: absolute;
     top: 0;
     right: 0;
+}
+
+.vg-mener-image-white.with_background,
+.iphone .vg-mener-image-white.with_background{
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 .cover .vg-mener-image-white {
     top: 265px;
