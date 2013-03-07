@@ -362,10 +362,13 @@ hr {
     top: 0;
     bottom: 0;
 }
-
 .fill-width {
     width: 100%;
 }
+.max-height {
+    max-height: 416px;
+    overflow: hidden;
+} 
 
 .offset-height {
     position: absolute;
@@ -1275,10 +1278,6 @@ hr {
 .iphone .alf-container.top-image {
     margin: 0 0 20px;
     padding: 0;
-}
-.iphone .alf-container.top-image img {
-    max-height: 416px;
-    overflow: hidden;
 }
 .iphone.tmpl-no-media .title {
     padding-top: 20px;
