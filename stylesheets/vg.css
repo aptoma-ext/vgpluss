@@ -353,9 +353,10 @@ hr {
 }
 .alf-region ul {
     padding-left: 25px;
+    line-height: 24px;
 }
 .alf-region li {
-    margin: 7px 0;
+    margin: 0;
 }
 
 
