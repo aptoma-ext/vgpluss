@@ -380,6 +380,9 @@ hr {
     position: absolute;
     top: 100%;
 }
+.offset-top {
+    top: 416px;
+}
 
 .content-indent {
     padding: 0 35px;
