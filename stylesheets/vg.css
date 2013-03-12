@@ -1319,13 +1319,7 @@ hr {
 .iphone-cover .title {
     text-align: left;
 }
-.iphone-cover .alf-container img {
-    max-width: inherit;
-    min-width: 100%;
-    width: inherit;
-    max-height: inherit;
-    height: auto;
-}
+
 .tmpl-iphone-cover-no-media .title {
     margin-top: 35px;
     text-align: center;
