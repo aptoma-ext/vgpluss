@@ -1349,7 +1349,8 @@ hr {
     position: relative;
 }
 
-.alf-slideshow-inline > img {
+.alf-slideshow-inline > img,
+.alf-slideshow-inline > .alf-slideshow-element {
     -webkit-transform: rotate(0);
     -moz-transform: rotate(0);
     -ms-transform: rotate(0);
