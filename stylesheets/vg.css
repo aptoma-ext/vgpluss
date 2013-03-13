@@ -148,6 +148,11 @@ body {
     overflow: hidden;
 }
 
+.no-caption.overlay-caption,
+.no-caption .overlay-caption {
+    display: none !important;
+}
+
 /* iPhone */
 @media (max-width: 1023px) {
     body {
