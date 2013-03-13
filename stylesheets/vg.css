@@ -1342,6 +1342,15 @@ hr {
 
 /** Slideshow styles **/
 
+.alf-slideshow .alf-page-loader {
+    background: #000;
+}
+
+.alf-slideshow .alf-page-loader:before {
+    color: #F5F5F5;
+    text-shadow: none;
+}
+
 .alf-slideshow-inline {
     margin: 0;
     padding: 0;
@@ -1349,7 +1358,6 @@ hr {
     position: relative;
 }
 
-.alf-slideshow-inline > img,
 .alf-slideshow-inline > .alf-slideshow-element {
     -webkit-transform: rotate(0);
     -moz-transform: rotate(0);
@@ -1393,10 +1401,12 @@ hr {
 
 .tmpl-gallery .alf-slideshow-toggle {
     display: block;
-    background-image:-moz-linear-gradient(59% -7% -90deg,rgba(102,102,102,0.8) 0%,rgba(48,48,48,0.8) 46%,rgba(34,34,34,0.8) 47%,rgba(0,0,0,0.8) 100%);
-    background-image:-webkit-gradient(linear,59% -7%,59% 117%,color-stop(0, rgba(102,102,102,0.8)),color-stop(0.46, rgba(48,48,48,0.8)),color-stop(0.47, rgba(34,34,34,0.8)),color-stop(1, rgba(0,0,0,0.8)));
-    background-image:-webkit-linear-gradient(-90deg,rgba(102,102,102,0.8) 0%,rgba(48,48,48,0.8) 46%,rgba(34,34,34,0.8) 47%,rgba(0,0,0,0.8) 100%);
-    background-image:linear-gradient(-90deg,rgba(102,102,102,0.8) 0%,rgba(48,48,48,0.8) 46%,rgba(34,34,34,0.8) 47%,rgba(0,0,0,0.8) 100%);
+    background: -moz-linear-gradient(top,  rgba(102,102,102,0.8) 0%, rgba(48,48,48,0.8) 46%, rgba(34,34,34,0.8) 47%, rgba(0,0,0,0.8) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(102,102,102,0.8)), color-stop(46%,rgba(48,48,48,0.8)), color-stop(47%,rgba(34,34,34,0.8)), color-stop(100%,rgba(0,0,0,0.8))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(102,102,102,0.8) 0%,rgba(48,48,48,0.8) 46%,rgba(34,34,34,0.8) 47%,rgba(0,0,0,0.8) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(102,102,102,0.8) 0%,rgba(48,48,48,0.8) 46%,rgba(34,34,34,0.8) 47%,rgba(0,0,0,0.8) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(102,102,102,0.8) 0%,rgba(48,48,48,0.8) 46%,rgba(34,34,34,0.8) 47%,rgba(0,0,0,0.8) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(102,102,102,0.8) 0%,rgba(48,48,48,0.8) 46%,rgba(34,34,34,0.8) 47%,rgba(0,0,0,0.8) 100%); /* W3C */
     width: 200px;
     height: 60px;
     border-color: rgba(0,0,0,0.8);
@@ -1412,10 +1422,12 @@ hr {
     margin: 20px auto;
 }
 .tmpl-gallery .alf-slideshow-toggle:active {
-    background-image:-moz-linear-gradient(50% -2% -90deg,rgba(0,0,0,0.9) 0%,rgba(34,34,34,0.9) 46%,rgba(40,40,40,0.9) 61%,rgba(63,63,63,0.9) 100%);
-    background-image:-webkit-gradient(linear,50% -2%,50% 102%,color-stop(0, rgba(0,0,0,0.9)),color-stop(0.46, rgba(34,34,34,0.9)),color-stop(0.61, rgba(40,40,40,0.9)),color-stop(1, rgba(63,63,63,0.9)));
-    background-image:-webkit-linear-gradient(-90deg,rgba(0,0,0,0.9) 0%,rgba(34,34,34,0.9) 46%,rgba(40,40,40,0.9) 61%,rgba(63,63,63,0.9) 100%);
-    background-image:linear-gradient(-90deg,rgba(0,0,0,0.9) 0%,rgba(34,34,34,0.9) 46%,rgba(40,40,40,0.9) 61%,rgba(63,63,63,0.9) 100%);
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.9) 0%, rgba(34,34,34,0.9) 46%, rgba(40,40,40,0.9) 61%, rgba(63,63,63,0.9) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.9)), color-stop(46%,rgba(34,34,34,0.9)), color-stop(61%,rgba(40,40,40,0.9)), color-stop(100%,rgba(63,63,63,0.9))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.9) 0%,rgba(34,34,34,0.9) 46%,rgba(40,40,40,0.9) 61%,rgba(63,63,63,0.9) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(0,0,0,0.9) 0%,rgba(34,34,34,0.9) 46%,rgba(40,40,40,0.9) 61%,rgba(63,63,63,0.9) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0.9) 0%,rgba(34,34,34,0.9) 46%,rgba(40,40,40,0.9) 61%,rgba(63,63,63,0.9) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.9) 0%,rgba(34,34,34,0.9) 46%,rgba(40,40,40,0.9) 61%,rgba(63,63,63,0.9) 100%); /* W3C */
     border-color:rgba(0,0,0,0.9);
     border-width:1px;
     -moz-border-radius:9px;
@@ -1427,8 +1439,6 @@ hr {
     box-shadow:none;
     opacity: 0.8;
 }
-
-
 
 .tmpl-gallery .alf-slideshow-toggle:before {
     content: 'Vis galleriet';
