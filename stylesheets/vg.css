@@ -1477,16 +1477,21 @@ hr {
     margin-right: -80px;
     padding: 50px 20px 0;
 }
+.tmpl-gallery-iphone .alf-slideshow-toggle:before {
+    content: 'Vis galleri';
+    line-height: 50px;
+    font-size: 22px;
+}
+
 .tmpl-gallery-iphone .alf-slideshow-toggle:after {
     content: '';
     height: 34px;
     width: 31px;
     top: 20px;
-    position: absolute;
     right: 50%;
     margin-right: -15px;
     background: url('http://wp.agens.no/vg/galleryIcon@2x.png') no-repeat center center;
-    background-size: 100%;
+    background-size: 80%;
 }
 
 
