@@ -1473,9 +1473,10 @@ hr {
     top: 50%;
     right: 50%;
     width: 100px;
-    margin-top: -40px;
+    height: 50px;    
+    margin-top: -50px;
     margin-right: -80px;
-    padding: 50px 0 0;
+    padding: 35px 15px 0;
 }
 .tmpl-gallery-iphone .alf-slideshow-toggle:before {
     content: 'Vis galleri';
@@ -1486,13 +1487,13 @@ hr {
 
 .tmpl-gallery-iphone .alf-slideshow-toggle:after {
     content: '';
-    height: 34px;
-    width: 31px;
-    top: 20px;
+    height: 24px;
+    width: 22px;
+    top: 10px;
     right: 50%;
     margin-right: -15px;
-    background: url('http://wp.agens.no/vg/galleryIcon@2x.png') no-repeat center center;
-    background-size: 80%;
+    background: url('http://wp.agens.no/vg/galleryIcon.png') no-repeat center center;
+    background-size: 100%;
 }
 
 
