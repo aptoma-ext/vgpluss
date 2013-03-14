@@ -651,7 +651,7 @@ hr {
         font-weight: normal;
     }
 
-.tmpl-cover-with-small-image .col-2 {
+.tmpl-cover-with-small-image .alf-col-2 {
     max-height: 316px;
     overflow:hidden;
 }
@@ -963,8 +963,8 @@ hr {
     top: -165px;
     padding: 20px 40px;
     -webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .rating {
     width: 60px;
@@ -1231,12 +1231,12 @@ hr {
 .section-meninger .colophon a {
     color: #333;
 }
-.colophon .colspan-1{
+.colophon .alf-colspan-1{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
-.colophon .colspan-1.alignleft{
+.colophon .alf-colspan-1.alignleft{
     padding-left: 40px;
     position: relative;
 }
@@ -1244,7 +1244,7 @@ hr {
     font-family: 'Gotham-Bold' !important;
     font-weight: normal;
 }
-.colophon .colspan-1.alignright{
+.colophon .alf-colspan-1.alignright{
     padding-right: 20px;
 }
 .colophon .vg-logo-vertical{
