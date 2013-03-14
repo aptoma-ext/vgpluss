@@ -1472,10 +1472,10 @@ hr {
     display: block;
     top: 50%;
     right: 50%;
-    height: 64px;
-    width: 170px;
-    margin-top: -32px;
-    margin-left: -85px;
+    height: 80px;
+    width: 100px;
+    margin-top: -40px;
+    margin-left: -50px;
 }
 .tmpl-gallery-iphone .alf-slideshow-toggle:after {
     content: '';
@@ -1483,7 +1483,8 @@ hr {
     width: 31px;
     top: 11px;
     position: absolute;
-    right: 20px;
+    right: 50%;
+    margin-right: 15px;
     background: url('http://wp.agens.no/vg/galleryIcon@2x.png') no-repeat center center;
     background-size: 100%;
 }
