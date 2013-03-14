@@ -1476,7 +1476,7 @@ hr {
     height: 50px;    
     margin-top: -50px;
     margin-right: -80px;
-    padding: 35px 15px 0;
+    padding: 36px 15px 0;
 }
 .tmpl-gallery-iphone .alf-slideshow-toggle:before {
     content: 'Vis galleri';
@@ -1489,7 +1489,7 @@ hr {
     content: '';
     height: 24px;
     width: 22px;
-    top: 15px;
+    top: 14px;
     right: 50%;
     margin-right: -11px;
     background: url('http://wp.agens.no/vg/galleryIcon.png') no-repeat center center;
