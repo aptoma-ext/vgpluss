@@ -1378,6 +1378,12 @@ hr {
     z-index: 10000;
     display: none;
 }
+.iphone .alf-slideshow-toggle {
+    position: relative;
+    margin: auto;
+    z-index: 10000;
+    display: none;
+}
 
 .alf-slideshow-stack {
     position: absolute;
