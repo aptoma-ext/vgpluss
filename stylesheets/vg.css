@@ -1382,7 +1382,7 @@ hr {
     position: relative;
     margin: auto;
     z-index: 10000;
-    display: none;
+    display: block;
 }
 
 .alf-slideshow-stack {
