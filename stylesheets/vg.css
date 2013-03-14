@@ -1470,16 +1470,14 @@ hr {
 }
 
 .iphone .alf-slideshow-toggle {
-    width: 70px;
     padding: 0;
     margin: 20px auto;
     right: 0;
-    top: 20px;
     display: block;
     bottom: -100px;
 }
-.iphone .alf-slideshow-toggle:before {
-    display:none;
+.tmpl-gallery-iphone .title {
+    margin-top: 100px;
 }
 
 /**
