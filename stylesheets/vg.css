@@ -1473,7 +1473,7 @@ hr {
     margin: 20px auto;
     right: 20px;
     display: block;
-    bottom: -100px;
+    bottom: -90px;
     background: -moz-linear-gradient(top,  rgba(102,102,102,1) 0%, rgba(48,48,48,1) 46%, rgba(34,34,34,1) 47%, rgba(0,0,0,1) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(102,102,102,1)), color-stop(46%,rgba(48,48,48,1)), color-stop(47%,rgba(34,34,34,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(top,  rgba(102,102,102,1) 0%,rgba(48,48,48,1) 46%,rgba(34,34,34,1) 47%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
