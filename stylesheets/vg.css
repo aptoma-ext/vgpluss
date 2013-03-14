@@ -1379,10 +1379,13 @@ hr {
     display: none;
 }
 .iphone .alf-slideshow-toggle {
-    position: relative;
-    margin: auto;
     z-index: 10000;
+    right: 0;
     display: block;
+    bottom: -100px;
+}
+.tmpl-gallery-iphone .title {
+    margin-top: 100px;
 }
 
 .alf-slideshow-stack {
