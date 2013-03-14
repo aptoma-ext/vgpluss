@@ -1421,8 +1421,8 @@ hr {
     background: -o-linear-gradient(top,  rgba(102,102,102,0.8) 0%,rgba(48,48,48,0.8) 46%,rgba(34,34,34,0.8) 47%,rgba(0,0,0,0.8) 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top,  rgba(102,102,102,0.8) 0%,rgba(48,48,48,0.8) 46%,rgba(34,34,34,0.8) 47%,rgba(0,0,0,0.8) 100%); /* IE10+ */
     background: linear-gradient(to bottom,  rgba(102,102,102,0.8) 0%,rgba(48,48,48,0.8) 46%,rgba(34,34,34,0.8) 47%,rgba(0,0,0,0.8) 100%); /* W3C */
-    width: 200px;
-    height: 60px;
+    width: 180px;
+    height: 50px;
     border-color: rgba(0,0,0,0.8);
     border-width: 1px;
     -moz-border-radius: 9px;
@@ -1456,17 +1456,17 @@ hr {
 
 .alf-slideshow-toggle:before {
     content: 'Vis galleriet';
-    line-height: 60px;
+    line-height: 50px;
     font-family: Gotham-Medium;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: normal;
     color: #FFF;
 }
 
 .alf-slideshow-toggle:after {
     content: '';
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     position: absolute;
     right: 20px;
     background: url('http://wp.agens.no/vg/expandGallery.png') no-repeat center center;
