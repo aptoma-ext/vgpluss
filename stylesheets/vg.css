@@ -1414,8 +1414,7 @@ hr {
     background-image: -o-linear-gradient(top,  rgba(102,102,102,0.8) 0%,rgba(48,48,48,0.8) 49%,rgba(34,34,34,0.8) 50%,rgba(0,0,0,0.8) 100%); /* Opera 11.10+ */
     background-image: -ms-linear-gradient(top,  rgba(102,102,102,0.8) 0%,rgba(48,48,48,0.8) 49%,rgba(34,34,34,0.8) 50%,rgba(0,0,0,0.8) 100%); /* IE10+ */
     background-image: linear-gradient(to bottom,  rgba(102,102,102,0.8) 0%,rgba(48,48,48,0.8) 49%,rgba(34,34,34,0.8) 50%,rgba(0,0,0,0.8) 100%); /* W3C */
-   
-    border: 1px solid rgb(51,51,51);
+    border: 1px solid #000;
     -moz-border-radius: 9px;
     -webkit-border-radius: 9px;
     border-radius: 9px;
