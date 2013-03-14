@@ -270,6 +270,9 @@ body {
     -ms-box-align: center;
     min-height: 748px;
 }
+.ipad .tmpl-gallery {
+    min-height: inherit;
+}
 
 .layer-fullscreen {
     position: absolute;
