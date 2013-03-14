@@ -1456,8 +1456,9 @@ hr {
 
 .alf-slideshow-toggle:after {
     content: '';
-    height: 50px;
-    width: 50px;
+    height: 34px;
+    width: 31px;
+    top: 9px;
     position: absolute;
     right: 20px;
     background: url('http://wp.agens.no/vg/galleryIcon@2x.png') no-repeat center center;
