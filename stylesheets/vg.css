@@ -1472,15 +1472,16 @@ hr {
     display: block;
     top: 50%;
     right: 50%;
-    width: 120px;
+    width: 100px;
     margin-top: -40px;
     margin-right: -80px;
-    padding: 50px 20px 0;
+    padding: 50px 0 0;
 }
 .tmpl-gallery-iphone .alf-slideshow-toggle:before {
     content: 'Vis galleri';
     line-height: 50px;
     font-size: 22px;
+    text-align: center;
 }
 
 .tmpl-gallery-iphone .alf-slideshow-toggle:after {
