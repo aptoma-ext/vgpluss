@@ -270,9 +270,6 @@ body {
     -ms-box-align: center;
     min-height: 748px;
 }
-.iphone.tmpl-gallery {
-    min-height: inherit;
-}
 
 .layer-fullscreen {
     position: absolute;
@@ -1407,7 +1404,7 @@ hr {
     transform: rotate(-1deg);
 }
 
-.tmpl-gallery .alf-slideshow-toggle {
+.alf-slideshow-toggle {
     display: block;
     background: -moz-linear-gradient(top,  rgba(102,102,102,0.8) 0%, rgba(48,48,48,0.8) 46%, rgba(34,34,34,0.8) 47%, rgba(0,0,0,0.8) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(102,102,102,0.8)), color-stop(46%,rgba(48,48,48,0.8)), color-stop(47%,rgba(34,34,34,0.8)), color-stop(100%,rgba(0,0,0,0.8))); /* Chrome,Safari4+ */
@@ -1429,7 +1426,7 @@ hr {
     padding: 0 80px 0 20px;
     margin: 20px auto;
 }
-.tmpl-gallery .alf-slideshow-toggle:active {
+.alf-slideshow-toggle:active {
     background: -moz-linear-gradient(top,  rgba(0,0,0,0.9) 0%, rgba(34,34,34,0.9) 46%, rgba(40,40,40,0.9) 61%, rgba(63,63,63,0.9) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.9)), color-stop(46%,rgba(34,34,34,0.9)), color-stop(61%,rgba(40,40,40,0.9)), color-stop(100%,rgba(63,63,63,0.9))); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(top,  rgba(0,0,0,0.9) 0%,rgba(34,34,34,0.9) 46%,rgba(40,40,40,0.9) 61%,rgba(63,63,63,0.9) 100%); /* Chrome10+,Safari5.1+ */
@@ -1448,7 +1445,7 @@ hr {
     opacity: 0.8;
 }
 
-.tmpl-gallery .alf-slideshow-toggle:before {
+.alf-slideshow-toggle:before {
     content: 'Vis galleriet';
     line-height: 60px;
     font-family: Gotham-Medium;
@@ -1457,7 +1454,7 @@ hr {
     color: #FFF;
 }
 
-.tmpl-gallery .alf-slideshow-toggle:after {
+.alf-slideshow-toggle:after {
     content: '';
     height: 60px;
     width: 60px;
