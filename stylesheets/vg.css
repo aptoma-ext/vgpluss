@@ -1477,9 +1477,6 @@ hr {
     margin-top: -32px;
     margin-left: -85px;
 }
-.tmpl-gallery-iphone .title {
-    margin-top: 90px;
-}
 .tmpl-gallery-iphone .alf-slideshow-toggle:after {
     content: '';
     height: 34px;
