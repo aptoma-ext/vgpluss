@@ -1475,6 +1475,11 @@ hr {
 .iphone .alf-slideshow-toggle:before {
     display:none;
 }
+.iphone .alf-slideshow-toggle {
+    width: 70px;
+    padding: 0;
+    margin: 20px auto;
+}
 
 .tmpl-gallery .alf-slideshow-stack-1,
 .tmpl-gallery .alf-slideshow-stack-2 {
