@@ -259,7 +259,7 @@ body {
 .layer-fullscreen,
 .tmpl-gallery,
 .tmpl-fullsize-media {
-    z-index: 1000;
+    z-index: 2147483647;
     background-color: #000;
     display: -moz-box;
     display: -webkit-box;
@@ -1425,8 +1425,8 @@ hr {
     margin: 20px auto;
 }
 
-.alf-slideshow-toggle:active {    
-    background-image:-moz-linear-gradient(50% 0% -90deg,rgba(0,0,0,0.9) 0%,rgba(51,51,51,0.9) 100%); 
+.alf-slideshow-toggle:active {
+    background-image:-moz-linear-gradient(50% 0% -90deg,rgba(0,0,0,0.9) 0%,rgba(51,51,51,0.9) 100%);
     background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgba(0,0,0,0.9)),color-stop(1, rgba(51,51,51,0.9)));
     background-image:-webkit-linear-gradient(-90deg,rgba(0,0,0,0.9) 0%,rgba(51,51,51,0.9) 100%);
     background-image:linear-gradient(-90deg,rgba(0,0,0,0.9) 0%,rgba(51,51,51,0.9) 100%);
@@ -1466,7 +1466,7 @@ hr {
     top: 50%;
     right: 50%;
     width: 80px;
-    height: 47px;    
+    height: 47px;
     margin-top: -50px;
     margin-right: -60px;
     padding: 32px 15px 0;
