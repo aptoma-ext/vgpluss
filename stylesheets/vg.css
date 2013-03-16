@@ -1478,7 +1478,7 @@ hr {
     padding: 32px 15px 0;
 }
 .tmpl-gallery-iphone .alf-slideshow-toggle:before,
-.iphone .alf-slideshow-inline .alf-slideshow-toggle:before{
+.iphone .alf-slideshow-toggle:before{
     content: 'Vis galleri';
     line-height: 50px;
     font-size: 18px;
