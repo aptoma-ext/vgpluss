@@ -522,6 +522,9 @@ hr {
     box-shadow: 0 0 6px #222;
     width: inherit;
     pointer-events: none;
+    max-height: 72px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .alf-supports-fullscreen img {
