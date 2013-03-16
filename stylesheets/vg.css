@@ -1485,7 +1485,8 @@ hr {
     text-align: center;
 }
 
-.tmpl-gallery-iphone .alf-slideshow-toggle:after {
+.tmpl-gallery-iphone .alf-slideshow-toggle:after,
+.iphone .alf-slideshow-toggle:after{
     content: '';
     height: 24px;
     width: 22px;
