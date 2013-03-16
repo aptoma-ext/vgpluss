@@ -1365,6 +1365,10 @@ hr {
     position: relative;
 }
 
+.alf-slideshow-inline .overlay-caption {
+    display: none;
+}
+
 .alf-slideshow-inline > .alf-slideshow-element {
     -webkit-transform: rotate(0);
     -moz-transform: rotate(0);
