@@ -1477,15 +1477,15 @@ hr {
     margin-right: -60px;
     padding: 32px 15px 0;
 }
-.tmpl-gallery-iphone .alf-slideshow-toggle:before {
+.tmpl-gallery-iphone .alf-slideshow-toggle:before,
+.iphone .alf-slideshow-inline .alf-slideshow-toggle:before{
     content: 'Vis galleri';
     line-height: 50px;
     font-size: 18px;
     text-align: center;
 }
 
-.tmpl-gallery-iphone .alf-slideshow-toggle:after,
-.iphone .alf-slideshow-toggle:after {
+.tmpl-gallery-iphone .alf-slideshow-toggle:after {
     content: '';
     height: 24px;
     width: 22px;
