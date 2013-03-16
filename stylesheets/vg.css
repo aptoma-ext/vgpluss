@@ -162,12 +162,10 @@ body {
     .chrome {
         width: 100%;
         overflow: visible;
-        overflow-x: hidden;
     }
 
     .alf-page-content {
        overflow: visible;
-       overflow-x: hidden;
     }
 }
 
