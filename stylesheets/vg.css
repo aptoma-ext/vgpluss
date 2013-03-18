@@ -724,11 +724,11 @@ hr {
     background-color:rgba(120,63,4,0.4);
 }
 
-.section-sport .template,
+.section-sport .alf-template,
 .section-sport .tmpl-widescreen-frontpage .content-indent {
     background-color: #ffdfdd;
 }
-.section-sport .template.tmpl-fullsize-media {
+.section-sport .alf-template.tmpl-fullsize-media {
     background-color: #000;
 }
 .section-sport .byline {
@@ -1001,7 +1001,7 @@ hr {
     padding: 0;
 }
 
-.iphone .template {
+.iphone .alf-template {
     overflow: hidden
 }
 
@@ -1055,7 +1055,7 @@ hr {
 }
 /**
  * Specific Template styles
- * These styles affects only specific templates
+ * These styles affects only specific alf-templates
  */
 
 .tmpl-landscape-slim-2 .landscape-slim-media,
