@@ -38,6 +38,20 @@
     src: url(http://static.vg.no/vgpluss/fonts/palatino.ttf);
 }
 
+/** Preview styles */
+.alf-mode-preview .dp-plugin-twitter {
+    background-color: #00ACED;
+}
+
+.alf-mode-preview .dp-plugin-twitter:after {
+    content: '';
+    background: url(https://twitter.com/images/resources/twitter-bird-dark-bgs.png) no-repeat;
+    background-size: 100% 100%;
+    width: 150px;
+    height: 150px;
+}
+/** End preview styles */
+
 /**
  * General styles
  */
