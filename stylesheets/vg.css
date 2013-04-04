@@ -309,6 +309,8 @@ body {
     -webkit-box-align: center;
     -moz-box-align: center;
     -ms-box-align: center;
+    width: 100%;
+    height: 100%;
 }
 
 
