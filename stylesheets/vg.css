@@ -50,6 +50,15 @@
     width: 150px;
     height: 150px;
 }
+
+.alf-mode-preview .dp-iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.alf-mode-preview .dp-iframe:after {
+    content: '';
+}
 /** End preview styles */
 
 /**
