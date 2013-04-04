@@ -280,8 +280,7 @@ body {
 }
 
 .layer-fullscreen,
-.tmpl-gallery,
-.tmpl-fullsize-media {
+.tmpl-gallery {
     z-index: 2147483647;
     background-color: #000;
     display: -moz-box;
@@ -292,6 +291,18 @@ body {
     -moz-box-align: center;
     -ms-box-align: center;
     min-height: 748px;
+}
+
+.tmpl-fullsize-media .alf-container {
+    display: -moz-box;
+    display: -webkit-box;
+    display: box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-box-align: center;
+    width: 100%;
+    height: 100%;
 }
 
 .layer-fullscreen {
