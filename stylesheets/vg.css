@@ -294,6 +294,14 @@ body {
 }
 
 .tmpl-fullsize-media .alf-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.tmpl-fullsize-media .alf-container .media-element {
     display: -moz-box;
     display: -webkit-box;
     display: box;
@@ -301,12 +309,8 @@ body {
     -webkit-box-align: center;
     -moz-box-align: center;
     -ms-box-align: center;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
 }
+
 
 .layer-fullscreen {
     position: absolute;
