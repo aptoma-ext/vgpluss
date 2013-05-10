@@ -1427,7 +1427,8 @@ hr {
     transform: rotate(0);
 }
 
-.alf-slideshow-toggle {
+
+.alf-slideshow-toggle, .btn-link-wrapper a {
     position: absolute;
     bottom: 50px;
     right: 70px;
