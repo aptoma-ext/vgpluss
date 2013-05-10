@@ -1501,6 +1501,10 @@ hr {
     color: #FFF;
 }
 
+.btn-link-wrapper a:before {
+    content: "Gå til siden";
+}
+
 .alf-slideshow-toggle:after {
     content: '';
     height: 34px;
