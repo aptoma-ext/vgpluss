@@ -1461,7 +1461,7 @@ hr {
     transform: rotate(-1deg);
 }
 
-.alf-slideshow-toggle {
+.alf-slideshow-toggle, .btn-link-wrapper a {
     display: block;
     width: 150px;
     height: 60px;
@@ -1482,7 +1482,7 @@ hr {
     margin: 20px auto;
 }
 
-.alf-slideshow-toggle:active {
+.alf-slideshow-toggle:active, .btn-link-wrapper a:active {
     background-image:-moz-linear-gradient(50% 0% -90deg,rgba(0,0,0,0.9) 0%,rgba(51,51,51,0.9) 100%);
     background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgba(0,0,0,0.9)),color-stop(1, rgba(51,51,51,0.9)));
     background-image:-webkit-linear-gradient(-90deg,rgba(0,0,0,0.9) 0%,rgba(51,51,51,0.9) 100%);
@@ -1507,7 +1507,7 @@ hr {
     content: "Gå til siden";
 }
 
-.alf-slideshow-toggle:after {
+.alf-slideshow-toggle:after, .btn-link-wrapper a:after {
     content: '';
     height: 34px;
     width: 31px;
