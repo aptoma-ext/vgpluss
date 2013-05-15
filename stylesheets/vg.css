@@ -999,7 +999,7 @@ hr {
         pointer-events: none;
     }
     .dark-background {
-        background: url(http://wp.agens.no/vg/bg_noise@2x.png) repeat left bottom #3D3D3D;
+        background: url(http://static.vg.no/vgpluss/gfx/bg_noise@2x.png) repeat left bottom #3D3D3D;
         pointer-events: none;
     }
 }
@@ -1020,7 +1020,7 @@ hr {
 .rating {
     width: 60px;
     height: 61px;
-    background: url(http://wp.agens.no/vg/rating/rating1.png) no-repeat center center;
+    background: url(http://static.vg.no/vgpluss/gfx/rating/rating1.png) no-repeat center center;
     background-size: 100% 100%;
     display: block;
 }
@@ -1072,27 +1072,27 @@ hr {
 }
 
 .rating-1 {
-    background: url(http://wp.agens.no/vg/rating/rating1.png) no-repeat center center;
+    background: url(http://static.vg.no/vgpluss/gfx/rating/rating1.png) no-repeat center center;
     background-size: 100% 100%;
 }
 .rating-2 {
-    background: url(http://wp.agens.no/vg/rating/rating2.png) no-repeat center center;
+    background: url(http://static.vg.no/vgpluss/gfx/rating/rating2.png) no-repeat center center;
     background-size: 100% 100%;
 }
 .rating-3 {
-    background: url(http://wp.agens.no/vg/rating/rating3.png) no-repeat center center;
+    background: url(http://static.vg.no/vgpluss/gfx/rating/rating3.png) no-repeat center center;
     background-size: 100% 100%;
 }
 .rating-4 {
-    background: url(http://wp.agens.no/vg/rating/rating4.png) no-repeat center center;
+    background: url(http://static.vg.no/vgpluss/gfx/rating/rating4.png) no-repeat center center;
     background-size: 100% 100%;
 }
 .rating-5 {
-    background: url(http://wp.agens.no/vg/rating/rating5.png) no-repeat center center;
+    background: url(http://static.vg.no/vgpluss/gfx/rating/rating5.png) no-repeat center center;
     background-size: 100% 100%;
 }
 .rating-6 {
-    background: url(http://wp.agens.no/vg/rating/rating6.png) no-repeat center center;
+    background: url(http://static.vg.no/vgpluss/gfx/rating/rating6.png) no-repeat center center;
     background-size: 100% 100%;
 }
 .tmpl-frontpage-anmeldelse .title {
@@ -1246,7 +1246,7 @@ hr {
     margin-bottom: 10px;
 }
 .vg-mener-image-white {
-    background: url('http://wp.agens.no/vg/vgmenerretinawhite.png') no-repeat center center;
+    background: url('http://static.vg.no/vgpluss/gfx/vgmenerretinawhite.png') no-repeat center center;
     background-size: 100%;
     position: absolute;
     top: 35px;
@@ -1304,7 +1304,7 @@ hr {
     left: 0;
     height: 125px;
     width: 24px;
-    background: url('http://wp.agens.no/vg/vg-logo-vertical.png') no-repeat center center;
+    background: url('http://static.vg.no/vgpluss/gfx/vg-logo-vertical.png') no-repeat center center;
     background-size: 100% 100%;
 }
 
@@ -1514,7 +1514,7 @@ hr {
     top: 11px;
     position: absolute;
     right: 20px;
-    background: url('http://wp.agens.no/vg/galleryIcon@2x.png') no-repeat center center;
+    background: url('http://static.vg.no/vgpluss/gfx/galleryIcon@2x.png') no-repeat center center;
     background-size: 100%;
 }
 
@@ -1549,7 +1549,7 @@ hr {
     top: 13px;
     right: 50%;
     margin-right: -11px;
-    background: url('http://wp.agens.no/vg/galleryIcon.png') no-repeat center center;
+    background: url('http://static.vg.no/vgpluss/gfx/galleryIcon.png') no-repeat center center;
     background-size: 100%;
 }
 
