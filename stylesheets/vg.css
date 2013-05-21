@@ -772,6 +772,24 @@ hr {
     background-color:rgba(120,63,4,0.4);
 }
 
+
+/* mat og drikke oneshot */
+.section-fisk-og-skalldyr .header-section span {
+    background-color:rgba(74,134,232,0.4);
+}
+.section-sunt-og-godt .header-section span {
+    background-color:rgba(106,168,79,0.4);
+}
+.section-drikke .header-section span {
+    background-color:rgba(241, 194, 50,0.4);
+}
+.section-soetsaker .header-section span {
+    background-color:rgba(166, 77, 121,0.4);
+}
+.section-kjoett .header-section span {
+    background-color:rgba(120, 63, 4,0.4);
+}
+
 .section-sport .alf-template,
 .section-sport .tmpl-widescreen-frontpage .content-indent {
     background-color: #ffdfdd;
