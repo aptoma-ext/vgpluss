@@ -1259,7 +1259,7 @@ hr {
     height: 160px;
 }
 .vg-mener-image {
-    background: url('../gfx/vgmenerretina.png') no-repeat center center;
+    background: url('http://static.vg.no/vgpluss/gfx/vgmenerretina.png') no-repeat center center;
     background-size: 100% 100%;
     margin-bottom: 10px;
 }
@@ -1331,7 +1331,7 @@ hr {
     height: 23px;
     display: block;
     float: right;
-    background: url('../gfx/logoByline.png') no-repeat center center;
+    background: url('http://static.vg.no/vgpluss/gfx/logoByline.png') no-repeat center center;
     background-size: 100%;
 }
 
