@@ -1621,3 +1621,67 @@ hr {
     font-weight: normal !important;
     text-transform: none !important;
 }
+
+/* CSS FOR EDITION FRONT PAGES */
+.edition-meta {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px;
+}
+.edition-logo {
+    height: 86px;
+    width: 450px;
+    background: url('http://static.vg.no/vgpluss/gfx/edition-logo@2x.png') center center no-repeat;
+    background-size: 100%;
+    display: block;
+    text-indent: -9999px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.65);
+}
+.edition-date {
+    font-family: DharmaGothicE-Bold;
+    font-size: 44px;
+    line-height: 0.8em;
+    font-weight: normal;
+    letter-spacing: -0.02em;
+    margin: 0;
+    text-transform: uppercase;
+}
+.edition-date.light {
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.tmpl-edition-front .frontpage-top-left {
+    padding-top: 35px;
+    top: inherit;
+    bottom: 0;
+}
+
+.tmpl-edition-front .header-sans-serif h1 {
+    font-size: 140px;
+}
+.tmpl-edition-front .header-serif h1 {
+    font-size: 105px;
+}
+.tmpl-edition-front .excerpt p {
+    font-family: gotham-medium;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.2em;
+    letter-spacing: -0.05em;
+}
+
+.tmpl-edition-front .hard-gradient {
+    background: url('http://static.vg.no/vgpluss/gfx/hardGradient.png') center center no-repeat;
+    background-size: 100%;
+    border-top: 2px solid rgba(255,255,255,0.5);
+    width: 100%;
+    padding: 50px 35px 35px;
+    top: inherit;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
