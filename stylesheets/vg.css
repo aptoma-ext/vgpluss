@@ -319,6 +319,7 @@ body {
 }
 
 
+.alf-layer-fullscreen,
 .layer-fullscreen {
     position: absolute;
     top: 0;
