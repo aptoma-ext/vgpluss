@@ -536,14 +536,14 @@ hr {
 }
 
 .overlay-caption {
-    padding: 10px 12px;
+    padding: 12px;
     text-shadow: 0 -1px #333;
     font-family: Gotham-Medium, serif;
     font-weight: normal !important;
     position: absolute;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
+    left: 0;
+    right: 0;
+    bottom: 0;
     color: #FFF;
     opacity: 1;
     box-sizing: border-box;
@@ -555,7 +555,6 @@ hr {
     letter-spacing: -0.07em;
     background: rgba(0,0,0,0.5);
     border: 1px solid #333 !important;
-    border-radius: 5px;
     -moz-box-shadow: 0px 1px 4px rgba(0,0,0,0.52) ,0px 0px 30px rgba(255,255,255,0.16);
     -webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.52) ,0px 0px 30px rgba(255,255,255,0.16);
     box-shadow: 0px 1px 4px rgba(0,0,0,0.52) ,0px 0px 30px rgba(255,255,255,0.16);
