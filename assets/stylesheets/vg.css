@@ -1556,7 +1556,7 @@ a.db-fact-box-action:after {
 }
 
 .alf-slideshow-inline {
-    margin: 0;
+    margin: 20px 0;
     padding: 0;
     line-height: 0;
     position: relative;
