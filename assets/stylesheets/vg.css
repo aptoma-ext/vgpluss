@@ -1556,10 +1556,14 @@ a.db-fact-box-action:after {
 }
 
 .alf-slideshow-inline {
-    margin: 20px 0;
+    margin: 0;
     padding: 0;
     line-height: 0;
     position: relative;
+}
+
+.iphone .alf-slideshow-inline {
+    margin: 20px 0;
 }
 
 .alf-slideshow-inline .overlay-caption {
