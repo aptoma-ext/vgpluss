@@ -1565,6 +1565,9 @@ a.db-fact-box-action:after {
 .iphone .alf-slideshow-inline {
     margin: 20px 0;
 }
+.iphone .top-image .alf-slideshow-inline {
+    margin: 0;    
+}
 
 .alf-slideshow-inline .overlay-caption {
     display: none;
