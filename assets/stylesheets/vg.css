@@ -376,7 +376,7 @@ body {
 }
 
 .alf-fullscreen-exit:before {
-    content: 'Lukk';
+    content: '+';
     padding: 0;
 }
 
