@@ -375,7 +375,7 @@ body {
     color: #666;
 }
 
-.alf-fullscreen-exit {
+.alf-fullscreen-toolbar button.alf-fullscreen-exit {
     position: relative;
     padding: 19px;
 }
