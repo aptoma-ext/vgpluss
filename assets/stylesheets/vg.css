@@ -351,7 +351,7 @@ body {
     display: block;
     background: rgba(0,0,0,0.5);
     border: 1px solid #333 !important;
-    border-radius: 5px;
+    border-radius: 0;
     -moz-box-shadow: 0px 1px 4px rgba(0,0,0,0.52) ,0px 0px 30px rgba(255,255,255,0.16);
     -webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.52) ,0px 0px 30px rgba(255,255,255,0.16);
     box-shadow: 0px 1px 4px rgba(0,0,0,0.52) ,0px 0px 30px rgba(255,255,255,0.16);
@@ -365,7 +365,8 @@ body {
 }
 
 .alf-fullscreen-toolbar .alf-slideshow-progress {
-    float: left;
+    float: right;
+    border-right: none !important;
 }
 
 .alf-fullscreen-toolbar a:active,
@@ -1566,7 +1567,7 @@ a.db-fact-box-action:after {
     margin: 20px 0;
 }
 .iphone .top-image .alf-slideshow-inline {
-    margin: 0;    
+    margin: 0;
 }
 
 .alf-slideshow-inline .overlay-caption {
