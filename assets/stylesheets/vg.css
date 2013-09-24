@@ -365,7 +365,7 @@ body {
 }
 
 .alf-fullscreen-toolbar .alf-slideshow-progress {
-    border-right: none !important;
+    float: left;
 }
 
 .alf-fullscreen-toolbar a:active,
