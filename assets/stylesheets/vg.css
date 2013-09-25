@@ -1727,6 +1727,7 @@ a.db-fact-box-action:after {
 .alf-controls-off .overlay-caption,
 .alf-controls-off .alf-fullscreen-toolbar{
     opacity:0;
+    pointer-events: none;
 }
 
 /**
