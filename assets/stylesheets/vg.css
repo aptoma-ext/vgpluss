@@ -485,12 +485,12 @@ hr {
 }
 
 .media-element {
-    position: relative;
     line-height: 0;
     display: -webkit-box;
     display: box;
     -webkit-box-pack: center;
     -moz-box-pack: center;
+    max-height: 748px;
 }
 
 .container-dark {
