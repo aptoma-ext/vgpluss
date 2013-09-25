@@ -1668,13 +1668,13 @@ a.db-fact-box-action:after {
 
 .alf-slideshow-toggle:after, .btn-link-wrapper a:after {
     content: '';
-    height: 34px;
+    height: 38px;
     width: 31px;
     top: 11px;
     position: absolute;
     right: 20px;
     background: url('http://static.vg.no/vgpluss/gfx/galleryIcon@2x.png') no-repeat center center;
-    background-size: 100%;
+    background-size: 24px;
 }
 
 .iphone .btn-link-wrapper a {
