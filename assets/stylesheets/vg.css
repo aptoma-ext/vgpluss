@@ -1716,6 +1716,11 @@ a.db-fact-box-action:after {
     background-size: 100%;
 }
 
+.alf-controls-off .overlay-caption,
+.alf-controls-off .alf-fullscreen-toolbar{
+    display: none;
+}
+
 
 /**
  * Alf styles
