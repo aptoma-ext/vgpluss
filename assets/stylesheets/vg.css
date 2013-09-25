@@ -576,8 +576,9 @@ hr {
     box-shadow: 0px 1px 4px rgba(0,0,0,0.52) ,0px 0px 30px rgba(255,255,255,0.16);
 }
 
+.alf-layer-fullscreen .overlay-caption,
 .layer-fullscreen .overlay-caption {
-    max-height: 72px;
+    max-height: 120px;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
 }
