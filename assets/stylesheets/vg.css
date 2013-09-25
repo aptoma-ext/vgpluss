@@ -1715,12 +1715,19 @@ a.db-fact-box-action:after {
     background: url('http://static.vg.no/vgpluss/gfx/galleryIcon.png') no-repeat center center;
     background-size: 100%;
 }
+.alf-controls-off .overlay-caption,
+.alf-controls-off .alf-fullscreen-toolbar {
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+    opacity:1;
+}
 
 .alf-controls-off .overlay-caption,
 .alf-controls-off .alf-fullscreen-toolbar{
-    display: none;
+    opacity:0;
 }
-
 
 /**
  * Alf styles
