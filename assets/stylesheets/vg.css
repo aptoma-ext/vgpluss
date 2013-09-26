@@ -506,6 +506,12 @@ hr {
     width: auto;
     margin-top: -10px;
 }
+.iphone .alf-container-fullscreen img {
+    max-width: 100%;
+    height: auto;
+    width: inherit;
+    margin-top: 0;
+}
 
 .overlay {
     background-color: rgba(0, 0, 0, .65);
