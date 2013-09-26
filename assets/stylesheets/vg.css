@@ -503,12 +503,7 @@ hr {
 .alf-container-fullscreen img {
     max-width: 100%;
     height: auto;
-    width: auto;
     margin-top: -10px;
-}
-.iphone .alf-container-fullscreen img {
-    width: inherit;
-    margin-top: 0;
 }
 
 .overlay {
