@@ -436,6 +436,7 @@ hr {
 .max-height {
     max-height: 416px;
     overflow: hidden;
+    width: 100%;
 }
 
 .offset-height {
