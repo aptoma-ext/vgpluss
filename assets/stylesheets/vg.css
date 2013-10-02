@@ -1516,6 +1516,7 @@ a.db-fact-box-action:after {
 }
 .iphone .media-element {
     -webkit-box-orient:vertical;
+    max-height: inherit;
 }
 .iphone .alf-supports-fullscreen img {
     width: 100%;
