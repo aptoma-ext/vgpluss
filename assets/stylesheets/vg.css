@@ -485,6 +485,7 @@ hr {
 }
 
 .media-element {
+    position: relative;
     line-height: 0;
     display: -webkit-box;
     display: box;
