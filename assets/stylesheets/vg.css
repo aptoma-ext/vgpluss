@@ -187,7 +187,7 @@ body {
     }
 
     .alf-page-content {
-       overflow: visible;
+        overflow: visible;
     }
 }
 
@@ -336,8 +336,8 @@ body {
     display: box;
     -webkit-box-pack: center;
     -webkit-box-align: center;
-       -moz-box-align: center;
-        -ms-box-align: center;
+    -moz-box-align: center;
+    -ms-box-align: center;
 }
 
 .alf-fullscreen-toolbar a,
@@ -397,8 +397,8 @@ body {
 
 
 /**
- * Page content styles
- */
+    * Page content styles
+    */
 
 h1, h2, h3 {
     font-family: Gotham-Medium, Verdana, Helvetica, Arial;
@@ -706,10 +706,10 @@ hr {
     top: 95px;
 }
 
-    .frontpage-top-left h1 {
-        font-size: 90px;
-        font-weight: normal;
-    }
+.frontpage-top-left h1 {
+    font-size: 90px;
+    font-weight: normal;
+}
 
 .tmpl-cover-with-small-image .alf-col-2 {
     max-height: 316px;
@@ -718,8 +718,8 @@ hr {
 
 
 /**
- * Front-page - Article
- */
+    * Front-page - Article
+    */
 
 .header-section {
     font-family: Gotham-Book;
@@ -867,19 +867,19 @@ hr {
     border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 
-    .frontpage-1 .excerpt h2 { /* Stikk-title */
-        font-family: gotham-book;
-        font-weight: normal;
-        text-transform: uppercase;
-        font-size: 18px;
-        margin: 0;
-    }
+.frontpage-1 .excerpt h2 { /* Stikk-title */
+    font-family: gotham-book;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 0;
+}
 
-    .frontpage-1 .excerpt p { /* Ingress */
-        font-family: gotham-book;
-        font-weight: normal;
-        margin: 0;
-    }
+.frontpage-1 .excerpt p { /* Ingress */
+    font-family: gotham-book;
+    font-weight: normal;
+    margin: 0;
+}
 
 .tmpl-excerpt-with-background .byline {
     margin-top: 2px;
@@ -896,8 +896,8 @@ hr {
 
 
 /**
- * Metabox
- */
+    * Metabox
+    */
 
 .alf-region ul.meta {
     list-style: none;
@@ -985,11 +985,11 @@ hr {
 }
 
 /**
- * Fact-box
- */
+    * Fact-box
+    */
 .dp-fact-box {
     width: 100%;
- }
+}
 .dp-fact-box-container {
     margin-bottom: 24px;
     clear: both;
@@ -1117,8 +1117,8 @@ a.db-fact-box-action:after {
 }
 
 /**
- * Gradients
- */
+    * Gradients
+    */
 .gradient-light-to-dark {
     background: url(http://static.vg.no/vgpluss/gfx/GradientBottomTop.png) no-repeat left bottom;
     background-size: 100% 100%;
@@ -1164,8 +1164,8 @@ a.db-fact-box-action:after {
     }
 }
 /**
- * Rating
- */
+    * Rating
+    */
 .rating-box {
     width: 100%;
     min-height: 165px;
@@ -1174,8 +1174,8 @@ a.db-fact-box-action:after {
     top: -165px;
     padding: 20px 40px;
     -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 .rating {
     width: 60px;
@@ -1262,9 +1262,9 @@ a.db-fact-box-action:after {
     margin-top: 28px;
 }
 /**
- * Specific Template styles
- * These styles affects only specific alf-templates
- */
+    * Specific Template styles
+    * These styles affects only specific alf-templates
+    */
 
 .tmpl-landscape-slim-2 .landscape-slim-media,
 .tmpl-landscape-slim-3 .landscape-slim-media {
@@ -1446,7 +1446,7 @@ a.db-fact-box-action:after {
 .colophon .alf-colspan-1{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 .colophon .alf-colspan-1.alignleft{
     padding-left: 40px;
@@ -1491,9 +1491,9 @@ a.db-fact-box-action:after {
     width: 50%;
 }
 /**
- * Specific iPhone styles
- * These styles affects only iphone
- */
+    * Specific iPhone styles
+    * These styles affects only iphone
+    */
 .iphone .alf-container,
 .iphone .alf-region {
     padding-left: 15px;
@@ -1520,7 +1520,7 @@ a.db-fact-box-action:after {
 }
 .iphone .alf-supports-fullscreen img {
     width: 100%;
-	height: auto;
+    height: auto;
 }
 .iphone .header-sans-serif h1 {
     font-size: 60px;
@@ -1735,9 +1735,9 @@ a.db-fact-box-action:after {
 }
 
 /**
- * Alf styles
- * These can be toggled on and off by users in layout preview
- */
+    * Alf styles
+    * These can be toggled on and off by users in layout preview
+    */
 .alf-style-text-shadow-dark {
     text-shadow:0px 0px 4px rgba(0,0,0,0.5) !important;
 }
@@ -1759,9 +1759,9 @@ a.db-fact-box-action:after {
 }
 
 /**
- * Alf fonts
- * These will be available in the font dropdown
- */
+    * Alf fonts
+    * These will be available in the font dropdown
+    */
 
 .alf-font-condensed {
     font-family: DharmaGothicE-Bold !important;
