@@ -1669,6 +1669,7 @@ a.db-fact-box-action:after {
     content: "Gå til siden";
 }
 
+
 .alf-slideshow-toggle:after, .btn-link-wrapper a:after {
     content: '';
     height: 31px;
@@ -1848,3 +1849,27 @@ a.db-fact-box-action:after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
+
+/* crosswords */
+.vg-crossword-feature {
+    /* gradient */
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    border: 1px solid #000;
+}
+
+.vg-crossword-feature .logo {
+    border: 1px solid #000;
+}
+
+.vg-crossword-feature .author {
+    border: 1px solid #000;
+}
+
+.btn-link-wrapper-crossword a:before {
+    content: "Løs kryssord her";
+}
+
