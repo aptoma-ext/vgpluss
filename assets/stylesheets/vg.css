@@ -1873,6 +1873,10 @@ a.db-fact-box-action:after {
     border: 1px solid #000;
 }
 
+.btn-link-wrapper-crossword a {
+    width: 225px;
+}
+
 .btn-link-wrapper-crossword a:before {
     content: "Løs kryssord her";
 }
