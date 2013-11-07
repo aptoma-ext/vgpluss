@@ -1852,13 +1852,17 @@ a.db-fact-box-action:after {
 
 /* crosswords */
 .vg-crossword-feature {
-    /* gradient */
+    background: -moz-linear-gradient(left, rgba(0,0,0,0.65) 81%, rgba(0,0,0,0) 95%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(81%,rgba(0,0,0,0.65)), color-stop(95%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0.65) 81%,rgba(0,0,0,0) 95%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(0,0,0,0.65) 81%,rgba(0,0,0,0) 95%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(0,0,0,0.65) 81%,rgba(0,0,0,0) 95%); /* IE10+ */
+    background: linear-gradient(to right, rgba(0,0,0,0.65) 81%,rgba(0,0,0,0) 95%); /* W3C */
     position: absolute;
     left: 0;
     top: 0;
     width: 50%;
     height: 100%;
-    border: 1px solid #000;
 }
 
 .vg-crossword-feature .logo {
