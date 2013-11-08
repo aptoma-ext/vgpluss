@@ -1871,14 +1871,15 @@ a.db-fact-box-action:after {
     bottom: 0;
     color: #fff;
     text-align: center;
-    width: 1024;
+    width: 1024px;
     height: 569px;
     border: 1px solid #000;
     background: url('http://static.vg.no/vgpluss/gfx/xword-author.png') no-repeat center center;
+    background-size: 1024px 569px;
 }
 
 .btn-link-wrapper-crossword a {
-    width: 225px;
+    width: 240px;
 }
 
 .btn-link-wrapper-crossword a:before {
@@ -1890,6 +1891,7 @@ a.db-fact-box-action:after {
 .btn-link-wrapper-crossword a:after {
     width: 42px;
     height: 33px;
+    background-size: 42px 33px;
     background: url('http://static.vg.no/vgpluss/gfx/xword-icon.png') no-repeat center center;
 }
 
