@@ -1871,20 +1871,10 @@ a.db-fact-box-action:after {
     bottom: 0;
     color: #fff;
     text-align: center;
-    width: 650px;
-    height: 400px;
+    width: 1024;
+    height: 569px;
     border: 1px solid #000;
-}
-
-.vg-crossword-feature .vg-crossword-author {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    color: #fff;
-    text-align: center;
-    width: 500px;
-    height: 500px;
-    border: 1px solid #000;
+    background: url('http://static.vg.no/vgpluss/gfx/xword-author.png') no-repeat center center;
 }
 
 .btn-link-wrapper-crossword a {
@@ -1893,5 +1883,13 @@ a.db-fact-box-action:after {
 
 .btn-link-wrapper-crossword a:before {
     content: "Løs kryssord her";
+    width: 42px;
+    height: 33px;
+}
+
+.btn-link-wrapper-crossword a:after {
+    width: 42px;
+    height: 33px;
+    background: url('http://static.vg.no/vgpluss/gfx/xword-icon.png') no-repeat center center;
 }
 
