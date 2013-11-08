@@ -1865,7 +1865,7 @@ a.db-fact-box-action:after {
     height: 100%;
 }
 
-.vg-crossword-feature .logo {
+.vg-crossword-feature .vg-crossword-logo {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -1876,7 +1876,7 @@ a.db-fact-box-action:after {
     border: 1px solid #000;
 }
 
-.vg-crossword-feature .author {
+.vg-crossword-feature .vg-crossword-author {
     position: absolute;
     left: 0;
     bottom: 0;
