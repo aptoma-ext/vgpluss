@@ -1891,7 +1891,7 @@ a.db-fact-box-action:after {
 .btn-link-wrapper-crossword a:after {
     width: 42px;
     height: 33px;
-    background-size: 42px 33px;
     background: url('http://static.vg.no/vgpluss/gfx/xword-icon.png') no-repeat center center;
+    background-size: 42px 33px;
 }
 
