@@ -1877,7 +1877,13 @@ a.db-fact-box-action:after {
     background-size: 1024px 569px;
 }
 
-.iphone .vg-crossword-logo {
+.iphone .vg-crossword-feature {
+    position: absolute;
+    width: 100%;
+    height: 240px;
+}
+
+.iphone .vg-crossword-feature .vg-crossword-logo {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -1899,7 +1905,7 @@ a.db-fact-box-action:after {
 }
 
 .iphone .btn-link-wrapper-crossword a:before {
-    content: "Løs kryssord her";
+    content: "Spill";
     width: 42px;
     height: 33px;
 }
