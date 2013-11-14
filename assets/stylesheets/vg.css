@@ -1901,11 +1901,11 @@ a.db-fact-box-action:after {
     right: 0;
     left: 0;
     margin: 0 auto;
-    width: 150px;
+    width: 130px;
 }
 
 .iphone .btn-link-wrapper-crossword a:before {
-    content: "Spill";
+    content: "Spill nå";
     width: 42px;
     height: 33px;
 }
