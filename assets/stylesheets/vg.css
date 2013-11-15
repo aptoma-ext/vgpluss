@@ -1882,7 +1882,7 @@ a.db-fact-box-action:after {
     width: 100%;
 }
 
-.iphone .vg-crossword-feature .no-android {
+.iphone .no-android {
     width: 256px;
     height: 55px;
     top: 10px;
@@ -1894,7 +1894,7 @@ a.db-fact-box-action:after {
 
 .iphone .vg-crossword-feature .vg-crossword-logo {
     position: absolute;
-    bottom: 20px;
+    bottom: 0;
     left: 0;
     right: 0;
     margin: 0 auto;
