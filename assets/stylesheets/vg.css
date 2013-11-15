@@ -1890,6 +1890,7 @@ a.db-fact-box-action:after {
     left: 0;
     margin: 0 auto;
     background: url('http://static.vg.no/vgpluss/gfx/android_no.png') no-repeat center center;
+    background-size: 256px 55px;
 }
 
 .iphone .vg-crossword-feature .vg-crossword-logo {
