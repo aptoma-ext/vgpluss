@@ -1878,9 +1878,9 @@ a.db-fact-box-action:after {
 }
 
 .iphone .vg-crossword-feature {
+    background: none;
     position: absolute;
     width: 100%;
-    height: 240px;
 }
 
 .iphone .vg-crossword-feature .vg-crossword-logo {
