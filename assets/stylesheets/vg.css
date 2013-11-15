@@ -1883,6 +1883,7 @@ a.db-fact-box-action:after {
 }
 
 .iphone .no-android {
+    position: absolute;
     width: 256px;
     height: 55px;
     top: 10px;
