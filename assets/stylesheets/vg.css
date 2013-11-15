@@ -1860,7 +1860,6 @@ a.db-fact-box-action:after {
     background: linear-gradient(to right, rgba(0,0,0,0.65) 81%,rgba(0,0,0,0) 95%); /* W3C */
     position: absolute;
     left: 0;
-    top: 0;
     width: 50%;
 }
 
