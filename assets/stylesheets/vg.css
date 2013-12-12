@@ -1759,6 +1759,11 @@ a.db-fact-box-action:after {
     text-shadow: 0 0px 8px rgba(255,255,255, 0.6) !important;
 }
 
+.alf-style-adjust-line-height {
+    line-height: 0;
+    display: inline-block;
+}
+
 /**
     * Alf fonts
     * These will be available in the font dropdown
@@ -1943,4 +1948,3 @@ a.db-fact-box-action:after {
     background: url('http://static.vg.no/vgpluss/gfx/xword-icon.png') no-repeat center center;
     background-size: 42px 33px;
 }
-
