@@ -1760,7 +1760,7 @@ a.db-fact-box-action:after {
 }
 
 .alf-style-adjust-line-height {
-    line-height: 0;
+    line-height: 5px;
     display: inline-block;
 }
 
