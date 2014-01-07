@@ -1939,8 +1939,8 @@ a.db-fact-box-action:after {
 }
 
 .btn-link-wrapper-crossword {
-    bottom: 20;
-    right: 20;
+    bottom: 20px;
+    right: 20px;
     position: absolute;
 }
 
