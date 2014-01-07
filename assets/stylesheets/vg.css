@@ -1921,6 +1921,7 @@ a.db-fact-box-action:after {
     top: 10px;
     right: 10px;
     width: 130px;
+    position: relative;
 }
 
 .iphone .btn-link-wrapper-crossword a:before {
@@ -1930,6 +1931,7 @@ a.db-fact-box-action:after {
 }
 
 .iphone .btn-link-wrapper-crossword a:after {
+    position: relative;
     width: 42px;
     height: 33px;
     background: url('http://static.vg.no/vgpluss/gfx/xword-icon.png') no-repeat center center;
