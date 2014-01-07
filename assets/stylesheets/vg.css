@@ -1882,6 +1882,7 @@ a.db-fact-box-action:after {
 
 .iphone .vg-crossword-feature {
     background: none;
+    position: relative;
     width: 100%;
 }
 
