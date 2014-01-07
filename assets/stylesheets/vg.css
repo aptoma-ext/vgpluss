@@ -1911,6 +1911,10 @@ a.db-fact-box-action:after {
     background-size: 320px 151px;
 }
 
+.iphone .btn-link-wrapper a {
+    position: relative;
+}
+
 .iphone .btn-link-wrapper-crossword a {
     top: 10px;
     right: 10px;
