@@ -1912,6 +1912,8 @@ a.db-fact-box-action:after {
 }
 
 .iphone .btn-link-wrapper-crossword {
+    top: 0;
+    left: 0;
     position: absolute;
 }
 
