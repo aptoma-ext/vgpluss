@@ -1923,11 +1923,8 @@ a.db-fact-box-action:after {
     position: absolute;
 }
 
-.btn-link-wrapper-crossword a {
-    top: 10px;
-    right: 10px;
+.iphone .btn-link-wrapper-crossword a {
     width: 130px;
-    position: relative;
 }
 
 .iphone .btn-link-wrapper-crossword a:before {
@@ -1946,6 +1943,9 @@ a.db-fact-box-action:after {
 
 .btn-link-wrapper-crossword a {
     width: 240px;
+    top: 10px;
+    right: 10px;
+    position: relative;
 }
 
 .btn-link-wrapper-crossword a:before {
