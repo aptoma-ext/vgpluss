@@ -1911,6 +1911,12 @@ a.db-fact-box-action:after {
     background-size: 320px 151px;
 }
 
+.btn-link-wrapper-crossword {
+    bottom: 20px;
+    right: 20px;
+    position: absolute;
+}
+
 .iphone .btn-link-wrapper-crossword {
     top: 0;
     left: 0;
@@ -1936,12 +1942,6 @@ a.db-fact-box-action:after {
     height: 33px;
     background: url('http://static.vg.no/vgpluss/gfx/xword-icon.png') no-repeat center center;
     background-size: 42px 33px;
-}
-
-.btn-link-wrapper-crossword {
-    bottom: 20px;
-    right: 20px;
-    position: absolute;
 }
 
 .btn-link-wrapper-crossword a {
