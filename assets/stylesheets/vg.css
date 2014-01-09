@@ -1960,3 +1960,8 @@ a.db-fact-box-action:after {
     background: url('http://static.vg.no/vgpluss/gfx/xword-icon.png') no-repeat center center;
     background-size: 42px 33px;
 }
+
+/* external */
+.btn-link-wrapper-external a {
+    position: relative;
+}
