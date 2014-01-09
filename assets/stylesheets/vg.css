@@ -1965,3 +1965,8 @@ a.db-fact-box-action:after {
 .btn-link-wrapper-external a {
     position: relative;
 }
+
+.ipad .btn-link-wrapper-external a {
+    bottom: 40px;
+    left: 40px;
+}
