@@ -1969,4 +1969,5 @@ a.db-fact-box-action:after {
 .ipad .btn-link-wrapper-external a {
     bottom: 40px;
     left: 40px;
+    margin: 0;
 }
