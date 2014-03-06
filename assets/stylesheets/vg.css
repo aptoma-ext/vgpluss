@@ -215,9 +215,21 @@ body {
         overflow: hidden;
     }
 }
+/* iPad < ios6 !IMPORTANT */
+@media (min-width: 1024px) and (max-width: 1517px) and (min-height: 748px)and (min-height: 767px) {
+    body {
+        background-color: #222;
+        overflow: hidden;
+    }
+    .chrome {
+        width: 1024px;
+        max-height: 768px;
+        overflow: hidden;
+    }
+}
 
 /* iPad section cover */
-@media (min-width: 1024px) and (max-width: 1517px) and (min-height: 476px) and (max-height: 767px) {
+@media (min-width: 1024px) and (max-width: 1517px) and (min-height: 476px) and (max-height: 747px) {
     body {
         background-color: #222;
     }
@@ -225,6 +237,17 @@ body {
     .chrome {
         width: 1024px;
         max-height: 476px;
+    }
+}
+/* iPad section cover < iOs6 !IMPORTANT*/
+@media (min-width: 1024px) and (max-width: 1517px) and (min-height: 456px) and (max-height: 477px) {
+    body {
+        background-color: #222;
+    }
+
+    .chrome {
+        width: 1024px;
+        max-height: 456px;
     }
 }
 
