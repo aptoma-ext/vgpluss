@@ -205,7 +205,7 @@ body {
 /* iPad */
 @media (min-width: 1024px) and (max-width: 1517px) and (min-height: 768px) {
     body {
-        background-color: #222;
+        background-color: #000;
         overflow: hidden;
     }
 
@@ -218,7 +218,7 @@ body {
 /* iPad < ios6 !IMPORTANT */
 @media (min-width: 1024px) and (max-width: 1517px) and (min-height: 748px)and (min-height: 767px) {
     body {
-        background-color: #222;
+        background-color: #000;
         overflow: hidden;
     }
     .chrome {
