@@ -1764,6 +1764,12 @@ a.db-fact-box-action:after {
     display: inline-block;
 }
 
+.alf-style-white-box {
+    display: block;
+    background: #FFF;
+    padding: 15px 10px 10px 10px;
+}
+
 /**
     * Alf fonts
     * These will be available in the font dropdown
