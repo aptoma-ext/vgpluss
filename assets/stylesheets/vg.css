@@ -226,10 +226,6 @@ body {
         max-height: 768px;
         overflow: hidden;
     }
-    /* old ios ipad viewport needs to bump the bottom overlay up by 20px */
-    .overlay-bottom.overlay-caption {
-        bottom: 20px;
-    }
 }
 
 /* iPad section cover */
