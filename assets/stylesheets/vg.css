@@ -553,6 +553,10 @@ hr {
     background: #f5f5f5;
 }
 
+.white-text {
+    color: #FFF;
+}
+
 .tmpl-overlay-with-excerpt .white-background,
 .tmpl-overlay-with-excerpt .black-background{
     padding-bottom: 0;
