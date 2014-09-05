@@ -752,14 +752,14 @@ hr {
 
 .frontpage-top-left {
     position: absolute;
-    padding: 130px 35px 35px;
+    top: 130px;
+    left: 35px;
     color: #FFF;
     width: 954px;
     top: 0;
     left: 0;
 }
 .cover .frontpage-top-left {
-    padding: 0 35px 35px;
     top: 95px;
 }
 
