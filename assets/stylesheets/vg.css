@@ -1903,9 +1903,8 @@ a.db-fact-box-action:after {
 }
 
 .tmpl-edition-front .frontpage-top-left {
-    padding-top: 35px;
     top: inherit;
-    bottom: 0;
+    bottom: 35px;
 }
 
 .tmpl-edition-front .header-sans-serif h1 {
