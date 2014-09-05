@@ -756,6 +756,8 @@ hr {
     left: 35px;
     color: #FFF;
     width: 954px;
+    height: 0;
+    overflow: visible;
 }
 .cover .frontpage-top-left {
     top: 95px;
