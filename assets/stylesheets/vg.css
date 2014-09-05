@@ -1396,6 +1396,7 @@ a.db-fact-box-action:after {
     margin-top: -150px;
     top: 50%;
     left: 35px;
+    height: auto;
 }
 
 .tmpl-dagens-rute .frontpage-top-left h1 {
@@ -1907,6 +1908,7 @@ a.db-fact-box-action:after {
 .tmpl-edition-front .frontpage-top-left {
     top: inherit;
     bottom: 35px;
+    height: auto;
 }
 
 .tmpl-edition-front .header-sans-serif h1 {
