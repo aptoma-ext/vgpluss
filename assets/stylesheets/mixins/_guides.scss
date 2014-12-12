@@ -1,0 +1,21 @@
+@mixin guides($outerMargin, $rows: 4, $columns: 4, $format: false) {
+    $guide-class: ".alf-guides";
+
+    @if ($format) {
+        $guide-class: ".alf-guides.alf-format-#{$format}";
+    }
+
+    #{$guide-class} {
+        top: $outerMargin;
+        right: $outerMargin;
+        bottom: $outerMargin;
+        left: $outerMargin;
+
+        tr {
+            &:not(:nth-child(-n + #{$rows})),
+            td:not(:nth-child(-n + #{$columns})) {
+                display: none;
+            }
+        }
+    }
+}

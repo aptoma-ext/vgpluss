@@ -1,0 +1,34 @@
+@import "mixins/grid";
+
+// iPad landscape grid
+@media (min-width: 1024px) and (max-width: 1024px) {
+    // number of columns, format width, column width, outer margin
+    @include grid(2, 1024px, 460px, 35px);
+}
+
+.full-width {
+  width: 100%;
+}
+
+[class*=vertical-col-] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  overflow: hidden;
+}
+.vertical-col-1 {
+    left: 0px;
+    border-right: 1px solid #000;
+    box-sizing: border-box;
+}
+.vertical-col-2 {
+    left: 50%;
+    border-left: 1px solid #000;
+    box-sizing: border-box;
+}
+.vertical-col-1 img,
+.vertical-col-2 img{
+    height: 100% !important;
+    width: auto !important;
+}
