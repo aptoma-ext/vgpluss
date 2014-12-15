@@ -2,7 +2,7 @@
     $guide-class: ".alf-guides";
 
     @if ($format) {
-        $guide-class: ".alf-guides.alf-format-#{$format}";
+        $guide-class: "alf-preview-format-#{$format} .alf-guides";
     }
 
     #{$guide-class} {
