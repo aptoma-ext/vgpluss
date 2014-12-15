@@ -1,10 +1,14 @@
-@import "mixins/guides";
 @import "font-face";
 
-@include guides(35px, 4, 4);
-@include guides(15px, 2, 2, iphone);
+// These are styles only in use when the article is in preview mode (inside LP)
+.alf-preview {
+    @import "preview";
+}
 
-
+// alf-chrome is the top element
+// All styles should be scoped to avoid conflicting CSS when using layouts
+// on different devices and frameworks (pluss.vg.no, app, etc)
+// Don't put styles on body!
 .alf-chrome {
     background: #f5f5f5;
     font-family: Palatino, serif;
