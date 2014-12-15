@@ -1,4 +1,5 @@
 @import "mixins/guides";
+@import "font-face";
 
 @include guides(35px, 4, 4);
 @include guides(15px, 2, 2, iphone);
@@ -20,7 +21,6 @@
     -webkit-user-select: none;
 
     @import "grid";
-    @import "fonts";
     @import "utils";
     @import "snippets";
     @import "preview";
