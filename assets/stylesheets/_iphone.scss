@@ -34,9 +34,16 @@
 .iphone {
     @media (min-width: 680px) {
         .alf-container-inline {
+            .dp-float-left {
+                float: left;
+            }
+
+            .dp-float-right {
+                float: right;
+            }
+
             .media-element {
                 max-width: 460px;
-                float: left;
                 margin-right: 20px;
             }
         }
