@@ -30,13 +30,18 @@
         -webkit-user-select: none;
     }
 
+    .#{$alf-revision} {
+        font-size: 100px;
+    }
+
     @import "grid";
     @import "utils";
     @import "snippets";
     @import "preview";
-    @import "fullscreen";
     @import "alf-tools";
     @import "edition-front";
     @import "iphone";
     @import "vg";
+
+    @import "fullscreen";
 }
