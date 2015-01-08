@@ -117,14 +117,11 @@ a, a:visited {
     color:rgb(120, 63, 4);
 }
 
-.alf-template,
-.alf-layer-page,
-.layer-content {
+.alf-template {
     background-color: #f5f5f5;
 }
 
-.alf-layer-fullscreen,
-.layer-fullscreen,
+&.alf-layer-fullscreen,
 .tmpl-gallery {
     z-index: 2147483647;
     background-color: #000;
