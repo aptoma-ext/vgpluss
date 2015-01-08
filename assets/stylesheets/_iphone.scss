@@ -60,11 +60,13 @@
         padding-right: 15px;
     }
 
-    .title{
+    .title {
+        // Done to reset the size of parent since titles will be using ems
+        font-size: 10px;
         text-align: center;
     }
 
-    .byline{
+    .byline {
         padding: 8px 0;
         margin: 0 15px 10px;
     }
@@ -86,11 +88,11 @@
     }
 
     .header-sans-serif h1 {
-        font-size: 60px;
+        font-size: 6em;
     }
 
     .header-serif h1 {
-        font-size: 44px;
+        font-size: 4.4em;
     }
 
     .excerpt p {
