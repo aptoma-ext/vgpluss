@@ -64,19 +64,25 @@
         // Done to reset the size of parent since titles will be using ems
         font-size: 10px;
         text-align: center;
-    }
 
-    @media (min-width: 600px) {
-        .title {
+        @media (min-width: 600px) {
             font-size: 15px;
         }
-    }
 
-    @media (min-width: 900px) {
-        .title {
+        @media (min-width: 700px) {
+            font-size: 16.5px;
+        }
+
+        @media (min-width: 800px) {
+            font-size: 18px;
+        }
+
+        @media (min-width: 900px) {
             font-size: 20px;
         }
     }
+
+
 
     .byline {
         padding: 8px 0;
