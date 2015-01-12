@@ -1,0 +1,144 @@
+/**
+* Fact-box
+*/
+.dp-fact-box {
+    width: 100%;
+}
+
+.dp-fact-box-container {
+    margin-bottom: 24px;
+    clear: both;
+    background: #fff;
+    padding: 14px 14px 0;
+    position: relative;
+    border-radius: 4px;
+}
+
+.dp-fact-box-title {
+    font-weight: normal;
+    font-family: Gotham-Bold, Verdana, Helvetica, Arial;
+    letter-spacing: -0.05em;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.dp-fact-box-image {
+    clear:both;
+    margin-left: -14px;
+    margin-right: -14px;
+    position: relative;
+
+    a {
+        margin: 0;
+        padding: 0;
+        border: none;
+        line-height: 0;
+        display: block;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+a.db-fact-box-action {
+    display: block;
+    height: 44px;
+    line-height: 44px;
+    width: auto;
+    background: rgba(0,0,0,0.5);
+    border: 1px solid #333 !important;
+    border-radius: 5px;
+    -moz-box-shadow:0px 1px 4px rgba(0,0,0,0.52) ,0px 0px 30px rgba(255,255,255,0.16);
+    -webkit-box-shadow:0px 1px 4px rgba(0,0,0,0.52) ,0px 0px 30px rgba(255,255,255,0.16);
+    box-shadow:0px 1px 4px rgba(0,0,0,0.52) ,0px 0px 30px rgba(255,255,255,0.16);
+    padding: 0 35px 0 15px;
+    margin: 0 auto;
+    font-family: Gotham-Medium;
+    font-size: 26px;
+    letter-spacing: -1px;
+    font-weight: normal;
+    color: #FFF !important;
+    position: absolute;
+    font-size: 20px;
+    right: 14px;
+    bottom: 14px;
+
+    &:active {
+        background: rgba(0,0,0,0.8);
+        -moz-box-shadow:none;
+        -webkit-box-shadow:none;
+        box-shadow:none;
+    }
+
+    &:after {
+        content: '›';
+        width: 30px;
+        top: -1px;
+        position: absolute;
+        right: -5px;
+        font-family: Gotham-Bold;
+        font-size: 30px;
+    }
+}
+
+.dp-fact-box-content {
+    p {
+        clear: both;
+        margin-bottom: 0;
+        font-family: Gotham-Book, Verdana, Helvetica, Arial;
+        font-weight: normal;
+        font-size: 16px;
+        padding: 10px 0;
+
+        &:empty {
+            margin: 0;
+            background: none;
+            padding: 0;
+        }
+    }
+
+    a {
+        font-family: Gotham-Medium, Serif;
+        font-weight: normal;
+        border-bottom: none;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        clear: both;
+
+        li {
+            position: relative;
+            margin-left: -14px;
+            margin-right: -14px;
+            border-top: 2px solid rgba(0,0,0,0.05);
+            line-height: 24px;
+            padding: 10px 14px 7px 32px;
+            font-family: Gotham-Book, Verdana, Helvetica, Arial;
+            font-weight: normal;
+            font-size: 16px;
+
+            &:first-child {
+                border-top: none;
+            }
+
+            &:before {
+                content: '';
+                display: block;
+                background: #333;
+                position: absolute;
+                top: 16px;
+                left: 14px;
+                width: 8px;
+                height: 8px;
+            }
+        }
+    }
+}

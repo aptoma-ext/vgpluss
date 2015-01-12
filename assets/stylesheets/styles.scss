@@ -7,15 +7,10 @@
     @import "preview";
 }
 
-// alf-chrome is the top element
-// All styles should be scoped to avoid conflicting CSS when using layouts
-// on different devices and frameworks (pluss.vg.no, app, etc)
-// Don't put styles on body!
-.#{$alf-revision} {
-    background: #f5f5f5;
+// All CSS is scoped inside the current revision.
+// This enables rendering of multiple layouts with different CSS on the same web page
+.alf-rev-#{$alf-revision} {
     font-family: Palatino, serif;
-    margin: 0;
-    padding: 0;
     color: #333;
     font-size: 18px;
     line-height: 24px;
@@ -25,6 +20,7 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-user-select: none;
 
+    @import "generic";
     @import "grid";
     @import "utils";
     @import "snippets";
@@ -33,5 +29,8 @@
     @import "edition-front";
     @import "iphone";
     @import "vg";
+    @import "factbox";
+    @import "gradients";
+    @import "rating";
     @import "fullscreen";
 }

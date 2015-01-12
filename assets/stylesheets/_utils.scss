@@ -5,3 +5,95 @@
 .no-overflow {
     overflow: hidden;
 }
+
+.container-dark {
+    background-color: #000;
+}
+.container-light {
+    background-color: #fff;
+}
+
+.black-background {
+    padding: 15px 0;
+    background: #171717;
+}
+
+.white-background {
+    padding: 15px 0 5px;
+    background: #f5f5f5;
+}
+
+.white-text {
+    color: #FFF;
+}
+
+.fill-height {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.fill-width {
+    width: 100%;
+}
+
+.max-height {
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.offset-height {
+    position: absolute;
+    top: 100%;
+}
+
+.offset-top {
+    top: 100%;
+}
+
+.unstyled {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.no-caption.overlay-caption,
+.no-caption .overlay-caption {
+    display: none !important;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.dark {
+    color: #111;
+}
+
+.light {
+    color: #f5f5f5;
+}
+
+.fill-top-half {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 50%;
+}
+
+.fill-bottom-half {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.fill-left-half {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    left: 0;
+    bottom: 0;
+}

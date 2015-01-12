@@ -1,0 +1,42 @@
+.rating-box {
+    width: 100%;
+    min-height: 165px;
+    position: absolute;
+    left: 0;
+    top: -165px;
+    padding: 20px 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.rating {
+    width: 60px;
+    height: 61px;
+    background: url(http://static.vg.no/vgpluss/gfx/rating/rating1.png) no-repeat center center;
+    background-size: 100% 100%;
+    display: block;
+}
+.rating span {
+    opacity: 0 !important;
+}
+.rating-product-title {
+    font-family: Gotham-Bold;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.2em;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    letter-spacing: -0.04em;
+}
+.rating-dice {
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.iphone .rating-dice {
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
