@@ -1,0 +1,94 @@
+.vg-crossword-feature {
+    background: -moz-linear-gradient(left, rgba(0,0,0,0.65) 81%, rgba(0,0,0,0) 95%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(81%,rgba(0,0,0,0.65)), color-stop(95%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0.65) 81%,rgba(0,0,0,0) 95%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(0,0,0,0.65) 81%,rgba(0,0,0,0) 95%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(0,0,0,0.65) 81%,rgba(0,0,0,0) 95%); /* IE10+ */
+    background: linear-gradient(to right, rgba(0,0,0,0.65) 81%,rgba(0,0,0,0) 95%); /* W3C */
+    position: absolute;
+    left: 0;
+    width: 50%;
+
+    .vg-crossword-logo {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        color: #fff;
+        text-align: center;
+        width: 1024px;
+        height: 742px;
+        background: url('http://static.vg.no/vgpluss/gfx/xword-author-new.png') no-repeat center center;
+        background-size: 1024px 742px;
+    }
+}
+
+.btn-link-wrapper-crossword {
+    bottom: 20px;
+    right: 20px;
+    position: absolute;
+
+    a {
+        width: 240px;
+        top: 10px;
+        right: 10px;
+        position: relative;
+    }
+
+    a:before {
+        content: "Løs kryssord her";
+        width: 42px;
+        height: 33px;
+    }
+
+    a:after {
+        width: 42px;
+        height: 33px;
+        background: url('http://static.vg.no/vgpluss/gfx/xword-icon.png') no-repeat center center;
+        background-size: 42px 33px;
+    }
+}
+
+.iphone {
+    .vg-crossword-feature {
+        background: none;
+        position: relative;
+        width: 100%;
+    }
+
+    .vg-crossword-logo {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        color: #fff;
+        width: 320px;
+        height: 151px;
+        background: url('http://static.vg.no/vgpluss/gfx/xword-logo-smartphone.png') no-repeat center center;
+        background-size: 320px 151px;
+    }
+
+    .btn-link-wrapper-crossword {
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+
+    .btn-link-wrapper-crossword a {
+        width: 130px;
+    }
+
+    .btn-link-wrapper-crossword a:before {
+        content: "Spill n&aring;";
+        width: 42px;
+        height: 33px;
+    }
+
+    .btn-link-wrapper-crossword a:after {
+        position: absolute;
+        width: 42px;
+        height: 33px;
+        background: url('http://static.vg.no/vgpluss/gfx/xword-icon.png') no-repeat center center;
+        background-size: 42px 33px;
+    }
+}
