@@ -213,13 +213,14 @@
         }
 
         .title {
+            color: #FFF;
+
             @media (max-width: 599px) {
                 -webkit-transform: none !important;
                 transform: none !important;
             }
 
             @media (min-width: 600px) {
-                color: #FFF;
                 position: absolute;
                 top: 25px;
             }
