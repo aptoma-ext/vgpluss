@@ -203,6 +203,20 @@
         background: url('http://static.vg.no/vgpluss/gfx/xword-icon.png') no-repeat center center;
         background-size: 42px 33px;
     }
+
+    .article-feature-header {
+        position: relative;
+
+        @media (min-width: 600px) {
+            .title {
+                color: #FFF;
+                position: absolute;
+                bottom: 10px;
+                -webkit-transform: none !important;
+                transform: none !important;
+            }
+        }
+    }
 }
 
 .tmpl-iphone-cover-no-media .title {
