@@ -206,18 +206,23 @@
 
     .article-feature-header {
         position: relative;
+        background: transparent;
+
+        @media (max-width: 599px) {
+            background: #000;
+        }
 
         .title {
-            @media (min-width: 600px) {
-                color: #FFF;
-                position: absolute;
-                bottom: 10px;
-            }
-
             @media (max-width: 599px) {
                 color: #000;
                 -webkit-transform: none !important;
                 transform: none !important;
+            }
+
+            @media (min-width: 600px) {
+                color: #FFF;
+                position: absolute;
+                bottom: 10px;
             }
         }
     }
