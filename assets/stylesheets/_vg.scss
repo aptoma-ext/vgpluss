@@ -27,7 +27,7 @@
 }
 
 .alf-template {
-    background-color: #f5f5f5;
+    background-color: $main-bgcolor;
 }
 
 &.alf-layer-fullscreen,
@@ -626,7 +626,7 @@
     bottom: 0;
     height: auto;
     width: 100%;
-    background: #f5f5f5;
+    background: $main-bgcolor;
     padding: 45px 35px;
 }
 
@@ -820,7 +820,7 @@
 }
 
 .alf-slideshow .alf-page-loader:before {
-    color: #F5F5F5;
+    color: $main-bgcolor;
     text-shadow: none;
 }
 
