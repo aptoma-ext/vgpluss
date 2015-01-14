@@ -219,10 +219,18 @@
                 -webkit-transform: none !important;
                 transform: none !important;
             }
+        }
 
-            @media (min-width: 600px) {
+        @media (min-width: 600px) {
+            .title {
                 position: absolute;
                 top: 25px;
+            }
+
+            .excerpt {
+                position: absolute;
+                bottom: 0;
+                text-shadow: 0 0 2px #000;
             }
         }
     }
