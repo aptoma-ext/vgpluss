@@ -214,10 +214,16 @@
 
         .title {
             color: #FFF;
+        }
 
-            @media (max-width: 599px) {
+        @media (max-width: 599px) {
+            .title {
                 -webkit-transform: none !important;
                 transform: none !important;
+            }
+
+            .excerpt {
+                background: $main-bgcolor;
             }
         }
 
@@ -232,7 +238,6 @@
                 bottom: 0;
                 text-shadow: 0 0 2px #000;
                 color: #FFF;
-                background: $main-bgcolor;
             }
 
         }
