@@ -979,10 +979,11 @@
     opacity:1;
 }
 
-.alf-controls-off .overlay-caption,
-.alf-controls-off .alf-fullscreen-toolbar{
-    opacity:0;
-    pointer-events: none;
+&.alf-controls-off {
+    .overlay-caption, .alf-fullscreen-toolbar{
+        opacity:0;
+        pointer-events: none;
+    }
 }
 
 /* external */
