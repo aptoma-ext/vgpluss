@@ -1,0 +1,135 @@
+&.section-nyheter a, &.section-nyheter a:visited {
+    color:rgb(74,134,232);
+}
+
+&.section-reise a, &.section-reise a:visited {
+    color:rgb(106, 168, 79);
+}
+
+&.section-rampelys a, &.section-rampelys a:visited {
+    color:rgb(152,0,0);
+}
+
+&.section-sport a, &.section-sport a:visited {
+    color:rgb(255,144,9);
+}
+
+&.section-sistesiden a, &.section-sistesiden a:visited {
+    color:rgb(118, 223, 210);
+}
+
+&.section-mat-og-drikke a, &.section-mat-og-drikke a:visited {
+    color:rgb(127,96,0);
+}
+&.section-meninger a, &.section-meninger a:visited {
+    color:rgb(241,194,50);
+}
+&.section-nyttig a, &.section-nyttig a:visited {
+    color:rgb(166, 77, 121);
+}
+&.section-okonomi a, &.section-okonomi a:visited {
+    color:rgb(120, 63, 4);
+}
+
+.header-section {
+    font-family: Gotham-Book;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 30px;
+    font-size: 2em;
+    padding: 50px 20px 18px;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color:rgba(0,0,0,0.5);
+    position: absolute;
+    left: 35px;
+    top: 0;
+    color: #fff;
+
+    span {
+        background-color:rgba(0,0,0,0.4);
+        margin-left: -20px;
+        margin-right: -20px;
+        padding: 50px 20px 15px;
+        -webkit-border-bottom-right-radius: 5px;
+        -webkit-border-bottom-left-radius: 5px;
+        -moz-border-radius-bottomright: 5px;
+        -moz-border-radius-bottomleft: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+}
+
+&.section-nyheter .header-section span {
+    background-color:rgba(74,134,232,0.4);
+}
+
+&.section-reise .header-section span {
+    background-color:rgba(106,168,79,0.4);
+}
+
+&.section-rampelys .header-section span {
+    background-color:rgba(152,0,0,0.4);
+}
+
+&.section-sport .header-section span {
+    background-color:rgba(255,144,9,0.7);
+}
+
+&.section-sistesiden .header-section span {
+    background-color:rgba(118,223,210,0.4)
+}
+
+&.section-mat-og-drikke .header-section span {
+    background-color:rgba(127,96,0,0.4);
+}
+
+&.section-meninger .header-section span {
+    background-color:rgba(241,194,50,0.4);
+}
+
+&.section-nyttig .header-section span {
+    background-color:rgba(166,77,121,0.4);
+}
+
+&.section-okonomi .header-section span {
+    background-color:rgba(120,63,4,0.4);
+}
+
+/* mat og drikke oneshot */
+&.section-fisk-og-skalldyr .header-section span {
+    background-color:rgba(74,134,232,0.4);
+}
+&.section-sunt-og-godt .header-section span {
+    background-color:rgba(106,168,79,0.4);
+}
+&.section-drikke .header-section span {
+    background-color:rgba(241, 194, 50,0.4);
+}
+&.section-soetsaker .header-section span {
+    background-color:rgba(166, 22, 23,0.4);
+}
+
+&.section-kjoett .header-section span {
+    background-color:rgba(120, 63, 4,0.4);
+}
+
+&.section-sport {
+    .alf-template,
+    .tmpl-widescreen-frontpage .content-indent {
+        background-color: #ffdfdd;
+    }
+
+    .alf-template.tmpl-fullsize-media {
+        background-color: #000;
+    }
+
+    .byline {
+        border-color: #DABEBC;
+    }
+}
