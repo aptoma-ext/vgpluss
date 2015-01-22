@@ -1,9 +1,18 @@
-a, a:visited {
-    color: #333;
-    position: relative;
-    text-decoration: none;
-    font-weight: bold;
-    border-bottom: 1px dotted #999;
+a {
+    color: #D00;
+
+    &:visited {
+        color: #6B6B6B;
+    }
+
+    &:hover {
+        color: #D00;
+        text-decoration: underline;
+    }
+
+    &:focus {
+        outline: thin dotted;
+    }
 }
 
 hr {
