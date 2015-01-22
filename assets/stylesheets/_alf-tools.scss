@@ -45,15 +45,14 @@
     */
 
 .alf-font-condensed {
-    font-family: DharmaGothicE-Bold !important;
-    font-weight: normal !important;
+    font-family: $font-heading-a !important;
+    font-weight: $font-heading-a-weight !important;
     text-transform: uppercase !important;
-    letter-spacing: -0.03em !important;
     line-height: 0.9em !important;
 }
 
 .alf-font-serif {
-    font-family: ChronicleDeck-Black !important;
+    font-family: $font-heading-b !important;
     font-weight: normal !important;
     text-transform: none !important;
 }

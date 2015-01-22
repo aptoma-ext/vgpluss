@@ -1,6 +1,5 @@
+@import "variables";
 @import "font-face";
-
-$main-bgcolor: #f5f5f5;
 
 // These are styles only in use when the article is in preview mode (inside LP)
 // This is the only place you should place styles on body
@@ -12,8 +11,10 @@ $main-bgcolor: #f5f5f5;
 // All CSS is scoped inside the current revision.
 // This enables rendering of multiple layouts with different CSS on the same web page
 .alf-rev-#{$alf-revision} {
-    font-family: Palatino, serif;
-    color: #333;
+    font-family: $font-main;
+    font-weight: $font-main-weight;
+    font-style: $font-main-style;
+    color: $font-main-color;
     font-size: 18px;
     line-height: 24px;
     -webkit-font-smoothing: antialiased;
@@ -38,3 +39,6 @@ $main-bgcolor: #f5f5f5;
     @import "rating";
     @import "fullscreen";
 }
+
+// Questions:
+// * What to do about Gotham-Book (used on frontpage and some other places)

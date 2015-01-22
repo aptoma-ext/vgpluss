@@ -45,6 +45,10 @@
         padding-right: 15px;
     }
 
+    .alf-region-flexible {
+        max-width: $article-max-width;
+    }
+
     .title {
         // Done to reset the size of parent since titles will be using ems
         font-size: 10px;
