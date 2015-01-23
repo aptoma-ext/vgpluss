@@ -16,6 +16,13 @@
     }
 }
 
+.article-body {
+    position: relative;
+    padding: 0;
+    margin: 0 auto;
+    max-width: $article-max-width;
+}
+
 .iphone {
     @media (min-width: 680px) {
         .alf-container-inline {
@@ -42,9 +49,6 @@
     }
 
     .alf-region-flexible {
-        max-width: $article-max-width;
-        margin: 0 auto;
-
         h3 {
             margin-bottom: 5px;
         }
