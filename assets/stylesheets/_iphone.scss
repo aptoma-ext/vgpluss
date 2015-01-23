@@ -43,6 +43,18 @@
 
     .alf-region-flexible {
         max-width: $article-max-width;
+        margin: 0 auto;
+
+        // div ~ p::after {
+        //     color:#D00;
+        //     content: " \27B8";
+        //     font-size: 110%;
+        // }
+
+        // > p:last-child::after {
+        //     color: #D00;
+        //     content: " \25CF";
+        // }
     }
 
     .title {
