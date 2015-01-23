@@ -1,144 +1,89 @@
-/**
-* Fact-box
-*/
+$fact-box-title-height: 44px;
+
 .dp-fact-box {
-    width: 100%;
-}
+    margin-bottom: 20px;
+    border:1px solid #D1D1D1;
+    background-color:#FFF;
+    font-family: 'Open Sans', sans-serif;
 
-.dp-fact-box-container {
-    margin-bottom: 24px;
-    clear: both;
-    background: #fff;
-    padding: 14px 14px 0;
-    position: relative;
-    border-radius: 4px;
-}
-
-.dp-fact-box-title {
-    font-weight: normal;
-    font-family: Gotham-Bold, Verdana, Helvetica, Arial;
-    letter-spacing: -0.05em;
-    font-size: 20px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    position: relative;
-}
-
-.dp-fact-box-image {
-    clear:both;
-    margin-left: -14px;
-    margin-right: -14px;
-    position: relative;
-
-    a {
-        margin: 0;
-        padding: 0;
-        border: none;
-        line-height: 0;
-        display: block;
+    // TODO: this needs implementation
+    .dp-fact-box-image {
+        display: none;
     }
 
-    img {
-        width: 100%;
-        height: auto;
-    }
-}
-
-
-a.db-fact-box-action {
-    display: block;
-    height: 44px;
-    line-height: 44px;
-    width: auto;
-    background: rgba(0,0,0,0.5);
-    border: 1px solid #333 !important;
-    border-radius: 5px;
-    -moz-box-shadow:0px 1px 4px rgba(0,0,0,0.52) ,0px 0px 30px rgba(255,255,255,0.16);
-    -webkit-box-shadow:0px 1px 4px rgba(0,0,0,0.52) ,0px 0px 30px rgba(255,255,255,0.16);
-    box-shadow:0px 1px 4px rgba(0,0,0,0.52) ,0px 0px 30px rgba(255,255,255,0.16);
-    padding: 0 35px 0 15px;
-    margin: 0 auto;
-    font-family: Gotham-Medium;
-    font-size: 26px;
-    letter-spacing: -1px;
-    font-weight: normal;
-    color: #FFF !important;
-    position: absolute;
-    font-size: 20px;
-    right: 14px;
-    bottom: 14px;
-
-    &:active {
-        background: rgba(0,0,0,0.8);
-        -moz-box-shadow:none;
-        -webkit-box-shadow:none;
-        box-shadow:none;
-    }
-
-    &:after {
-        content: '›';
-        width: 30px;
-        top: -1px;
-        position: absolute;
-        right: -5px;
-        font-family: Gotham-Bold;
-        font-size: 30px;
-    }
-}
-
-.dp-fact-box-content {
-    p {
-        clear: both;
-        margin-bottom: 0;
-        font-family: Gotham-Book, Verdana, Helvetica, Arial;
-        font-weight: normal;
-        font-size: 16px;
-        padding: 10px 0;
-
-        &:empty {
-            margin: 0;
-            background: none;
-            padding: 0;
+    .dp-fact-box-content {
+        p {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0 18px 10px;
         }
     }
 
-    a {
-        font-family: Gotham-Medium, Serif;
-        font-weight: normal;
-        border-bottom: none;
-    }
+    .dp-fact-box-title {
+        position: relative;
+        margin-top: 10px;
+        margin-right: 10px;
 
-    ul {
-        margin: 0;
-        padding: 0;
-        list-style-type: none;
-        clear: both;
-
-        li {
+        p {
+            background-color: #2b2b2b;
+            height: $fact-box-title-height;
+            line-height: $fact-box-title-height;
+            display: inline-block;
             position: relative;
-            margin-left: -14px;
-            margin-right: -14px;
-            border-top: 2px solid rgba(0,0,0,0.05);
-            line-height: $line-height;
-            padding: 10px 14px 7px 32px;
-            font-family: Gotham-Book, Verdana, Helvetica, Arial;
-            font-weight: normal;
-            font-size: 16px;
+            left: -10px;
+            z-index: 2;
+            float: left;
+            margin: 0;
+            margin-right: 10px;
 
-            &:first-child {
-                border-top: none;
+            // Title
+            b {
+                display: block;
+                line-height: $fact-box-title-height;
+                margin: 0;
+                padding: 0 20px;
+                font-size: 20px;
+                color: #FFF;
+                font-family: $font-main-sans;
+                font-weight: $font-main-sans-weight;
+                font-style: $font-main-style;
+                text-transform: uppercase;
             }
 
+            // Ribbon arrow
             &:before {
-                content: '';
                 display: block;
-                background: #333;
+                content: '';
+                width: 0px;
+                height: 0px;
+                border-style: solid;
+                border-width: 22px 0 22px 14px;
+                border-color: transparent transparent transparent #2B2B2B;
                 position: absolute;
-                top: 16px;
-                left: 14px;
-                width: 8px;
-                height: 8px;
+                right: -14px;
+                float: left;
             }
         }
+
+
+        // Bottom left edge
+        &:after {
+            display: block;
+            content: '';
+            position: absolute;
+            border-width: 0 10px 10px 0;
+            left: -10px;
+            border-color: transparent #8c8c8c transparent transparent;
+            top: 44px;
+            z-index: 1;
+            border-style: solid;
+            height: 0px;
+            width: 0px;
+        }
+    }
+}
+
+@media (min-width: 600px) {
+    .iphone .dp-fact-box-title p b {
+        font-size: 22px;
     }
 }

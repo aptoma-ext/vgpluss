@@ -19,11 +19,7 @@
 .iphone {
     @media (min-width: 680px) {
         .alf-container-inline {
-            .dp-float-left {
-                float: left;
-                margin-right: 20px;
-            }
-
+            .dp-float-left,
             .dp-float-right {
                 float: right;
                 margin-left: 20px;
@@ -197,7 +193,7 @@
         @media (min-width: 600px) {
             .title {
                 position: absolute;
-                top: 25px;
+                top: 20px;
             }
 
             .excerpt {
