@@ -45,6 +45,10 @@
         max-width: $article-max-width;
         margin: 0 auto;
 
+        h3 {
+            margin-bottom: 5px;
+        }
+
         // div ~ p::after {
         //     color:#D00;
         //     content: " \27B8";
