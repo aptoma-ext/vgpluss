@@ -67,12 +67,19 @@
         top: 50%;
         left: 50%;
         font-size: 30px;
-        margin-left: -11px;
-        margin-top: -8px;
+        line-height: 30px;
+        margin-left: -7px;
+        margin-top: -16px;
     }
 }
 
-.alf-container-fullscreen img {
-    max-width: 100%;
-    height: auto;
+.alf-container-fullscreen {
+    .media-element {
+        position: static;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 }
