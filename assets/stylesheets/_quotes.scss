@@ -4,12 +4,11 @@ blockquote {
     position: relative;
     border-top: 2px solid #4D4D4D;
     border-bottom: 1px solid #B0B0B0;
-    font-family: 'Libre Baskervle', serif;
+    font-family: 'Libre Baskerville';
     font-size: 26px;
     font-style: italic;
     font-weight: 400;
     text-align: center;
-    line-height: 1.2em;
 
     &:before {
         display: block;
@@ -33,7 +32,6 @@ blockquote {
             color: #F59331;
         }
     }
-
 
     cite {
         position: absolute;
