@@ -26,15 +26,20 @@
 .iphone {
     @media (min-width: 680px) {
         .alf-container-inline {
+            .dp-plugin-element {
+                clear: both;
+            }
+
             .dp-float-left,
             .dp-float-right {
                 float: right;
                 margin-left: 20px;
+
+                &.media-element {
+                    max-width: 320px;
+                }
             }
 
-            .media-element {
-                max-width: 320px;
-            }
         }
     }
 
@@ -122,8 +127,6 @@
         }
     }
 
-
-
     .byline {
         padding: 8px 0;
         margin: 0 15px 10px;
@@ -151,12 +154,19 @@
     }
 
     .header-serif h1 {
-        font-size: 4.4em;
-        line-height: 1.3em;
+        font-size: 4.0em;
+        line-height: 1.0em;
     }
 
-    .excerpt p {
-        margin: 0.75 0 1em;
+    .excerpt {
+        // font-family: $font-heading-d;
+        // font-weight: $font-heading-d-weight;
+        // font-style: $font-heading-d-style;
+        font-size: 22px;
+
+        p {
+            margin: 0.75 0 1em;
+        }
     }
 
     .overlay-caption {

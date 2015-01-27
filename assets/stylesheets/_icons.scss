@@ -1,0 +1,156 @@
+/* Fonts */
+
+@font-face {
+  font-family: 'Glyphicons Social Regular';
+  src: url("../fonts/glyphicons-social-regular.eot");
+  src: url("../fonts/glyphicons-social-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-social-regular.woff") format("woff"), url("../fonts/glyphicons-social-regular.ttf") format("truetype"), url("../fonts/glyphicons-social-regular.svg#glyphicons_socialregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glyphicons Regular';
+  src: url("../fonts/glyphicons-regular.eot");
+  src: url("../fonts/glyphicons-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-regular.woff") format("woff"), url("../fonts/glyphicons-regular.ttf") format("truetype"), url("../fonts/glyphicons-regular.svg#glyphicons_socialregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Icons */
+.icon-std,
+.icon-social,
+.icon-std-darkbg,
+.icon-social-darkbg {
+    display:inline;
+    position:relative;
+    color: #B0B0B0;
+    text-decoration:none;
+    vertical-align:middle;
+    zoom:1;
+}
+.sporten .icon-std,
+.sporten .icon-social {
+    color: #2B2B2B;
+}
+.icon-std:before,
+.icon-social:before,
+.icon-std-darkbg:before,
+.icon-social-darkbg:before {
+    -webkit-font-smoothing:antialiased;
+    display:inline;
+    color: #B0B0B0;
+    font-style:normal;
+    font-weight:normal;
+    left:0;
+    position:absolute;
+    text-transform:none;
+    top:0;
+    vertical-align:middle;
+    zoom:1;
+    -o-transition:.25s;
+    -ms-transition:.25s;
+    -moz-transition:.25s;
+    -webkit-transition:.25s;
+    transition:.25s;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.sporten .icon-std:before,
+.sporten .icon-social:before {
+    color: #2B2B2B;
+}
+.icon-std:hover:before,
+.icon-social:hover:before {
+    color:#DD0000;
+    text-decoration: none;
+}
+.sporten .icon-std:hover:before,
+.sporten .icon-social:hover:before {
+    color:#F59331;
+}
+.icon-std-darkbg:hover:before,
+.icon-social-darkbg:hover:before {
+    color:#FFF;
+    text-decoration: none;
+}
+.icon-std:before,
+.icon-std-darkbg:before {
+    font: 24px/1em 'Glyphicons Regular';
+}
+.icon-social:before,
+.icon-social-darkbg:before  {
+    font: 24px/1em 'Glyphicons Social Regular';
+}
+
+.share-pinterest:before {
+    content: "\E001";
+}
+.share-facebook:before {
+    content: "\E031";
+}
+.share-facebook:hover:before {
+    content: "\E031";
+    color: #3c5a99;
+}
+.share-twitter:before {
+    content: "\E032";
+}
+.share-twitter:hover:before {
+    content: "\E032";
+    color: #00b1ea;
+}
+.comments-count:before {
+    content: "\E310";
+}
+.bookmark-article:before {
+    content: "\E073";
+}
+.bookmark-article.active:before {
+    color:#DD0000;
+}
+.print-article:before {
+    content: "\E016";
+}
+.fullscreen:before {
+    content: "\E216";
+}
+.normalscreen:before {
+    content: "\E215";
+}
+.thumbs-up:before {
+    content: "\E344";
+}
+.thumbs-up:hover:before {
+    color: #1A1;
+}
+.thumbs-down:before {
+    content: "\E345";
+}
+.list-thumbnails:before {
+    content: "\E156";
+}
+.list-lines:before {
+    content: "\E158";
+}
+.download:before {
+    content: "\E201";
+}
+.download.downloaded:before {
+    color: #1A1;
+}
+.info:before {
+    content: "\E196";
+}
+.remove:before {
+    content: "\E198";
+}
+.user:before {
+    content: "\E004";
+}
+.url:before {
+    content: "\E051";
+}
+.calendar:before {
+    content: "\E046";
+}
+
