@@ -1,0 +1,136 @@
+/** Slideshow styles **/
+
+.alf-slideshow .alf-page-loader {
+    background: #000;
+}
+
+.alf-slideshow .alf-page-loader:before {
+    color: $main-bgcolor;
+    text-shadow: none;
+}
+
+.alf-slideshow-inline {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    position: relative;
+    clear: both;
+}
+
+.iphone .alf-slideshow-inline {
+    margin: 20px 0;
+}
+.iphone .top-image .alf-slideshow-inline {
+    margin: 0;
+}
+
+.alf-slideshow-inline .overlay-caption {
+    display: none;
+}
+
+.alf-slideshow-inline > .alf-slideshow-element {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
+}
+
+.alf-slideshow-toggle, .btn-link-wrapper a {
+    display: block;
+    position: absolute;
+    bottom: 50px;
+    right: 70px;
+    z-index: 10000;
+    width: 120px;
+    height: 55px;
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid #333 !important;
+    padding: 0 32px 0 15px;
+    margin: 20px auto;
+
+    &:active {
+        background: rgba(0,0,0,0.8);
+    }
+
+    &:before {
+        content: 'Vis galleri';
+        line-height: 55px;
+        font-family: $font-main-sans;
+        font-weight: $font-main-sans-weight;
+        font-size: 21px;
+        color: #FFF;
+    }
+
+    &:after {
+        content: '';
+        height: 31px;
+        width: 31px;
+        top: 11px;
+        position: absolute;
+        right: 15px;
+        background: url('http://static.vg.no/vgpluss/gfx/galleryIcon@2x.png') no-repeat center center;
+        background-size: 24px;
+    }
+}
+
+.alf-slideshow-stack {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #ccc;
+}
+
+.alf-slideshow-stack-1 {
+    -webkit-transform: rotate(1.6deg);
+    -moz-transform: rotate(1.6deg);
+    -ms-transform: rotate(1.6deg);
+    -o-transform: rotate(1.6deg);
+    transform: rotate(1.6deg);
+}
+
+.alf-slideshow-stack-2 {
+    -webkit-transform: rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+}
+
+.tmpl-gallery .alf-slideshow-stack-1,
+.tmpl-gallery .alf-slideshow-stack-2 {
+    display: none;
+}
+
+.iphone .alf-slideshow-toggle {
+    display: block;
+    top: 50%;
+    right: 50%;
+    width: 90px;
+    height: 47px;
+    margin-top: -50px;
+    margin-right: -60px;
+    padding: 32px 15px 0;
+}
+
+.tmpl-gallery-iphone .alf-slideshow-toggle:before,
+.iphone .alf-slideshow-toggle:before {
+    content: 'Vis galleri';
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.tmpl-gallery-iphone .alf-slideshow-toggle:after,
+.iphone .alf-slideshow-toggle:after {
+    content: '';
+    height: 24px;
+    width: 22px;
+    top: 13px;
+    right: 50%;
+    margin-right: -11px;
+    background: url('http://static.vg.no/vgpluss/gfx/galleryIcon.png') no-repeat center center;
+    background-size: 100%;
+}
