@@ -529,42 +529,41 @@
     top: 265px;
 }
 
-
-.colophon{
+.colophon {
     background: #EAEAEA;
-    letter-spacing: -0.05em;
     font-size: 15px;
     height: 125px;
     margin-bottom: 10px;
     margin-top: 20px;
+
+    .alf-colspan-1 {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .alf-colspan-1.alignleft{
+        padding-left: 40px;
+        position: relative;
+    }
+
+    .alf-colspan-1.alignright{
+        padding-right: 20px;
+    }
+
+    .vg-logo-vertical{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 125px;
+        width: 24px;
+        background: url('http://static.vg.no/vgpluss/gfx/vg-logo-vertical.png') no-repeat center center;
+        background-size: 100% 100%;
+    }
 }
+
 .section-meninger .colophon a {
     color: #333;
-}
-.colophon .alf-colspan-1{
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-.colophon .alf-colspan-1.alignleft{
-    padding-left: 40px;
-    position: relative;
-}
-.colophon b{
-    font-family: 'Gotham-Bold' !important;
-    font-weight: normal;
-}
-.colophon .alf-colspan-1.alignright{
-    padding-right: 20px;
-}
-.colophon .vg-logo-vertical{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 125px;
-    width: 24px;
-    background: url('http://static.vg.no/vgpluss/gfx/vg-logo-vertical.png') no-repeat center center;
-    background-size: 100% 100%;
 }
 
 .byline .vg-logo-small {
@@ -771,4 +770,9 @@
     bottom: 120px;
     left: 640px;
     margin: 0;
+}
+
+&.alf-pagenum-last p.alf-block-is-last::after {
+    color:#D00;
+    content: " \25CF";
 }

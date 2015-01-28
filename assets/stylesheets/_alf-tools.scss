@@ -3,7 +3,7 @@
  * These can be toggled on and off by users in layout preview
  */
 .alf-style-text-shadow-dark {
-    text-shadow:0px 0px 4px rgba(0,0,0,0.5) !important;
+    text-shadow: 0px 0px 7px rgba(0, 0, 0 , 0.9) !important;
 }
 
 .alf-style-text-shadow-light {
@@ -15,11 +15,11 @@
 }
 
 .alf-style-text-shadow-strong {
-    text-shadow: 0 0px 10px rgba(0, 0, 0, 0.8) !important;
+    text-shadow: 0 0px 8px #000, 0 0px 8px #000 !important;
 }
 
 .alf-style-text-shadow-strong-white {
-    text-shadow: 0 0px 8px rgba(255,255,255, 0.6) !important;
+    text-shadow: 0 0px 8px rgba(255, 255, 255, 0.6) !important;
 }
 
 .alf-style-adjust-line-height {
@@ -40,9 +40,9 @@
 }
 
 /**
-    * Alf fonts
-    * These will be available in the font dropdown
-    */
+ * Alf fonts
+ * These will be available in the font dropdown
+ */
 
 .alf-font-condensed {
     font-family: $font-heading-a !important;
