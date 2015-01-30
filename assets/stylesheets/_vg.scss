@@ -598,7 +598,8 @@
 }
 
 .overlay-caption,
-.alf-fullscreen-toolbar {
+.alf-fullscreen-toolbar,
+.alf-slideshow-nav {
     transition: opacity .2s ease-out;
     -moz-transition: opacity .2s ease-out;
     -webkit-transition: opacity .2s ease-out;
@@ -607,7 +608,8 @@
 }
 
 &.alf-controls-off {
-    .overlay-caption, .alf-fullscreen-toolbar{
+    .overlay-caption, .alf-fullscreen-toolbar,
+    .alf-slideshow-nav {
         opacity:0;
         pointer-events: none;
     }
