@@ -46,6 +46,14 @@
             @include ribbon-edge(#8c8c8c);
         }
     }
+
+    &.section-ribbon-no-edge {
+        left: -10px;
+
+        &:before {
+            display: none;
+        }
+    }
 }
 
 @mixin section-colors($color) {
