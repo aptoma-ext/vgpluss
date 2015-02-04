@@ -17,64 +17,116 @@
         margin-right: -20px;
         padding: 50px 20px 15px;
     }
+
+    &.section-ribbon {
+        font-family: $font-heading-a;
+        font-weight: $font-heading-a-weight;
+        font-size: 22px;
+        background: #FFF;
+        color: #D00;
+        top: 50px;
+        left: 10px;
+        padding: 7px 20px 7px 40px;
+
+        span {
+            background: transparent !important;
+
+            &:before {
+                color: #000;
+                content: 'VERDENS GANG';
+                padding-right: 6px;
+            }
+        }
+
+        &:after {
+            @include ribbon-arrow(#FFF);
+        }
+
+        &:before {
+            @include ribbon-edge(#8c8c8c);
+        }
+    }
 }
 
-&.section-nyheter .header-section span {
-    background-color:rgba(74,134,232,0.4);
+@mixin section-colors($color) {
+    .section-ribbon {
+        color: $color;
+    }
+    .header-section span {
+        background-color: transparentize($color, 0.35);
+    }
 }
 
-&.section-reise .header-section span {
-    background-color:rgba(106,168,79,0.4);
+&.section-meninger {
+    @include section-colors($colors-meninger);
 }
 
-&.section-rampelys .header-section span {
-    background-color:rgba(152,0,0,0.4);
+&.section-nyheter {
+    @include section-colors($colors-nyheter);
 }
 
-&.section-sport .header-section span {
-    background-color:rgba(255,144,9,0.7);
+&.section-sistesiden {
+    @include section-colors($colors-sistesiden);
 }
 
-&.section-sistesiden .header-section span {
-    background-color:rgba(118,223,210,0.4)
+&.section-sport {
+    @include section-colors($colors-sport);
 }
 
-&.section-mat-og-drikke .header-section span {
-    background-color:rgba(127,96,0,0.4);
+&.section-mat-og-drikke {
+    @include section-colors($colors-mat-og-drikke);
 }
 
-&.section-meninger .header-section span {
-    background-color:rgba(241,194,50,0.4);
+&.section-meninger {
+    @include section-colors($colors-meninger);
 }
 
-&.section-nyttig .header-section span {
-    background-color:rgba(166,77,121,0.4);
+&.section-nyttig {
+    @include section-colors($colors-nyttig);
 }
 
-&.section-okonomi .header-section span {
-    background-color:rgba(120,63,4,0.4);
+&.section-okonomi {
+    @include section-colors($colors-okonomi);
 }
 
-/* mat og drikke oneshot */
-&.section-fisk-og-skalldyr .header-section span {
-    background-color:rgba(74,134,232,0.4);
+&.section-reise {
+    @include section-colors($colors-reise);
 }
 
-&.section-sunt-og-godt .header-section span {
-    background-color:rgba(106,168,79,0.4);
+&.section-rampelys {
+    @include section-colors($colors-rampelys);
 }
 
-&.section-drikke .header-section span {
-    background-color:rgba(241, 194, 50,0.4);
+&.section-fisk-og-skalldyr {
+    @include section-colors($colors-fisk-og-skalldyr);
 }
 
-&.section-soetsaker .header-section span {
-    background-color:rgba(166, 22, 23,0.4);
+&.section-sunt-og-godt {
+    @include section-colors($colors-sunt-og-godt);
 }
 
-&.section-kjoett .header-section span {
-    background-color:rgba(120, 63, 4,0.4);
+&.section-drikke {
+    @include section-colors($colors-drikke);
 }
+
+&.section-soetsaker {
+    @include section-colors($colors-soetsaker);
+}
+
+&.section-kjoett {
+    @include section-colors($colors-kjoett);
+}
+
+&.section-vm-fakta {
+    @include section-colors($colors-vm-fakta);
+}
+
+&.section-historisk {
+    @include section-colors($colors-historisk);
+}
+
+
+
 
 &.section-sport {
     .alf-template,

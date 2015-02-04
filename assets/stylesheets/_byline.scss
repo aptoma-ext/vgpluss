@@ -15,6 +15,13 @@
     }
 }
 
+.byline-condensed {
+    text-transform: uppercase;
+    font-family: $font-heading-a;
+    font-weight: $font-heading-a-weight;
+    font-style: $font-heading-a-style;
+}
+
 .byline-container-big {
     float:right;
     margin:0 0 5px 2%;
