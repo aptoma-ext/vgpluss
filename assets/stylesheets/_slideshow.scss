@@ -1,12 +1,18 @@
 /** Slideshow styles **/
 
-.alf-slideshow .alf-page-loader {
-    background: #000;
-}
+.alf-container-fullscreen {
+    .alf-slideshow {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        background: #000;
 
-.alf-slideshow .alf-page-loader:before {
-    color: $main-bgcolor;
-    text-shadow: none;
+        .alf-page-loader:before {
+            color: $main-bgcolor;
+            text-shadow: none;
+        }
+    }
 }
 
 .alf-slideshow-inline {
