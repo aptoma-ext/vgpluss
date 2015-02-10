@@ -12,10 +12,17 @@
     display: -moz-box;
     display: -webkit-box;
     display: box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     -webkit-box-pack: center;
     -webkit-box-align: center;
     -moz-box-align: center;
     -ms-box-align: center;
+
+    .media-element {
+        position: static;
+    }
 }
 
 .alf-fullscreen-toolbar {
