@@ -81,6 +81,9 @@
 }
 
 .alf-container-fullscreen {
+    max-width: 100%;
+    max-height: 100%;
+
     .media-element {
         position: static;
     }
