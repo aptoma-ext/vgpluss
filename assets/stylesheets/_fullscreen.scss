@@ -80,7 +80,12 @@
     }
 }
 
-.alf-container-fullscreen img {
+.alf-container-fullscreen {
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 }
