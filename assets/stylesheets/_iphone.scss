@@ -24,25 +24,6 @@
 }
 
 .iphone {
-    @media (min-width: 680px) {
-        .alf-container-inline {
-            .dp-plugin-element {
-                clear: both;
-            }
-
-            .dp-float-left,
-            .dp-float-right {
-                float: right;
-                margin-left: 20px;
-
-                &.media-element {
-                    max-width: 320px;
-                }
-            }
-
-        }
-    }
-
     &.tmpl-no-media .title {
         padding-top: 20px;
     }
@@ -74,57 +55,6 @@
         // Done to reset the size of parent since titles will be using ems
         font-size: 10px;
         text-align: center;
-
-        @media (min-width: 400px) {
-            font-size: 12px;
-        }
-
-        @media (min-width: 500px) {
-            font-size: 13.5px;
-        }
-
-        @media (min-width: 600px) {
-            font-size: 15px;
-        }
-
-        @media (min-width: 700px) {
-            font-size: 16.5px;
-        }
-
-        @media (min-width: 800px) {
-            font-size: 18px;
-        }
-
-        @media (min-width: 900px) {
-            font-size: 20px;
-        }
-
-        // When the article is displayed on pluss.vg.no there is a sidebar 350px wide
-        .layout-sidebar & {
-            @media (min-width: 750px) {
-                font-size: 12px;
-            }
-
-            @media (min-width: 850px) {
-                font-size: 13.5px;
-            }
-
-            @media (min-width: 950px) {
-                font-size: 15px;
-            }
-
-            @media (min-width: 1050px) {
-                font-size: 16.5px;
-            }
-
-            @media (min-width: 1150px) {
-                font-size: 18px;
-            }
-
-            @media (min-width: 1250px) {
-                font-size: 20px;
-            }
-        }
     }
 
     .byline {
@@ -243,4 +173,46 @@
 .tmpl-iphone-cover-no-media .title {
     margin-top: 35px;
     text-align: center;
+}
+
+.alf-gt600 {
+    .alf-container-inline {
+        .dp-plugin-element {
+            clear: both;
+        }
+
+        .dp-float-left,
+        .dp-float-right {
+            float: right;
+            margin-left: 20px;
+
+            &.media-element {
+                max-width: 320px;
+            }
+        }
+    }
+}
+
+.alf-gt400.iphone .title {
+    font-size: 12px;
+}
+
+.alf-gt500.iphone .title {
+    font-size: 13.5px;
+}
+
+.alf-gt600.iphone .title {
+    font-size: 15px;
+}
+
+.alf-gt700.iphone .title {
+    font-size: 16.5px;
+}
+
+.alf-gt800.iphone .title {
+    font-size: 18px;
+}
+
+.alf-gt900.iphone .title {
+    font-size: 20px;
 }

@@ -63,8 +63,8 @@ $fact-box-title-height: 44px;
     }
 }
 
-@media (min-width: 500px) {
-    .iphone .dp-fact-box-title {
+.alf-gt500.iphone {
+    .dp-fact-box-title {
         float: left;
         font-size: 22px;
     }
