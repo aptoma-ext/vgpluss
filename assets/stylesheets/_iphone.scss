@@ -23,7 +23,22 @@
     max-width: $article-max-width;
 }
 
+.article-max-width {
+    margin: 0 auto;
+    max-width: $article-max-width;
+}
+
 .iphone {
+    &.tmpl-overlay {
+        .white-background, .black-background {
+            padding-bottom: 15px;
+        }
+
+        .top-image {
+            max-height: 950px;
+        }
+    }
+
     &.tmpl-no-media .title {
         padding-top: 20px;
     }
