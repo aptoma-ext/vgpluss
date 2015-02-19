@@ -24,7 +24,6 @@ $main-bgcolor: #f5f5f5;
 
     @import "generic";
     @import "grid";
-    @import "utils";
     @import "snippets";
     @import "preview";
     @import "alf-tools";
@@ -37,4 +36,5 @@ $main-bgcolor: #f5f5f5;
     @import "gradients";
     @import "rating";
     @import "fullscreen";
+    @import "utils";
 }

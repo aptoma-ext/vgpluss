@@ -25,6 +25,11 @@ $article-max-width: 654px;
     max-width: $article-max-width;
 }
 
+.article-max-width {
+    margin: 0 auto;
+    max-width: $article-max-width;
+}
+
 .iphone {
     @media (min-width: 680px) {
         .alf-container-inline {
@@ -42,6 +47,16 @@ $article-max-width: 654px;
                     max-width: 320px;
                 }
             }
+        }
+    }
+
+    &.tmpl-overlay {
+        .white-background, .black-background {
+            padding-bottom: 15px;
+        }
+
+        .top-image {
+            max-height: 950px;
         }
     }
 
