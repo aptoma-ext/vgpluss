@@ -9,7 +9,7 @@
 .edition-logo {
     height: 85px;
     width: 450px;
-    background: url('http://static.vg.no/vgpluss/gfx/edition-logo@2x.png') center top no-repeat;
+    background: url('//static.vg.no/vgpluss/gfx/edition-logo@2x.png') center top no-repeat;
     background-size: 100%;
     display: block;
     text-indent: -9999px;
@@ -21,7 +21,7 @@
 .edition-logo-flat {
     height: 91px;
     width: 450px;
-    background: url('http://static.vg.no/vgpluss/gfx/edition-logo-flat@2x.png') center top no-repeat;
+    background: url('//static.vg.no/vgpluss/gfx/edition-logo-flat@2x.png') center top no-repeat;
     background-size: 100%;
     display: block;
     text-indent: -9999px;
@@ -31,11 +31,10 @@
 }
 
 .edition-date {
-    font-family: DharmaGothicE-Bold;
-    font-size: 44px;
-    line-height: 0.8em;
-    font-weight: normal;
-    letter-spacing: -0.02em;
+    font-family: $font-heading-a;
+    font-weight: $font-heading-a-weight;
+    font-size: 30px;
+    line-height: 1em;
     margin: 0;
     text-transform: uppercase;
 }
@@ -59,16 +58,8 @@
         font-size: 105px;
     }
 
-    .excerpt p {
-        font-family: gotham-medium;
-        font-weight: normal;
-        font-size: 24px;
-        line-height: 1.2em;
-        letter-spacing: -0.05em;
-    }
-
     .hard-gradient {
-        background: url('http://static.vg.no/vgpluss/gfx/hardGradient.png') center center no-repeat;
+        background: url('//static.vg.no/vgpluss/gfx/hardGradient.png') center center no-repeat;
         background-size: 100%;
         border-top: 2px solid rgba(255,255,255,0.5);
         width: 100%;

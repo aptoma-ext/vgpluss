@@ -83,6 +83,10 @@
         margin: 0 0 10px 0;
     }
 
+    h2 {
+        font-size: 28px;
+    }
+
     h3 {
         font-size: 22px;
         margin: 0;
@@ -111,9 +115,13 @@
     font-family: $font-heading-d;
     font-weight: $font-heading-d-weight;
     font-style: $font-heading-d-style;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.5em;
     margin-bottom: 6px;
+
+    p {
+        margin-top: 0;
+    }
 }
 
 .excerpt-b {
@@ -275,7 +283,8 @@
     font-style: $font-heading-b-style;
     font-size: 80px;
     line-height: 0.8em;
-    margin: 0 0 16px;
+    margin-top: 0;
+    margin-bottom: 24px;
     font-weight: normal;
 }
 
@@ -445,14 +454,14 @@
 }
 
 .tmpl-dagens-rute .frontpage-top-left h1 {
-    font-size: 203px;
+    font-size: 138px;
     line-height: 0.8em;
 }
 .tmpl-dagens-rute .frontpage-top-left h1:first-line{
     display:block;
     width: 260px;
     overflow:visible;
-    font-size: 130px;
+    font-size: 85px;
     line-height: 0.8em;
 }
 .tmpl-dagens-rute .frontpage-top-left:after {
@@ -504,12 +513,12 @@
     height: 160px;
 }
 .vg-mener-image {
-    background: url('http://static.vg.no/vgpluss/gfx/vgmenerretina.png') no-repeat center center;
+    background: url('//static.vg.no/vgpluss/gfx/vgmenerretina.png') no-repeat center center;
     background-size: 100% 100%;
     margin-bottom: 10px;
 }
 .vg-mener-image-white {
-    background: url('http://static.vg.no/vgpluss/gfx/vgmenerretinawhite.png') no-repeat center center;
+    background: url('//static.vg.no/vgpluss/gfx/vgmenerretinawhite.png') no-repeat center center;
     background-size: 100%;
     position: absolute;
     top: 35px;
@@ -562,7 +571,7 @@
         left: 0;
         height: 125px;
         width: 24px;
-        background: url('http://static.vg.no/vgpluss/gfx/vg-logo-vertical.png') no-repeat center center;
+        background: url('//static.vg.no/vgpluss/gfx/vg-logo-vertical.png') no-repeat center center;
         background-size: 100% 100%;
     }
 }
@@ -576,7 +585,7 @@
     height: 23px;
     display: block;
     float: right;
-    background: url('http://static.vg.no/vgpluss/gfx/logoByline.png') no-repeat center center;
+    background: url('//static.vg.no/vgpluss/gfx/logoByline.png') no-repeat center center;
     background-size: 100%;
 }
 

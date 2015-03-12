@@ -1,17 +1,17 @@
 .gradient-light-to-dark {
-    background: url(http://static.vg.no/vgpluss/gfx/GradientBottomTop.png) no-repeat left bottom;
+    background: url(//static.vg.no/vgpluss/gfx/GradientBottomTop.png) no-repeat left bottom;
     background-size: 100% 100%;
     pointer-events: none;
 }
 
 .tmpl-cover-with-background-and-gradient .gradient-light-to-dark {
-    background: url(http://static.vg.no/vgpluss/gfx/GradientCoverBottomTop.png) no-repeat left bottom;
+    background: url(//static.vg.no/vgpluss/gfx/GradientCoverBottomTop.png) no-repeat left bottom;
     background-size: 100% 100%;
     pointer-events: none;
 }
 
 .left-gradient-dark-to-light {
-    background: url(http://static.vg.no/vgpluss/gfx/GradientLeftRight.png) no-repeat left bottom;
+    background: url(//static.vg.no/vgpluss/gfx/GradientLeftRight.png) no-repeat left bottom;
     background-size: 100% 100%;
     pointer-events: none;
 }
@@ -25,22 +25,22 @@
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
     .gradient-light-to-dark {
-        background: url(http://static.vg.no/vgpluss/gfx/GradientBottomTop@2x.png) no-repeat left bottom;
+        background: url(//static.vg.no/vgpluss/gfx/GradientBottomTop@2x.png) no-repeat left bottom;
         background-size: 100% 100%;
         pointer-events: none;
     }
     .tmpl-cover-with-background-and-gradient .gradient-light-to-dark {
-        background: url(http://static.vg.no/vgpluss/gfx/GradientCoverBottomTop@2x.png) no-repeat left bottom;
+        background: url(//static.vg.no/vgpluss/gfx/GradientCoverBottomTop@2x.png) no-repeat left bottom;
         background-size: 100% 100%;
         pointer-events: none;
     }
     .left-gradient-dark-to-light {
-        background: url(http://static.vg.no/vgpluss/gfx/GradientLeftRight@2x.png) no-repeat left top;
+        background: url(//static.vg.no/vgpluss/gfx/GradientLeftRight@2x.png) no-repeat left top;
         background-size: 100% 100%;
         pointer-events: none;
     }
     .dark-background {
-        background: url(http://static.vg.no/vgpluss/gfx/bg_noise@2x.png) repeat left bottom #3D3D3D;
+        background: url(//static.vg.no/vgpluss/gfx/bg_noise@2x.png) repeat left bottom #3D3D3D;
         pointer-events: none;
     }
 }

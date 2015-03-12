@@ -78,7 +78,7 @@
     }
 
     .alf-container.top-image {
-        margin: 0;
+        margin: 0 0 20px 0;
         padding: 0;
         overflow: hidden;
     }
@@ -93,6 +93,10 @@
         height: auto;
     }
 
+    h1 {
+        margin: 0 0 20px 0;
+    }
+
     .header-sans-serif h1 {
         font-size: 6em;
     }
@@ -104,10 +108,16 @@
 
     .excerpt {
         font-size: 22px;
+        margin: 0;
 
         p {
-            margin: 0.75 0 1em;
+            margin: 0 0 20px 0;
         }
+    }
+
+    .byline {
+        margin-top: 0;
+        margin-bottom: 20px;
     }
 
     .overlay-caption {
@@ -140,7 +150,7 @@
         right: 0;
         left: 0;
         margin: 0 auto;
-        background: url('http://static.vg.no/vgpluss/gfx/android_no.png') no-repeat center center;
+        background: url('//static.vg.no/vgpluss/gfx/android_no.png') no-repeat center center;
         background-size: 256px 55px;
     }
 
