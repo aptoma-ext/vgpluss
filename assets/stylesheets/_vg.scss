@@ -302,7 +302,7 @@
     background: white;
     background: rgba(255, 255, 255, 0.9);
     color: #333;
-    padding: 0 20px;
+    padding: 20px 20px 0 20px;
     width: 50%;
     border-radius: 4px 4px 4px 4px;
     -webkit-box-shadow:  0 0 4px 2px rgba(0, 0, 0, 0.15);
@@ -640,7 +640,13 @@
     margin: 0;
 }
 
-&.alf-pagenum-last p.alf-block-is-last::after {
-    color:#D00;
-    content: " \25CF";
+&.alf-pagenum-last p.alf-block-is-last {
+    br:last-child {
+        display: none;
+    }
+
+    &::after {
+        color:#D00;
+        content: " \25CF";
+    }
 }
