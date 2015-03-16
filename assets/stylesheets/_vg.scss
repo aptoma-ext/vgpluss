@@ -442,6 +442,7 @@
     -webkit-box-pack: end;
     -moz-box-pack: end;
 }
+
 .tmpl-dagens-rute .frontpage-top-left {
     padding: 18px 10px 0 13px;
     border: 1px solid #4d4d4d;
@@ -456,6 +457,7 @@
     font-size: 138px;
     line-height: 0.8em;
 }
+
 .tmpl-dagens-rute .frontpage-top-left h1:first-line{
     display:block;
     width: 260px;
@@ -463,6 +465,7 @@
     font-size: 85px;
     line-height: 0.8em;
 }
+
 .tmpl-dagens-rute .frontpage-top-left:after {
     content:'';
     position: absolute;
@@ -477,10 +480,12 @@
     -moz-transform:rotate(45deg); /* Firefox */
     -webkit-transform:rotate(45deg); /* Safari and Chrome */
 }
+
 .iphone.tmpl-dagens-rute .header-sans-serif h1 {
-    font-size: 84px;
-    margin: 20px 0 5px;
+    font-size: 55px;
+    margin: 15px 0 15px;
 }
+
 .iphone.tmpl-dagens-rute-black .header-sans-serif h1 {
     color: #fff;
 }

@@ -158,39 +158,41 @@
         position: relative;
         background: transparent;
 
-        @media (max-width: 599px) {
-            background: #000;
-        }
-
         .title {
             color: #FFF;
         }
+    }
+}
 
-        @media (max-width: 599px) {
-            .title {
-                -webkit-transform: none !important;
-                transform: none !important;
-            }
+.alf-lt600 {
+    .article-feature-header {
+        background: #000;
 
-            .excerpt {
-                background: $main-bgcolor;
-            }
+        .title {
+            -webkit-transform: none !important;
+            transform: none !important;
         }
 
-        @media (min-width: 600px) {
-            .title {
-                position: absolute;
-                top: 20px;
-            }
-
-            .excerpt {
-                position: absolute;
-                bottom: 0;
-                text-shadow: 0 0 2px #000;
-                color: #FFF;
-            }
-
+        .excerpt {
+            background: $main-bgcolor;
         }
+    }
+}
+
+.alf-gt600 {
+    .article-feature-header {
+        .title {
+            position: absolute;
+            top: 20px;
+        }
+
+        .excerpt {
+            position: absolute;
+            bottom: 0;
+            text-shadow: 0 0 2px #000;
+            color: #FFF;
+        }
+
     }
 }
 
