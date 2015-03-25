@@ -610,9 +610,18 @@
     content: "Gå til siden";
 }
 
-.iphone .btn-link-wrapper a {
-    bottom: 170px;
-    right: 50px;
+.iphone {
+    .btn-link-wrapper a {
+        bottom: 170px;
+        right: 50px;
+    }
+
+    .btn-link-wrapper-external a {
+        position: relative;
+        margin-top: 0;
+        top: 0;
+        left: 0;
+    }
 }
 
 .overlay-caption,
@@ -633,15 +642,20 @@
     }
 }
 
-/* external */
-.btn-link-wrapper-external a {
-    position: relative;
-}
+.ipad {
+    .btn-link-wrapper-external,
+    .btn-link-wrapper-crossword {
+        position: absolute;
+        bottom: 20px;
+        right: 50px;
+        margin: 0;
 
-.ipad .btn-link-wrapper-external a {
-    bottom: 120px;
-    left: 640px;
-    margin: 0;
+        a {
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+    }
 }
 
 &.alf-pagenum-last p.alf-block-is-last {
