@@ -10,6 +10,6 @@ body {
 
 // Enable vertical scrolling for iPhone in preview
 .alf-preview-format-iphone {
-    overflow-y: scroll;
+    overflow: visible;
     overflow-x: hidden;
 }
