@@ -161,6 +161,21 @@
             color: #FFF;
         }
     }
+
+    .author-image {
+        max-width: 150px;
+        float: right;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+
+    &.tmpl-comment .excerpt:before {
+        content: "Kommentar";
+        font-size: 16px;
+        font-family: "Open Sans";
+        font-weight: 400;
+        color: #888;
+    }
 }
 
 .alf-lt600 {
