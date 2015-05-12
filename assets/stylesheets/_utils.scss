@@ -110,6 +110,7 @@
     clear: both;
 }
 
+.black-outline:after,
 .white-outline:after {
     content: '';
     display: block;
@@ -120,6 +121,10 @@
     left: 0;
     bottom: 0;
     border: 15px solid #FFF;
+}
+
+.black-outline:after {
+    border: 15px solid #000;
 }
 
 .absolute {
