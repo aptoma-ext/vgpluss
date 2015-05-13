@@ -68,3 +68,9 @@
     font-style: $font-main-sans-style !important;
     text-transform: none !important;
 }
+
+.alf-break {
+    display: block;
+    height: 0;
+    line-height: 0;
+}
