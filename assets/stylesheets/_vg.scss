@@ -614,6 +614,7 @@
     .btn-link-wrapper a {
         bottom: 170px;
         right: 50px;
+        box-sizing: content-box;
     }
 
     .btn-link-wrapper-external a {
