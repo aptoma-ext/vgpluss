@@ -1,0 +1,19 @@
+.alf-lt600 {
+    .gt600-show {
+        display: none;
+    }
+
+    .gt600-hide {
+        display: block;
+    }
+}
+
+.alf-gt600 {
+    .gt600-show {
+        display: block;
+    }
+
+    .gt600-hide {
+        display: none;
+    }
+}

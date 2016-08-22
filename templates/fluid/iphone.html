@@ -1,31 +1,61 @@
-<div data-map="article" class="alf-template iphone iphone-portrait alf-is-responsive tmpl-title-on-top tmpl-no-media" data-name="Title on top, no media" data-filter-format-name="iphone">
+<div data-name="Title on top, no media"
+    data-map="article"
+    data-filter-format-name="iphone"
+    class="alf-template iphone iphone-portrait alf-is-responsive tmpl-title-on-top tmpl-no-media">
     <div class="article-body">
         <div class="alf-container alf-is-editable header-serif title" data-map="title"></div>
         <div class="alf-container alf-is-editable excerpt" data-map="excerpt"></div>
         <div class="alf-container byline" data-map="byline"></div>
         <div class="alf-region alf-region-flexible vg-pay">
-            <div class="alf-container-inline" data-map="*-small *-slim-small *-generic-small"></div>
+            <div class="alf-container-inline full-width" data-map="*-small *-slim-small *-generic-small"></div>
         </div>
     </div>
     <div class="alf-container-fullscreen" data-map="*-large *-*-large"></div>
 </div>
 
-<div data-map="article" class="alf-template iphone iphone-portrait alf-is-responsive tmpl-image-on-top" data-name="Image on top" data-filter-format-name="iphone" data-score="1000">
-    <div class="alf-container top-image" data-map="*-large-media-only *-generic-large-media-only"></div>
+<div data-name="Image on top"
+    data-map="article"
+    data-filter-format-name="iphone"
+    data-score="1000"
+    class="alf-template iphone iphone-portrait alf-is-responsive tmpl-image-on-top" >
+    <div class="alf-container top-image" data-type="image" data-map="*-large-media-only *-generic-large-media-only"></div>
     <div class="article-body">
         <div class="alf-container alf-is-editable header-sans-serif title" data-map="title"></div>
         <div class="alf-container alf-is-editable excerpt" data-map="excerpt"></div>
         <div class="alf-container alf-is-optional byline" data-map="byline"></div>
         <div class="alf-region alf-region-flexible vg-pay">
-            <div class="alf-container-inline" data-map="*-small *-slim-small *-generic-small"></div>>
+            <div class="alf-container-inline full-width" data-map="*-large *-slim-large *-generic-large"></div>>
         </div>
     </div>
     <div class="alf-container-fullscreen" data-map="*-large *-*-large"></div>
 </div>
 
-<div data-map="article" class="alf-template iphone iphone-portrait alf-is-responsive tmpl-gradient-bg tmpl-overlay" data-name="Image with gradient" data-filter-format-name="iphone">
+<div data-map="article"
+    data-name="Image on top with responsive titles"
+    data-filter-format-name="iphone"
+    data-label="R01"
+    class="alf-template iphone iphone-portrait alf-is-responsive tmpl-image-on-top">
+    <div class="relative">
+        <div class="alf-container top-image" data-type="image" data-map="*-large-media-only *-generic-large-media-only"></div>
+        <div class="alf-container alf-is-editable alf-is-draggable alf-is-resizable header-serif title white-text overlay-bottom gt600-show" data-ref="title" data-map="title" data-select="h1"></div>
+    </div>
+    <div class="article-body">
+        <div class="alf-container alf-is-editable header-serif title gt600-hide" data-ref="title" data-select="h1"></div>
+        <div class="alf-container alf-is-editable excerpt" data-map="excerpt"></div>
+        <div class="alf-container alf-is-optional byline" data-map="byline"></div>
+        <div class="alf-region alf-region-flexible vg-pay">
+            <div class="alf-container-inline full-width" data-map="*-small *-slim-small *-generic-small"></div>>
+        </div>
+    </div>
+    <div class="alf-container-fullscreen" data-map="*-large *-*-large"></div>
+</div>
+
+<div data-name="Image with gradient"
+    data-map="article"
+    data-filter-format-name="iphone"
+    class="alf-template iphone iphone-portrait alf-is-responsive tmpl-gradient-bg tmpl-overlay">
     <div class="container-dark relative">
-        <div class="alf-container top-image" data-map="1x1-large-media-only 3x4-large-media-only 9x16-large-media-only"></div>
+        <div class="alf-container top-image" data-type="image" data-map="1x1-large-media-only 3x4-large-media-only 9x16-large-media-only"></div>
         <div class="overlay overlay-bottom gradient-light-to-dark">
             <div class="alf-container header-sans-serif title alf-is-editable" data-map="title"></div>
         </div>
@@ -40,9 +70,12 @@
     <div class="alf-container-fullscreen" data-map="*-large *-*-large"></div>
 </div>
 
-<div data-map="article" class="alf-template iphone iphone-portrait alf-is-responsive tmpl-overlay tmpl-white-bg" data-name="Image with white background" data-filter-format-name="iphone">
+<div data-name="Image with white background"
+    data-map="article"
+    class="alf-template iphone iphone-portrait alf-is-responsive tmpl-overlay tmpl-white-bg"
+    data-filter-format-name="iphone">
     <div class="relative">
-        <div class="alf-container top-image alf-is-draggable-y" data-map="1x1-large-media-only 3x4-large-media-only 9x16-large-media-only"></div>
+        <div class="alf-container top-image alf-is-draggable-y" data-type="image" data-map="1x1-large-media-only 3x4-large-media-only 9x16-large-media-only"></div>
         <div class="overlay overlay-bottom white-background">
             <div class="alf-container header-sans-serif alf-is-editable title dark" data-map="title"></div>
         </div>
@@ -57,9 +90,12 @@
     <div class="alf-container-fullscreen" data-map="*-large *-*-large"></div>
 </div>
 
-<div data-map="article" class="alf-template iphone iphone-portrait alf-is-responsive tmpl-overlay tmpl-white-bg" data-name="Image with white background and excerpt" data-filter-format-name="iphone">
+<div data-name="Image with white background and excerpt"
+    data-map="article"
+    class="alf-template iphone iphone-portrait alf-is-responsive tmpl-overlay tmpl-white-bg"
+    data-filter-format-name="iphone">
     <div class="relative">
-        <div class="alf-container top-image alf-is-draggable-y" data-map="1x1-large-media-only 3x4-large-media-only 9x16-large-media-only"></div>
+        <div class="alf-container top-image alf-is-draggable-y" data-type="image" data-map="1x1-large-media-only 3x4-large-media-only 9x16-large-media-only"></div>
         <div class="overlay overlay-bottom white-background">
             <div class="alf-container header-serif alf-is-editable title dark" data-map="title"></div>
             <div class="alf-container alf-is-editable excerpt dark article-max-width" data-map="excerpt"></div>
