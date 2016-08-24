@@ -40,6 +40,18 @@ $padding-text: 15px;
     .full-width {
         padding: 0;
     }
+
+    .panorama {
+        padding: 0;
+        max-width: none !important;
+
+        .media-element {
+            margin: 0 !important;
+            padding: 0 !important;
+            max-width: none !important;
+            float: none !important;
+        }
+    }
 }
 
 .article-max-width {
@@ -281,15 +293,4 @@ $padding-text: 15px;
 
 .alf-gt900.iphone .title {
     font-size: 20px;
-}
-
-.panorama {
-    max-width: none !important;
-
-    .media-element {
-        margin: 0 !important;
-        padding: 0 !important;
-        max-width: none !important;
-        float: none !important;
-    }
 }
