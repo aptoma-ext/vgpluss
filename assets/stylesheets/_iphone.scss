@@ -66,7 +66,10 @@ $padding-text: 15px;
         }
 
         .top-image {
+            max-width: 900px;
             max-height: 950px;
+            margin-left: auto !important;
+            margin-right: auto !important;
         }
     }
 
