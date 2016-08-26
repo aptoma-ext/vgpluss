@@ -32,6 +32,10 @@ $padding-text: 15px;
         padding-right: $padding-text;
     }
 
+    .article-body-inner {
+        position: relative;
+    }
+
     .alf-region {
         padding: 0;
         max-width: none;
