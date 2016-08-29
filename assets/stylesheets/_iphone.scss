@@ -122,6 +122,29 @@ $padding-text: 15px;
         max-height: inherit;
     }
 
+    .alf-supports-fullscreen {
+        .media-element {
+            position: relative;
+        }
+    }
+
+    .alf-supports-fullscreen {
+        .media-element:after {
+            position: absolute;
+            content: '';
+            top: 0;
+            right: 0;
+            width: 27px;
+            height: 27px;
+            background-color: rgba(0, 0, 0, 0.4);
+            background-size: 13px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url("http://static.vg.no/vgpluss/gfx/icon-fullsize.png");
+            display: block;
+        }
+    }
+
     .alf-supports-fullscreen img {
         width: 100%;
         height: auto;
@@ -273,7 +296,7 @@ $padding-text: 15px;
 
             &.media-element {
                 max-width: 320px;
-                padding-right: $padding-text;
+                margin-right: 15px;
             }
         }
     }
