@@ -131,6 +131,7 @@ $padding-text: 15px;
     .alf-supports-fullscreen {
         .media-element:after {
             position: absolute;
+            pointer-events: none;
             content: '';
             top: 0;
             right: 0;
