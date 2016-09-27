@@ -64,6 +64,10 @@ $padding-text: 15px;
 }
 
 .iphone {
+    .media-element {
+        display: block;
+    }
+
     &.tmpl-overlay {
         .white-background, .black-background {
             padding-bottom: 15px;
