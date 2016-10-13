@@ -44,17 +44,17 @@ $padding-text: 15px;
     .full-width {
         padding: 0;
     }
+}
 
-    .panorama {
-        padding: 0;
+.panorama {
+    padding: 0;
+    max-width: none !important;
+
+    .media-element {
+        margin: 0 !important;
+        padding: 0 !important;
         max-width: none !important;
-
-        .media-element {
-            margin: 0 !important;
-            padding: 0 !important;
-            max-width: none !important;
-            float: none !important;
-        }
+        float: none !important;
     }
 }
 
@@ -119,6 +119,10 @@ $padding-text: 15px;
         max-width: 980px;
         margin-left: auto !important;
         margin-right: auto !important;
+
+        &.panorama-wrapper {
+            max-width: none;
+        }
     }
 
     .media-element {
