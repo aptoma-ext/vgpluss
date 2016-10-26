@@ -47,12 +47,14 @@ $padding-text: 15px;
 }
 
 .panorama {
-    padding: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
     max-width: none !important;
 
     .media-element {
         margin: 0 !important;
-        padding: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
         max-width: none !important;
         float: none !important;
     }
