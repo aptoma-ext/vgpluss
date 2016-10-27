@@ -60,6 +60,20 @@ $padding-text: 15px;
     }
 }
 
+.wider {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    max-width: 980px !important;
+
+    .media-element {
+        margin: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        max-width: 980px !important;
+        float: none !important;
+    }
+}
+
 .article-max-width {
     margin: 0 auto;
     max-width: $article-max-width;
