@@ -169,6 +169,9 @@ $padding-text: 15px;
             background-image: url("http://static.vg.no/vgpluss/gfx/icon-fullsize.png");
             display: block;
         }
+        .media-element.dp-drvideo-player:after {
+            display: none;
+        }
     }
 
     .alf-supports-fullscreen img {
